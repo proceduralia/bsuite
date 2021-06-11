@@ -1,0 +1,152 @@
+2021-06-11 19:57:36,179 INFO    MainThread:146190 [wandb_setup.py:_flush():69] setting env: {}
+2021-06-11 19:57:36,179 INFO    MainThread:146190 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-06-11 19:57:36,180 INFO    MainThread:146190 [wandb_init.py:_log_setup():337] Logging user logs to /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/logs/debug.log
+2021-06-11 19:57:36,180 INFO    MainThread:146190 [wandb_init.py:_log_setup():338] Logging internal logs to /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/logs/debug-internal.log
+2021-06-11 19:57:36,181 INFO    MainThread:146190 [wandb_init.py:init():370] calling init triggers
+2021-06-11 19:57:36,181 INFO    MainThread:146190 [wandb_init.py:init():375] wandb.init called with sweep_config: {}
+config: {}
+2021-06-11 19:57:36,184 INFO    MainThread:146190 [wandb_init.py:init():419] starting backend
+2021-06-11 19:57:36,184 INFO    MainThread:146190 [backend.py:_multiprocessing_setup():70] multiprocessing start_methods=fork,spawn,forkserver, using: fork
+2021-06-11 19:57:36,196 INFO    MainThread:146190 [backend.py:ensure_launched():135] starting backend process...
+2021-06-11 19:57:36,218 INFO    MainThread:146190 [backend.py:ensure_launched():139] started backend process with pid: 146208
+2021-06-11 19:57:36,221 INFO    MainThread:146190 [wandb_init.py:init():424] backend started and connected
+2021-06-11 19:57:36,223 INFO    MainThread:146208 [internal.py:wandb_internal():88] W&B internal server running at pid: 146208, started at: 2021-06-11 19:57:36.221195
+2021-06-11 19:57:36,227 INFO    MainThread:146190 [wandb_init.py:init():472] updated telemetry
+2021-06-11 19:57:36,229 INFO    MainThread:146190 [wandb_init.py:init():491] communicating current version
+2021-06-11 19:57:36,238 INFO    WriterThread:146208 [datastore.py:open_for_write():80] open: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/run-3spxkx9x.wandb
+2021-06-11 19:57:36,447 INFO    MainThread:146190 [wandb_init.py:init():496] got version response 
+2021-06-11 19:57:36,447 INFO    MainThread:146190 [wandb_init.py:init():504] communicating run to backend with 30 second timeout
+2021-06-11 19:57:36,880 INFO    MainThread:146190 [wandb_init.py:init():529] starting run threads in backend
+2021-06-11 19:57:36,901 INFO    SenderThread:146208 [dir_watcher.py:__init__():168] watching files in: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files
+2021-06-11 19:57:36,902 INFO    SenderThread:146208 [sender.py:_start_run_threads():704] run started: 3spxkx9x with start time 1623434256
+2021-06-11 19:57:36,903 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:57:38,369 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_created():216] file/dir created: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/wandb-summary.json
+2021-06-11 19:57:41,738 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-metadata.json with policy now
+2021-06-11 19:57:41,750 INFO    MainThread:146190 [wandb_run.py:_console_start():1624] atexit reg
+2021-06-11 19:57:41,752 INFO    MainThread:146190 [wandb_run.py:_redirect():1498] redirect: SettingsConsole.REDIRECT
+2021-06-11 19:57:41,752 INFO    MainThread:146190 [wandb_run.py:_redirect():1503] Redirecting console.
+2021-06-11 19:57:41,758 INFO    MainThread:146190 [wandb_run.py:_redirect():1559] Redirects installed.
+2021-06-11 19:57:41,762 INFO    MainThread:146190 [wandb_init.py:init():554] run started, returning control to user process
+2021-06-11 19:57:41,763 INFO    MainThread:146190 [wandb_config.py:__setitem__():141] config set ^bsuite_id = catch/0 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f21d3ee42e0>>
+2021-06-11 19:57:41,764 INFO    MainThread:146190 [wandb_run.py:_config_callback():873] config_cb ^bsuite_id catch/0 None
+2021-06-11 19:57:41,764 INFO    MainThread:146190 [wandb_config.py:__setitem__():141] config set ^save_path = /tmp/bsuite - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f21d3ee42e0>>
+2021-06-11 19:57:41,765 INFO    MainThread:146190 [wandb_run.py:_config_callback():873] config_cb ^save_path /tmp/bsuite None
+2021-06-11 19:57:41,767 INFO    MainThread:146190 [wandb_config.py:__setitem__():141] config set ^logging_mode = buddy - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f21d3ee42e0>>
+2021-06-11 19:57:41,768 INFO    MainThread:146190 [wandb_run.py:_config_callback():873] config_cb ^logging_mode buddy None
+2021-06-11 19:57:41,769 INFO    MainThread:146190 [wandb_config.py:__setitem__():141] config set ^overwrite = True - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f21d3ee42e0>>
+2021-06-11 19:57:41,769 INFO    MainThread:146190 [wandb_run.py:_config_callback():873] config_cb ^overwrite True None
+2021-06-11 19:57:41,774 INFO    MainThread:146190 [wandb_config.py:__setitem__():141] config set ^num_episodes = None - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f21d3ee42e0>>
+2021-06-11 19:57:41,775 INFO    MainThread:146190 [wandb_run.py:_config_callback():873] config_cb ^num_episodes None None
+2021-06-11 19:57:41,777 INFO    MainThread:146190 [wandb_config.py:__setitem__():141] config set ^verbose = True - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f21d3ee42e0>>
+2021-06-11 19:57:41,777 INFO    MainThread:146190 [wandb_run.py:_config_callback():873] config_cb ^verbose True None
+2021-06-11 19:57:41,778 INFO    MainThread:146190 [wandb_config.py:__setitem__():141] config set ^_ignored = [] - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f21d3ee42e0>>
+2021-06-11 19:57:41,779 INFO    MainThread:146190 [wandb_run.py:_config_callback():873] config_cb ^_ignored [] None
+2021-06-11 19:57:42,493 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_created():216] file/dir created: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/wandb-metadata.json
+2021-06-11 19:57:42,493 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_created():216] file/dir created: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/requirements.txt
+2021-06-11 19:57:42,494 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_created():216] file/dir created: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:57:42,695 INFO    Thread-13 :146208 [upload_job.py:push():133] Uploaded file /tmp/tmpo891zpxzwandb/s3ve897j-wandb-metadata.json
+2021-06-11 19:57:44,502 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/config.yaml
+2021-06-11 19:57:44,503 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:57:45,640 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:57:45,668 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:57:45,694 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:57:45,722 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:57:45,752 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:57:45,776 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:57:45,813 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:57:45,834 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:57:45,854 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:57:46,503 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/wandb-summary.json
+2021-06-11 19:57:46,922 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:57:47,051 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:57:47,217 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:57:47,434 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:57:47,504 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/wandb-summary.json
+2021-06-11 19:57:47,777 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:57:48,105 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:57:48,504 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:57:48,505 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/wandb-summary.json
+2021-06-11 19:57:48,709 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:57:49,379 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:57:49,505 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/wandb-summary.json
+2021-06-11 19:57:50,061 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:57:50,509 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:57:50,510 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/wandb-summary.json
+2021-06-11 19:57:50,688 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:57:51,506 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/wandb-summary.json
+2021-06-11 19:57:51,576 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:57:52,279 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:57:52,506 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:57:52,507 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/wandb-summary.json
+2021-06-11 19:57:53,083 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:57:53,507 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/wandb-summary.json
+2021-06-11 19:57:54,507 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:57:54,655 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:57:55,509 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/wandb-summary.json
+2021-06-11 19:57:56,131 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:57:56,509 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:57:56,510 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/wandb-summary.json
+2021-06-11 19:57:58,171 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:57:58,511 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:57:58,513 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/wandb-summary.json
+2021-06-11 19:58:00,285 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:58:00,512 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:58:00,512 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/wandb-summary.json
+2021-06-11 19:58:02,513 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:58:03,140 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:58:03,513 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/wandb-summary.json
+2021-06-11 19:58:04,514 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:58:05,570 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:58:06,515 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:58:06,515 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/wandb-summary.json
+2021-06-11 19:58:08,516 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:58:10,517 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:58:10,918 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:58:11,517 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/wandb-summary.json
+2021-06-11 19:58:13,519 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:58:15,520 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:58:17,384 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:58:17,521 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:58:17,522 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/wandb-summary.json
+2021-06-11 19:58:19,522 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:58:21,523 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:58:23,524 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:58:24,580 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:58:25,526 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:58:25,526 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/wandb-summary.json
+2021-06-11 19:58:27,526 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:58:29,527 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:58:29,962 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:58:30,528 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/wandb-summary.json
+2021-06-11 19:58:31,528 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:58:33,529 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:58:34,113 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:58:34,530 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/wandb-summary.json
+2021-06-11 19:58:35,530 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:58:37,531 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:58:39,097 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:58:39,532 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:58:39,532 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/wandb-summary.json
+2021-06-11 19:58:39,577 WARNING MainThread:146208 [internal.py:wandb_internal():147] Internal process interrupt: 1
+2021-06-11 19:58:39,636 INFO    MainThread:146190 [wandb_run.py:_atexit_cleanup():1594] got exitcode: 255
+2021-06-11 19:58:39,639 INFO    MainThread:146190 [wandb_run.py:_restore():1566] restore
+2021-06-11 19:58:39,642 INFO    SenderThread:146208 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 19:58:39,877 WARNING MainThread:146208 [internal.py:wandb_internal():147] Internal process interrupt: 2
+2021-06-11 19:58:39,877 ERROR   MainThread:146208 [internal.py:wandb_internal():150] Internal process interrupted.
+2021-06-11 19:58:40,532 INFO    Thread-10 :146208 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/wandb-summary.json
+2021-06-11 19:58:40,874 INFO    HandlerThread:146208 [handler.py:finish():638] shutting down handler
+2021-06-11 19:58:40,875 INFO    WriterThread:146208 [datastore.py:close():288] close: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/run-3spxkx9x.wandb
+2021-06-11 19:58:40,875 INFO    SenderThread:146208 [sender.py:finish():933] shutting down sender
+2021-06-11 19:58:40,876 INFO    SenderThread:146208 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-06-11 19:58:41,534 INFO    SenderThread:146208 [dir_watcher.py:finish():312] scan: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files
+2021-06-11 19:58:41,534 INFO    SenderThread:146208 [dir_watcher.py:finish():318] scan save: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/requirements.txt requirements.txt
+2021-06-11 19:58:41,534 INFO    SenderThread:146208 [dir_watcher.py:finish():318] scan save: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/wandb-summary.json wandb-summary.json
+2021-06-11 19:58:41,540 INFO    SenderThread:146208 [dir_watcher.py:finish():318] scan save: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log output.log
+2021-06-11 19:58:41,540 INFO    SenderThread:146208 [dir_watcher.py:finish():318] scan save: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/wandb-metadata.json wandb-metadata.json
+2021-06-11 19:58:41,540 INFO    SenderThread:146208 [dir_watcher.py:finish():318] scan save: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/config.yaml config.yaml
+2021-06-11 19:58:41,541 INFO    SenderThread:146208 [file_pusher.py:finish():176] shutting down file pusher
+2021-06-11 19:58:41,541 INFO    SenderThread:146208 [file_pusher.py:join():181] waiting for file pusher
+2021-06-11 19:58:43,120 INFO    Thread-17 :146208 [upload_job.py:push():133] Uploaded file /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/config.yaml
+2021-06-11 19:58:43,132 INFO    Thread-15 :146208 [upload_job.py:push():133] Uploaded file /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/wandb-summary.json
+2021-06-11 19:58:43,284 INFO    Thread-16 :146208 [upload_job.py:push():133] Uploaded file /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/output.log
+2021-06-11 19:58:43,691 INFO    Thread-14 :146208 [upload_job.py:push():133] Uploaded file /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_195736-3spxkx9x/files/requirements.txt
