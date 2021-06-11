@@ -1,8 +1,8 @@
+git+git://github.com/ministry-of-silly-code/experiment_buddy.git
 numpy
 six
 absl-py
 dm_env
-dopamine
 frozendict
 gym
 dm-haiku
@@ -14,12 +14,7 @@ plotnine
 rlax
 scipy
 scikit-image
-sonnet
-tensorflow
-tensorflow_probability
 termcolor
 tqdm
 tree
 trfl
-git+git://github.com/ministry-of-silly-code/experiment_buddy.git
-.
