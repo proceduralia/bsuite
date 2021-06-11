@@ -1,0 +1,5 @@
+program: bsuite/baselines/jax/dqn/run.py
+method: grid
+parameters:
+  bsuite_id:
+    values: ['catch/0', 'catch/1']
