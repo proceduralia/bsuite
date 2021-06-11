@@ -33,7 +33,7 @@ flags.DEFINE_string(
     'bsuite_id', 'catch/0', 'BSuite identifier. '
     'This global flag can be used to control which environment is loaded.')
 flags.DEFINE_string('save_path', '/tmp/bsuite', 'where to save bsuite results')
-flags.DEFINE_enum('logging_mode', 'csv', ['csv', 'sqlite', 'terminal'],
+flags.DEFINE_enum('logging_mode', 'buddy', ['csv', 'sqlite', 'terminal', 'buddy'],
                   'which form of logging to use for bsuite results')
 flags.DEFINE_boolean('overwrite', False, 'overwrite csv logging if found')
 flags.DEFINE_integer('num_episodes', None, 'Number of episodes to run for.')
