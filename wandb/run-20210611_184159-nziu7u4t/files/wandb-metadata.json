@@ -1,0 +1,27 @@
+{
+    "os": "Linux-5.8.0-55-generic-x86_64-with-glibc2.29",
+    "python": "3.8.5",
+    "heartbeatAt": "2021-06-11T16:42:01.990870",
+    "startedAt": "2021-06-11T16:41:59.100627",
+    "docker": null,
+    "gpu": "GeForce GT 720M",
+    "gpu_count": 1,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "bsuite_id",
+        "catch/1"
+    ],
+    "state": "running",
+    "program": "bsuite/baselines/jax/dqn/run.py",
+    "codePath": "bsuite/baselines/jax/dqn/run.py",
+    "git": {
+        "remote": "git@github.com:proceduralia/bsuite.git",
+        "commit": "57920a63d24b0571678db36e0d8b213c40b16f85"
+    },
+    "email": "pierluca.doro@gmail.com",
+    "root": "/home/proceduralia/Desktop/Projects/Machine Learning/bsuite",
+    "host": "proceduralia-Lenovo-IdeaPad-S510p",
+    "username": "proceduralia",
+    "executable": "/home/proceduralia/.virtualenvs/rlax3/bin/python"
+}

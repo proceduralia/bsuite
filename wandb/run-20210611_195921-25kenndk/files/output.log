@@ -1,0 +1,920 @@
+setting ^bsuite_id=catch/1
+setting ^save_path=/tmp/bsuite
+setting ^logging_mode=buddy
+setting ^overwrite=True
+setting ^num_episodes=None
+setting ^verbose=True
+setting ^_ignored=[]
+INFO:absl:Starting the local TPU driver.
+INFO:absl:Unable to initialize backend 'tpu_driver': Not found: Unable to find driver in registry given worker: local://
+INFO:absl:Unable to initialize backend 'gpu': Not found: Could not find registered platform with name: "cuda". Available platform names are: Host Interpreter
+INFO:absl:Unable to initialize backend 'tpu': Invalid argument: TpuPlatform is not available.
+WARNING:absl:No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+INFO:absl:episode = 1 | episode_len = 9 | episode_return = -1.0000 | steps = 9 | total_regret = 2.0000 | total_return = -1.0000
+I0611 19:59:29.800436 140306405291840 terminal_logging.py:55] episode = 1 | episode_len = 9 | episode_return = -1.0000 | steps = 9 | total_regret = 2.0000 | total_return = -1.0000
+INFO:absl:episode = 2 | episode_len = 9 | episode_return = -1.0000 | steps = 18 | total_regret = 4.0000 | total_return = -2.0000
+I0611 19:59:29.817721 140306405291840 terminal_logging.py:55] episode = 2 | episode_len = 9 | episode_return = -1.0000 | steps = 18 | total_regret = 4.0000 | total_return = -2.0000
+INFO:absl:episode = 3 | episode_len = 9 | episode_return = -1.0000 | steps = 27 | total_regret = 6.0000 | total_return = -3.0000
+I0611 19:59:29.838556 140306405291840 terminal_logging.py:55] episode = 3 | episode_len = 9 | episode_return = -1.0000 | steps = 27 | total_regret = 6.0000 | total_return = -3.0000
+INFO:absl:episode = 4 | episode_len = 9 | episode_return = -1.0000 | steps = 36 | total_regret = 8.0000 | total_return = -4.0000
+I0611 19:59:29.856301 140306405291840 terminal_logging.py:55] episode = 4 | episode_len = 9 | episode_return = -1.0000 | steps = 36 | total_regret = 8.0000 | total_return = -4.0000
+INFO:absl:episode = 5 | episode_len = 9 | episode_return = -1.0000 | steps = 45 | total_regret = 10.0000 | total_return = -5.0000
+I0611 19:59:29.873847 140306405291840 terminal_logging.py:55] episode = 5 | episode_len = 9 | episode_return = -1.0000 | steps = 45 | total_regret = 10.0000 | total_return = -5.0000
+INFO:absl:episode = 6 | episode_len = 9 | episode_return = -1.0000 | steps = 54 | total_regret = 12.0000 | total_return = -6.0000
+I0611 19:59:29.895834 140306405291840 terminal_logging.py:55] episode = 6 | episode_len = 9 | episode_return = -1.0000 | steps = 54 | total_regret = 12.0000 | total_return = -6.0000
+INFO:absl:episode = 7 | episode_len = 9 | episode_return = 1.0000 | steps = 63 | total_regret = 12.0000 | total_return = -5.0000
+I0611 19:59:29.917094 140306405291840 terminal_logging.py:55] episode = 7 | episode_len = 9 | episode_return = 1.0000 | steps = 63 | total_regret = 12.0000 | total_return = -5.0000
+INFO:absl:episode = 8 | episode_len = 9 | episode_return = -1.0000 | steps = 72 | total_regret = 14.0000 | total_return = -6.0000
+I0611 19:59:29.932780 140306405291840 terminal_logging.py:55] episode = 8 | episode_len = 9 | episode_return = -1.0000 | steps = 72 | total_regret = 14.0000 | total_return = -6.0000
+INFO:absl:episode = 9 | episode_len = 9 | episode_return = -1.0000 | steps = 81 | total_regret = 16.0000 | total_return = -7.0000
+I0611 19:59:29.956842 140306405291840 terminal_logging.py:55] episode = 9 | episode_len = 9 | episode_return = -1.0000 | steps = 81 | total_regret = 16.0000 | total_return = -7.0000
+INFO:absl:episode = 10 | episode_len = 9 | episode_return = -1.0000 | steps = 90 | total_regret = 18.0000 | total_return = -8.0000
+I0611 19:59:29.980302 140306405291840 terminal_logging.py:55] episode = 10 | episode_len = 9 | episode_return = -1.0000 | steps = 90 | total_regret = 18.0000 | total_return = -8.0000
+INFO:absl:episode = 11 | episode_len = 9 | episode_return = -1.0000 | steps = 99 | total_regret = 20.0000 | total_return = -9.0000
+I0611 19:59:30.005144 140306405291840 terminal_logging.py:55] episode = 11 | episode_len = 9 | episode_return = -1.0000 | steps = 99 | total_regret = 20.0000 | total_return = -9.0000
+INFO:absl:episode = 12 | episode_len = 9 | episode_return = -1.0000 | steps = 108 | total_regret = 22.0000 | total_return = -10.0000
+I0611 19:59:30.825376 140306405291840 terminal_logging.py:55] episode = 12 | episode_len = 9 | episode_return = -1.0000 | steps = 108 | total_regret = 22.0000 | total_return = -10.0000
+INFO:absl:episode = 13 | episode_len = 9 | episode_return = -1.0000 | steps = 117 | total_regret = 24.0000 | total_return = -11.0000
+I0611 19:59:30.867437 140306405291840 terminal_logging.py:55] episode = 13 | episode_len = 9 | episode_return = -1.0000 | steps = 117 | total_regret = 24.0000 | total_return = -11.0000
+INFO:absl:episode = 14 | episode_len = 9 | episode_return = -1.0000 | steps = 126 | total_regret = 26.0000 | total_return = -12.0000
+I0611 19:59:30.908100 140306405291840 terminal_logging.py:55] episode = 14 | episode_len = 9 | episode_return = -1.0000 | steps = 126 | total_regret = 26.0000 | total_return = -12.0000
+INFO:absl:episode = 15 | episode_len = 9 | episode_return = -1.0000 | steps = 135 | total_regret = 28.0000 | total_return = -13.0000
+I0611 19:59:30.949681 140306405291840 terminal_logging.py:55] episode = 15 | episode_len = 9 | episode_return = -1.0000 | steps = 135 | total_regret = 28.0000 | total_return = -13.0000
+INFO:absl:episode = 16 | episode_len = 9 | episode_return = -1.0000 | steps = 144 | total_regret = 30.0000 | total_return = -14.0000
+I0611 19:59:30.995015 140306405291840 terminal_logging.py:55] episode = 16 | episode_len = 9 | episode_return = -1.0000 | steps = 144 | total_regret = 30.0000 | total_return = -14.0000
+INFO:absl:episode = 17 | episode_len = 9 | episode_return = -1.0000 | steps = 153 | total_regret = 32.0000 | total_return = -15.0000
+I0611 19:59:31.033805 140306405291840 terminal_logging.py:55] episode = 17 | episode_len = 9 | episode_return = -1.0000 | steps = 153 | total_regret = 32.0000 | total_return = -15.0000
+INFO:absl:episode = 18 | episode_len = 9 | episode_return = -1.0000 | steps = 162 | total_regret = 34.0000 | total_return = -16.0000
+I0611 19:59:31.080185 140306405291840 terminal_logging.py:55] episode = 18 | episode_len = 9 | episode_return = -1.0000 | steps = 162 | total_regret = 34.0000 | total_return = -16.0000
+INFO:absl:episode = 19 | episode_len = 9 | episode_return = -1.0000 | steps = 171 | total_regret = 36.0000 | total_return = -17.0000
+I0611 19:59:31.156408 140306405291840 terminal_logging.py:55] episode = 19 | episode_len = 9 | episode_return = -1.0000 | steps = 171 | total_regret = 36.0000 | total_return = -17.0000
+INFO:absl:episode = 20 | episode_len = 9 | episode_return = -1.0000 | steps = 180 | total_regret = 38.0000 | total_return = -18.0000
+I0611 19:59:31.204072 140306405291840 terminal_logging.py:55] episode = 20 | episode_len = 9 | episode_return = -1.0000 | steps = 180 | total_regret = 38.0000 | total_return = -18.0000
+INFO:absl:episode = 21 | episode_len = 9 | episode_return = -1.0000 | steps = 189 | total_regret = 40.0000 | total_return = -19.0000
+I0611 19:59:31.251823 140306405291840 terminal_logging.py:55] episode = 21 | episode_len = 9 | episode_return = -1.0000 | steps = 189 | total_regret = 40.0000 | total_return = -19.0000
+INFO:absl:episode = 22 | episode_len = 9 | episode_return = -1.0000 | steps = 198 | total_regret = 42.0000 | total_return = -20.0000
+I0611 19:59:31.293244 140306405291840 terminal_logging.py:55] episode = 22 | episode_len = 9 | episode_return = -1.0000 | steps = 198 | total_regret = 42.0000 | total_return = -20.0000
+INFO:absl:episode = 23 | episode_len = 9 | episode_return = -1.0000 | steps = 207 | total_regret = 44.0000 | total_return = -21.0000
+I0611 19:59:31.337072 140306405291840 terminal_logging.py:55] episode = 23 | episode_len = 9 | episode_return = -1.0000 | steps = 207 | total_regret = 44.0000 | total_return = -21.0000
+INFO:absl:episode = 24 | episode_len = 9 | episode_return = -1.0000 | steps = 216 | total_regret = 46.0000 | total_return = -22.0000
+I0611 19:59:31.382576 140306405291840 terminal_logging.py:55] episode = 24 | episode_len = 9 | episode_return = -1.0000 | steps = 216 | total_regret = 46.0000 | total_return = -22.0000
+INFO:absl:episode = 25 | episode_len = 9 | episode_return = 1.0000 | steps = 225 | total_regret = 46.0000 | total_return = -21.0000
+I0611 19:59:31.428194 140306405291840 terminal_logging.py:55] episode = 25 | episode_len = 9 | episode_return = 1.0000 | steps = 225 | total_regret = 46.0000 | total_return = -21.0000
+INFO:absl:episode = 26 | episode_len = 9 | episode_return = -1.0000 | steps = 234 | total_regret = 48.0000 | total_return = -22.0000
+I0611 19:59:31.475149 140306405291840 terminal_logging.py:55] episode = 26 | episode_len = 9 | episode_return = -1.0000 | steps = 234 | total_regret = 48.0000 | total_return = -22.0000
+INFO:absl:episode = 27 | episode_len = 9 | episode_return = -1.0000 | steps = 243 | total_regret = 50.0000 | total_return = -23.0000
+I0611 19:59:31.519347 140306405291840 terminal_logging.py:55] episode = 27 | episode_len = 9 | episode_return = -1.0000 | steps = 243 | total_regret = 50.0000 | total_return = -23.0000
+INFO:absl:episode = 28 | episode_len = 9 | episode_return = -1.0000 | steps = 252 | total_regret = 52.0000 | total_return = -24.0000
+I0611 19:59:31.560564 140306405291840 terminal_logging.py:55] episode = 28 | episode_len = 9 | episode_return = -1.0000 | steps = 252 | total_regret = 52.0000 | total_return = -24.0000
+INFO:absl:episode = 29 | episode_len = 9 | episode_return = 1.0000 | steps = 261 | total_regret = 52.0000 | total_return = -23.0000
+I0611 19:59:31.601113 140306405291840 terminal_logging.py:55] episode = 29 | episode_len = 9 | episode_return = 1.0000 | steps = 261 | total_regret = 52.0000 | total_return = -23.0000
+INFO:absl:episode = 30 | episode_len = 9 | episode_return = 1.0000 | steps = 270 | total_regret = 52.0000 | total_return = -22.0000
+I0611 19:59:31.645305 140306405291840 terminal_logging.py:55] episode = 30 | episode_len = 9 | episode_return = 1.0000 | steps = 270 | total_regret = 52.0000 | total_return = -22.0000
+INFO:absl:episode = 31 | episode_len = 9 | episode_return = -1.0000 | steps = 279 | total_regret = 54.0000 | total_return = -23.0000
+I0611 19:59:31.715230 140306405291840 terminal_logging.py:55] episode = 31 | episode_len = 9 | episode_return = -1.0000 | steps = 279 | total_regret = 54.0000 | total_return = -23.0000
+INFO:absl:episode = 32 | episode_len = 9 | episode_return = 1.0000 | steps = 288 | total_regret = 54.0000 | total_return = -22.0000
+I0611 19:59:31.757664 140306405291840 terminal_logging.py:55] episode = 32 | episode_len = 9 | episode_return = 1.0000 | steps = 288 | total_regret = 54.0000 | total_return = -22.0000
+INFO:absl:episode = 33 | episode_len = 9 | episode_return = -1.0000 | steps = 297 | total_regret = 56.0000 | total_return = -23.0000
+I0611 19:59:31.799278 140306405291840 terminal_logging.py:55] episode = 33 | episode_len = 9 | episode_return = -1.0000 | steps = 297 | total_regret = 56.0000 | total_return = -23.0000
+INFO:absl:episode = 34 | episode_len = 9 | episode_return = -1.0000 | steps = 306 | total_regret = 58.0000 | total_return = -24.0000
+I0611 19:59:31.842222 140306405291840 terminal_logging.py:55] episode = 34 | episode_len = 9 | episode_return = -1.0000 | steps = 306 | total_regret = 58.0000 | total_return = -24.0000
+INFO:absl:episode = 35 | episode_len = 9 | episode_return = -1.0000 | steps = 315 | total_regret = 60.0000 | total_return = -25.0000
+I0611 19:59:31.883941 140306405291840 terminal_logging.py:55] episode = 35 | episode_len = 9 | episode_return = -1.0000 | steps = 315 | total_regret = 60.0000 | total_return = -25.0000
+INFO:absl:episode = 36 | episode_len = 9 | episode_return = -1.0000 | steps = 324 | total_regret = 62.0000 | total_return = -26.0000
+I0611 19:59:31.929048 140306405291840 terminal_logging.py:55] episode = 36 | episode_len = 9 | episode_return = -1.0000 | steps = 324 | total_regret = 62.0000 | total_return = -26.0000
+INFO:absl:episode = 37 | episode_len = 9 | episode_return = -1.0000 | steps = 333 | total_regret = 64.0000 | total_return = -27.0000
+I0611 19:59:31.969965 140306405291840 terminal_logging.py:55] episode = 37 | episode_len = 9 | episode_return = -1.0000 | steps = 333 | total_regret = 64.0000 | total_return = -27.0000
+INFO:absl:episode = 38 | episode_len = 9 | episode_return = -1.0000 | steps = 342 | total_regret = 66.0000 | total_return = -28.0000
+I0611 19:59:32.008514 140306405291840 terminal_logging.py:55] episode = 38 | episode_len = 9 | episode_return = -1.0000 | steps = 342 | total_regret = 66.0000 | total_return = -28.0000
+INFO:absl:episode = 39 | episode_len = 9 | episode_return = -1.0000 | steps = 351 | total_regret = 68.0000 | total_return = -29.0000
+I0611 19:59:32.048481 140306405291840 terminal_logging.py:55] episode = 39 | episode_len = 9 | episode_return = -1.0000 | steps = 351 | total_regret = 68.0000 | total_return = -29.0000
+INFO:absl:episode = 40 | episode_len = 9 | episode_return = -1.0000 | steps = 360 | total_regret = 70.0000 | total_return = -30.0000
+I0611 19:59:32.089169 140306405291840 terminal_logging.py:55] episode = 40 | episode_len = 9 | episode_return = -1.0000 | steps = 360 | total_regret = 70.0000 | total_return = -30.0000
+INFO:absl:episode = 41 | episode_len = 9 | episode_return = -1.0000 | steps = 369 | total_regret = 72.0000 | total_return = -31.0000
+I0611 19:59:32.137161 140306405291840 terminal_logging.py:55] episode = 41 | episode_len = 9 | episode_return = -1.0000 | steps = 369 | total_regret = 72.0000 | total_return = -31.0000
+INFO:absl:episode = 42 | episode_len = 9 | episode_return = -1.0000 | steps = 378 | total_regret = 74.0000 | total_return = -32.0000
+I0611 19:59:32.177296 140306405291840 terminal_logging.py:55] episode = 42 | episode_len = 9 | episode_return = -1.0000 | steps = 378 | total_regret = 74.0000 | total_return = -32.0000
+INFO:absl:episode = 43 | episode_len = 9 | episode_return = -1.0000 | steps = 387 | total_regret = 76.0000 | total_return = -33.0000
+I0611 19:59:32.292275 140306405291840 terminal_logging.py:55] episode = 43 | episode_len = 9 | episode_return = -1.0000 | steps = 387 | total_regret = 76.0000 | total_return = -33.0000
+INFO:absl:episode = 44 | episode_len = 9 | episode_return = 1.0000 | steps = 396 | total_regret = 76.0000 | total_return = -32.0000
+I0611 19:59:32.389550 140306405291840 terminal_logging.py:55] episode = 44 | episode_len = 9 | episode_return = 1.0000 | steps = 396 | total_regret = 76.0000 | total_return = -32.0000
+INFO:absl:episode = 45 | episode_len = 9 | episode_return = 1.0000 | steps = 405 | total_regret = 76.0000 | total_return = -31.0000
+I0611 19:59:32.465381 140306405291840 terminal_logging.py:55] episode = 45 | episode_len = 9 | episode_return = 1.0000 | steps = 405 | total_regret = 76.0000 | total_return = -31.0000
+INFO:absl:episode = 46 | episode_len = 9 | episode_return = -1.0000 | steps = 414 | total_regret = 78.0000 | total_return = -32.0000
+I0611 19:59:32.528621 140306405291840 terminal_logging.py:55] episode = 46 | episode_len = 9 | episode_return = -1.0000 | steps = 414 | total_regret = 78.0000 | total_return = -32.0000
+INFO:absl:episode = 47 | episode_len = 9 | episode_return = 1.0000 | steps = 423 | total_regret = 78.0000 | total_return = -31.0000
+I0611 19:59:32.648149 140306405291840 terminal_logging.py:55] episode = 47 | episode_len = 9 | episode_return = 1.0000 | steps = 423 | total_regret = 78.0000 | total_return = -31.0000
+INFO:absl:episode = 48 | episode_len = 9 | episode_return = 1.0000 | steps = 432 | total_regret = 78.0000 | total_return = -30.0000
+I0611 19:59:32.730392 140306405291840 terminal_logging.py:55] episode = 48 | episode_len = 9 | episode_return = 1.0000 | steps = 432 | total_regret = 78.0000 | total_return = -30.0000
+INFO:absl:episode = 49 | episode_len = 9 | episode_return = 1.0000 | steps = 441 | total_regret = 78.0000 | total_return = -29.0000
+I0611 19:59:32.792049 140306405291840 terminal_logging.py:55] episode = 49 | episode_len = 9 | episode_return = 1.0000 | steps = 441 | total_regret = 78.0000 | total_return = -29.0000
+INFO:absl:episode = 50 | episode_len = 9 | episode_return = -1.0000 | steps = 450 | total_regret = 80.0000 | total_return = -30.0000
+I0611 19:59:32.861390 140306405291840 terminal_logging.py:55] episode = 50 | episode_len = 9 | episode_return = -1.0000 | steps = 450 | total_regret = 80.0000 | total_return = -30.0000
+INFO:absl:episode = 51 | episode_len = 9 | episode_return = 1.0000 | steps = 459 | total_regret = 80.0000 | total_return = -29.0000
+I0611 19:59:32.932559 140306405291840 terminal_logging.py:55] episode = 51 | episode_len = 9 | episode_return = 1.0000 | steps = 459 | total_regret = 80.0000 | total_return = -29.0000
+INFO:absl:episode = 52 | episode_len = 9 | episode_return = 1.0000 | steps = 468 | total_regret = 80.0000 | total_return = -28.0000
+I0611 19:59:32.999524 140306405291840 terminal_logging.py:55] episode = 52 | episode_len = 9 | episode_return = 1.0000 | steps = 468 | total_regret = 80.0000 | total_return = -28.0000
+INFO:absl:episode = 53 | episode_len = 9 | episode_return = 1.0000 | steps = 477 | total_regret = 80.0000 | total_return = -27.0000
+I0611 19:59:33.056549 140306405291840 terminal_logging.py:55] episode = 53 | episode_len = 9 | episode_return = 1.0000 | steps = 477 | total_regret = 80.0000 | total_return = -27.0000
+INFO:absl:episode = 54 | episode_len = 9 | episode_return = 1.0000 | steps = 486 | total_regret = 80.0000 | total_return = -26.0000
+I0611 19:59:33.106414 140306405291840 terminal_logging.py:55] episode = 54 | episode_len = 9 | episode_return = 1.0000 | steps = 486 | total_regret = 80.0000 | total_return = -26.0000
+INFO:absl:episode = 55 | episode_len = 9 | episode_return = 1.0000 | steps = 495 | total_regret = 80.0000 | total_return = -25.0000
+I0611 19:59:33.156363 140306405291840 terminal_logging.py:55] episode = 55 | episode_len = 9 | episode_return = 1.0000 | steps = 495 | total_regret = 80.0000 | total_return = -25.0000
+INFO:absl:episode = 56 | episode_len = 9 | episode_return = 1.0000 | steps = 504 | total_regret = 80.0000 | total_return = -24.0000
+I0611 19:59:33.202346 140306405291840 terminal_logging.py:55] episode = 56 | episode_len = 9 | episode_return = 1.0000 | steps = 504 | total_regret = 80.0000 | total_return = -24.0000
+INFO:absl:episode = 57 | episode_len = 9 | episode_return = 1.0000 | steps = 513 | total_regret = 80.0000 | total_return = -23.0000
+I0611 19:59:33.268429 140306405291840 terminal_logging.py:55] episode = 57 | episode_len = 9 | episode_return = 1.0000 | steps = 513 | total_regret = 80.0000 | total_return = -23.0000
+INFO:absl:episode = 58 | episode_len = 9 | episode_return = 1.0000 | steps = 522 | total_regret = 80.0000 | total_return = -22.0000
+I0611 19:59:33.325550 140306405291840 terminal_logging.py:55] episode = 58 | episode_len = 9 | episode_return = 1.0000 | steps = 522 | total_regret = 80.0000 | total_return = -22.0000
+INFO:absl:episode = 59 | episode_len = 9 | episode_return = 1.0000 | steps = 531 | total_regret = 80.0000 | total_return = -21.0000
+I0611 19:59:33.378039 140306405291840 terminal_logging.py:55] episode = 59 | episode_len = 9 | episode_return = 1.0000 | steps = 531 | total_regret = 80.0000 | total_return = -21.0000
+INFO:absl:episode = 60 | episode_len = 9 | episode_return = -1.0000 | steps = 540 | total_regret = 82.0000 | total_return = -22.0000
+I0611 19:59:33.438271 140306405291840 terminal_logging.py:55] episode = 60 | episode_len = 9 | episode_return = -1.0000 | steps = 540 | total_regret = 82.0000 | total_return = -22.0000
+INFO:absl:episode = 61 | episode_len = 9 | episode_return = 1.0000 | steps = 549 | total_regret = 82.0000 | total_return = -21.0000
+I0611 19:59:33.494071 140306405291840 terminal_logging.py:55] episode = 61 | episode_len = 9 | episode_return = 1.0000 | steps = 549 | total_regret = 82.0000 | total_return = -21.0000
+INFO:absl:episode = 62 | episode_len = 9 | episode_return = -1.0000 | steps = 558 | total_regret = 84.0000 | total_return = -22.0000
+I0611 19:59:33.539571 140306405291840 terminal_logging.py:55] episode = 62 | episode_len = 9 | episode_return = -1.0000 | steps = 558 | total_regret = 84.0000 | total_return = -22.0000
+INFO:absl:episode = 63 | episode_len = 9 | episode_return = -1.0000 | steps = 567 | total_regret = 86.0000 | total_return = -23.0000
+I0611 19:59:33.577838 140306405291840 terminal_logging.py:55] episode = 63 | episode_len = 9 | episode_return = -1.0000 | steps = 567 | total_regret = 86.0000 | total_return = -23.0000
+INFO:absl:episode = 64 | episode_len = 9 | episode_return = 1.0000 | steps = 576 | total_regret = 86.0000 | total_return = -22.0000
+I0611 19:59:33.616730 140306405291840 terminal_logging.py:55] episode = 64 | episode_len = 9 | episode_return = 1.0000 | steps = 576 | total_regret = 86.0000 | total_return = -22.0000
+INFO:absl:episode = 65 | episode_len = 9 | episode_return = -1.0000 | steps = 585 | total_regret = 88.0000 | total_return = -23.0000
+I0611 19:59:33.656279 140306405291840 terminal_logging.py:55] episode = 65 | episode_len = 9 | episode_return = -1.0000 | steps = 585 | total_regret = 88.0000 | total_return = -23.0000
+INFO:absl:episode = 66 | episode_len = 9 | episode_return = -1.0000 | steps = 594 | total_regret = 90.0000 | total_return = -24.0000
+I0611 19:59:33.691320 140306405291840 terminal_logging.py:55] episode = 66 | episode_len = 9 | episode_return = -1.0000 | steps = 594 | total_regret = 90.0000 | total_return = -24.0000
+INFO:absl:episode = 67 | episode_len = 9 | episode_return = 1.0000 | steps = 603 | total_regret = 90.0000 | total_return = -23.0000
+I0611 19:59:33.730968 140306405291840 terminal_logging.py:55] episode = 67 | episode_len = 9 | episode_return = 1.0000 | steps = 603 | total_regret = 90.0000 | total_return = -23.0000
+INFO:absl:episode = 68 | episode_len = 9 | episode_return = 1.0000 | steps = 612 | total_regret = 90.0000 | total_return = -22.0000
+I0611 19:59:33.793754 140306405291840 terminal_logging.py:55] episode = 68 | episode_len = 9 | episode_return = 1.0000 | steps = 612 | total_regret = 90.0000 | total_return = -22.0000
+INFO:absl:episode = 69 | episode_len = 9 | episode_return = -1.0000 | steps = 621 | total_regret = 92.0000 | total_return = -23.0000
+I0611 19:59:33.840635 140306405291840 terminal_logging.py:55] episode = 69 | episode_len = 9 | episode_return = -1.0000 | steps = 621 | total_regret = 92.0000 | total_return = -23.0000
+INFO:absl:episode = 70 | episode_len = 9 | episode_return = 1.0000 | steps = 630 | total_regret = 92.0000 | total_return = -22.0000
+I0611 19:59:33.885816 140306405291840 terminal_logging.py:55] episode = 70 | episode_len = 9 | episode_return = 1.0000 | steps = 630 | total_regret = 92.0000 | total_return = -22.0000
+INFO:absl:episode = 71 | episode_len = 9 | episode_return = -1.0000 | steps = 639 | total_regret = 94.0000 | total_return = -23.0000
+I0611 19:59:33.941299 140306405291840 terminal_logging.py:55] episode = 71 | episode_len = 9 | episode_return = -1.0000 | steps = 639 | total_regret = 94.0000 | total_return = -23.0000
+INFO:absl:episode = 72 | episode_len = 9 | episode_return = -1.0000 | steps = 648 | total_regret = 96.0000 | total_return = -24.0000
+I0611 19:59:33.997178 140306405291840 terminal_logging.py:55] episode = 72 | episode_len = 9 | episode_return = -1.0000 | steps = 648 | total_regret = 96.0000 | total_return = -24.0000
+INFO:absl:episode = 73 | episode_len = 9 | episode_return = 1.0000 | steps = 657 | total_regret = 96.0000 | total_return = -23.0000
+I0611 19:59:34.048887 140306405291840 terminal_logging.py:55] episode = 73 | episode_len = 9 | episode_return = 1.0000 | steps = 657 | total_regret = 96.0000 | total_return = -23.0000
+INFO:absl:episode = 74 | episode_len = 9 | episode_return = -1.0000 | steps = 666 | total_regret = 98.0000 | total_return = -24.0000
+I0611 19:59:34.103136 140306405291840 terminal_logging.py:55] episode = 74 | episode_len = 9 | episode_return = -1.0000 | steps = 666 | total_regret = 98.0000 | total_return = -24.0000
+INFO:absl:episode = 75 | episode_len = 9 | episode_return = 1.0000 | steps = 675 | total_regret = 98.0000 | total_return = -23.0000
+I0611 19:59:34.151136 140306405291840 terminal_logging.py:55] episode = 75 | episode_len = 9 | episode_return = 1.0000 | steps = 675 | total_regret = 98.0000 | total_return = -23.0000
+INFO:absl:episode = 76 | episode_len = 9 | episode_return = -1.0000 | steps = 684 | total_regret = 100.0000 | total_return = -24.0000
+I0611 19:59:34.198407 140306405291840 terminal_logging.py:55] episode = 76 | episode_len = 9 | episode_return = -1.0000 | steps = 684 | total_regret = 100.0000 | total_return = -24.0000
+INFO:absl:episode = 77 | episode_len = 9 | episode_return = -1.0000 | steps = 693 | total_regret = 102.0000 | total_return = -25.0000
+I0611 19:59:34.240004 140306405291840 terminal_logging.py:55] episode = 77 | episode_len = 9 | episode_return = -1.0000 | steps = 693 | total_regret = 102.0000 | total_return = -25.0000
+INFO:absl:episode = 78 | episode_len = 9 | episode_return = 1.0000 | steps = 702 | total_regret = 102.0000 | total_return = -24.0000
+I0611 19:59:34.305148 140306405291840 terminal_logging.py:55] episode = 78 | episode_len = 9 | episode_return = 1.0000 | steps = 702 | total_regret = 102.0000 | total_return = -24.0000
+INFO:absl:episode = 79 | episode_len = 9 | episode_return = 1.0000 | steps = 711 | total_regret = 102.0000 | total_return = -23.0000
+I0611 19:59:34.345882 140306405291840 terminal_logging.py:55] episode = 79 | episode_len = 9 | episode_return = 1.0000 | steps = 711 | total_regret = 102.0000 | total_return = -23.0000
+INFO:absl:episode = 80 | episode_len = 9 | episode_return = 1.0000 | steps = 720 | total_regret = 102.0000 | total_return = -22.0000
+I0611 19:59:34.395977 140306405291840 terminal_logging.py:55] episode = 80 | episode_len = 9 | episode_return = 1.0000 | steps = 720 | total_regret = 102.0000 | total_return = -22.0000
+INFO:absl:episode = 81 | episode_len = 9 | episode_return = 1.0000 | steps = 729 | total_regret = 102.0000 | total_return = -21.0000
+I0611 19:59:34.456654 140306405291840 terminal_logging.py:55] episode = 81 | episode_len = 9 | episode_return = 1.0000 | steps = 729 | total_regret = 102.0000 | total_return = -21.0000
+INFO:absl:episode = 82 | episode_len = 9 | episode_return = 1.0000 | steps = 738 | total_regret = 102.0000 | total_return = -20.0000
+I0611 19:59:34.505555 140306405291840 terminal_logging.py:55] episode = 82 | episode_len = 9 | episode_return = 1.0000 | steps = 738 | total_regret = 102.0000 | total_return = -20.0000
+INFO:absl:episode = 83 | episode_len = 9 | episode_return = 1.0000 | steps = 747 | total_regret = 102.0000 | total_return = -19.0000
+I0611 19:59:34.546846 140306405291840 terminal_logging.py:55] episode = 83 | episode_len = 9 | episode_return = 1.0000 | steps = 747 | total_regret = 102.0000 | total_return = -19.0000
+INFO:absl:episode = 84 | episode_len = 9 | episode_return = -1.0000 | steps = 756 | total_regret = 104.0000 | total_return = -20.0000
+I0611 19:59:34.582636 140306405291840 terminal_logging.py:55] episode = 84 | episode_len = 9 | episode_return = -1.0000 | steps = 756 | total_regret = 104.0000 | total_return = -20.0000
+INFO:absl:episode = 85 | episode_len = 9 | episode_return = 1.0000 | steps = 765 | total_regret = 104.0000 | total_return = -19.0000
+I0611 19:59:34.623152 140306405291840 terminal_logging.py:55] episode = 85 | episode_len = 9 | episode_return = 1.0000 | steps = 765 | total_regret = 104.0000 | total_return = -19.0000
+INFO:absl:episode = 86 | episode_len = 9 | episode_return = 1.0000 | steps = 774 | total_regret = 104.0000 | total_return = -18.0000
+I0611 19:59:34.696148 140306405291840 terminal_logging.py:55] episode = 86 | episode_len = 9 | episode_return = 1.0000 | steps = 774 | total_regret = 104.0000 | total_return = -18.0000
+INFO:absl:episode = 87 | episode_len = 9 | episode_return = 1.0000 | steps = 783 | total_regret = 104.0000 | total_return = -17.0000
+I0611 19:59:34.746047 140306405291840 terminal_logging.py:55] episode = 87 | episode_len = 9 | episode_return = 1.0000 | steps = 783 | total_regret = 104.0000 | total_return = -17.0000
+INFO:absl:episode = 88 | episode_len = 9 | episode_return = 1.0000 | steps = 792 | total_regret = 104.0000 | total_return = -16.0000
+I0611 19:59:34.812564 140306405291840 terminal_logging.py:55] episode = 88 | episode_len = 9 | episode_return = 1.0000 | steps = 792 | total_regret = 104.0000 | total_return = -16.0000
+INFO:absl:episode = 89 | episode_len = 9 | episode_return = 1.0000 | steps = 801 | total_regret = 104.0000 | total_return = -15.0000
+I0611 19:59:34.888716 140306405291840 terminal_logging.py:55] episode = 89 | episode_len = 9 | episode_return = 1.0000 | steps = 801 | total_regret = 104.0000 | total_return = -15.0000
+INFO:absl:episode = 90 | episode_len = 9 | episode_return = 1.0000 | steps = 810 | total_regret = 104.0000 | total_return = -14.0000
+I0611 19:59:34.971901 140306405291840 terminal_logging.py:55] episode = 90 | episode_len = 9 | episode_return = 1.0000 | steps = 810 | total_regret = 104.0000 | total_return = -14.0000
+INFO:absl:episode = 91 | episode_len = 9 | episode_return = 1.0000 | steps = 819 | total_regret = 104.0000 | total_return = -13.0000
+I0611 19:59:35.068185 140306405291840 terminal_logging.py:55] episode = 91 | episode_len = 9 | episode_return = 1.0000 | steps = 819 | total_regret = 104.0000 | total_return = -13.0000
+INFO:absl:episode = 92 | episode_len = 9 | episode_return = 1.0000 | steps = 828 | total_regret = 104.0000 | total_return = -12.0000
+I0611 19:59:35.142518 140306405291840 terminal_logging.py:55] episode = 92 | episode_len = 9 | episode_return = 1.0000 | steps = 828 | total_regret = 104.0000 | total_return = -12.0000
+INFO:absl:episode = 93 | episode_len = 9 | episode_return = 1.0000 | steps = 837 | total_regret = 104.0000 | total_return = -11.0000
+I0611 19:59:35.212196 140306405291840 terminal_logging.py:55] episode = 93 | episode_len = 9 | episode_return = 1.0000 | steps = 837 | total_regret = 104.0000 | total_return = -11.0000
+INFO:absl:episode = 94 | episode_len = 9 | episode_return = 1.0000 | steps = 846 | total_regret = 104.0000 | total_return = -10.0000
+I0611 19:59:35.283686 140306405291840 terminal_logging.py:55] episode = 94 | episode_len = 9 | episode_return = 1.0000 | steps = 846 | total_regret = 104.0000 | total_return = -10.0000
+INFO:absl:episode = 95 | episode_len = 9 | episode_return = 1.0000 | steps = 855 | total_regret = 104.0000 | total_return = -9.0000
+I0611 19:59:35.395189 140306405291840 terminal_logging.py:55] episode = 95 | episode_len = 9 | episode_return = 1.0000 | steps = 855 | total_regret = 104.0000 | total_return = -9.0000
+INFO:absl:episode = 96 | episode_len = 9 | episode_return = 1.0000 | steps = 864 | total_regret = 104.0000 | total_return = -8.0000
+I0611 19:59:35.459914 140306405291840 terminal_logging.py:55] episode = 96 | episode_len = 9 | episode_return = 1.0000 | steps = 864 | total_regret = 104.0000 | total_return = -8.0000
+INFO:absl:episode = 97 | episode_len = 9 | episode_return = -1.0000 | steps = 873 | total_regret = 106.0000 | total_return = -9.0000
+I0611 19:59:35.527566 140306405291840 terminal_logging.py:55] episode = 97 | episode_len = 9 | episode_return = -1.0000 | steps = 873 | total_regret = 106.0000 | total_return = -9.0000
+INFO:absl:episode = 98 | episode_len = 9 | episode_return = -1.0000 | steps = 882 | total_regret = 108.0000 | total_return = -10.0000
+I0611 19:59:35.591658 140306405291840 terminal_logging.py:55] episode = 98 | episode_len = 9 | episode_return = -1.0000 | steps = 882 | total_regret = 108.0000 | total_return = -10.0000
+INFO:absl:episode = 99 | episode_len = 9 | episode_return = 1.0000 | steps = 891 | total_regret = 108.0000 | total_return = -9.0000
+I0611 19:59:35.661587 140306405291840 terminal_logging.py:55] episode = 99 | episode_len = 9 | episode_return = 1.0000 | steps = 891 | total_regret = 108.0000 | total_return = -9.0000
+INFO:absl:episode = 100 | episode_len = 9 | episode_return = 1.0000 | steps = 900 | total_regret = 108.0000 | total_return = -8.0000
+I0611 19:59:35.722506 140306405291840 terminal_logging.py:55] episode = 100 | episode_len = 9 | episode_return = 1.0000 | steps = 900 | total_regret = 108.0000 | total_return = -8.0000
+INFO:absl:episode = 101 | episode_len = 9 | episode_return = 1.0000 | steps = 909 | total_regret = 108.0000 | total_return = -7.0000
+I0611 19:59:35.785192 140306405291840 terminal_logging.py:55] episode = 101 | episode_len = 9 | episode_return = 1.0000 | steps = 909 | total_regret = 108.0000 | total_return = -7.0000
+INFO:absl:episode = 102 | episode_len = 9 | episode_return = -1.0000 | steps = 918 | total_regret = 110.0000 | total_return = -8.0000
+I0611 19:59:35.840087 140306405291840 terminal_logging.py:55] episode = 102 | episode_len = 9 | episode_return = -1.0000 | steps = 918 | total_regret = 110.0000 | total_return = -8.0000
+INFO:absl:episode = 103 | episode_len = 9 | episode_return = -1.0000 | steps = 927 | total_regret = 112.0000 | total_return = -9.0000
+I0611 19:59:36.106892 140306405291840 terminal_logging.py:55] episode = 103 | episode_len = 9 | episode_return = -1.0000 | steps = 927 | total_regret = 112.0000 | total_return = -9.0000
+INFO:absl:episode = 104 | episode_len = 9 | episode_return = -1.0000 | steps = 936 | total_regret = 114.0000 | total_return = -10.0000
+I0611 19:59:36.195784 140306405291840 terminal_logging.py:55] episode = 104 | episode_len = 9 | episode_return = -1.0000 | steps = 936 | total_regret = 114.0000 | total_return = -10.0000
+INFO:absl:episode = 105 | episode_len = 9 | episode_return = 1.0000 | steps = 945 | total_regret = 114.0000 | total_return = -9.0000
+I0611 19:59:36.280160 140306405291840 terminal_logging.py:55] episode = 105 | episode_len = 9 | episode_return = 1.0000 | steps = 945 | total_regret = 114.0000 | total_return = -9.0000
+INFO:absl:episode = 106 | episode_len = 9 | episode_return = -1.0000 | steps = 954 | total_regret = 116.0000 | total_return = -10.0000
+I0611 19:59:36.380416 140306405291840 terminal_logging.py:55] episode = 106 | episode_len = 9 | episode_return = -1.0000 | steps = 954 | total_regret = 116.0000 | total_return = -10.0000
+INFO:absl:episode = 107 | episode_len = 9 | episode_return = 1.0000 | steps = 963 | total_regret = 116.0000 | total_return = -9.0000
+I0611 19:59:36.465574 140306405291840 terminal_logging.py:55] episode = 107 | episode_len = 9 | episode_return = 1.0000 | steps = 963 | total_regret = 116.0000 | total_return = -9.0000
+INFO:absl:episode = 108 | episode_len = 9 | episode_return = 1.0000 | steps = 972 | total_regret = 116.0000 | total_return = -8.0000
+I0611 19:59:36.540202 140306405291840 terminal_logging.py:55] episode = 108 | episode_len = 9 | episode_return = 1.0000 | steps = 972 | total_regret = 116.0000 | total_return = -8.0000
+INFO:absl:episode = 109 | episode_len = 9 | episode_return = 1.0000 | steps = 981 | total_regret = 116.0000 | total_return = -7.0000
+I0611 19:59:36.608251 140306405291840 terminal_logging.py:55] episode = 109 | episode_len = 9 | episode_return = 1.0000 | steps = 981 | total_regret = 116.0000 | total_return = -7.0000
+INFO:absl:episode = 110 | episode_len = 9 | episode_return = 1.0000 | steps = 990 | total_regret = 116.0000 | total_return = -6.0000
+I0611 19:59:36.672908 140306405291840 terminal_logging.py:55] episode = 110 | episode_len = 9 | episode_return = 1.0000 | steps = 990 | total_regret = 116.0000 | total_return = -6.0000
+INFO:absl:episode = 111 | episode_len = 9 | episode_return = 1.0000 | steps = 999 | total_regret = 116.0000 | total_return = -5.0000
+I0611 19:59:36.815237 140306405291840 terminal_logging.py:55] episode = 111 | episode_len = 9 | episode_return = 1.0000 | steps = 999 | total_regret = 116.0000 | total_return = -5.0000
+INFO:absl:episode = 112 | episode_len = 9 | episode_return = -1.0000 | steps = 1008 | total_regret = 118.0000 | total_return = -6.0000
+I0611 19:59:36.897779 140306405291840 terminal_logging.py:55] episode = 112 | episode_len = 9 | episode_return = -1.0000 | steps = 1008 | total_regret = 118.0000 | total_return = -6.0000
+INFO:absl:episode = 113 | episode_len = 9 | episode_return = -1.0000 | steps = 1017 | total_regret = 120.0000 | total_return = -7.0000
+I0611 19:59:36.959441 140306405291840 terminal_logging.py:55] episode = 113 | episode_len = 9 | episode_return = -1.0000 | steps = 1017 | total_regret = 120.0000 | total_return = -7.0000
+INFO:absl:episode = 114 | episode_len = 9 | episode_return = 1.0000 | steps = 1026 | total_regret = 120.0000 | total_return = -6.0000
+I0611 19:59:37.011492 140306405291840 terminal_logging.py:55] episode = 114 | episode_len = 9 | episode_return = 1.0000 | steps = 1026 | total_regret = 120.0000 | total_return = -6.0000
+INFO:absl:episode = 115 | episode_len = 9 | episode_return = -1.0000 | steps = 1035 | total_regret = 122.0000 | total_return = -7.0000
+I0611 19:59:37.062719 140306405291840 terminal_logging.py:55] episode = 115 | episode_len = 9 | episode_return = -1.0000 | steps = 1035 | total_regret = 122.0000 | total_return = -7.0000
+INFO:absl:episode = 116 | episode_len = 9 | episode_return = 1.0000 | steps = 1044 | total_regret = 122.0000 | total_return = -6.0000
+I0611 19:59:37.107342 140306405291840 terminal_logging.py:55] episode = 116 | episode_len = 9 | episode_return = 1.0000 | steps = 1044 | total_regret = 122.0000 | total_return = -6.0000
+INFO:absl:episode = 117 | episode_len = 9 | episode_return = -1.0000 | steps = 1053 | total_regret = 124.0000 | total_return = -7.0000
+I0611 19:59:37.152493 140306405291840 terminal_logging.py:55] episode = 117 | episode_len = 9 | episode_return = -1.0000 | steps = 1053 | total_regret = 124.0000 | total_return = -7.0000
+INFO:absl:episode = 118 | episode_len = 9 | episode_return = -1.0000 | steps = 1062 | total_regret = 126.0000 | total_return = -8.0000
+I0611 19:59:37.197595 140306405291840 terminal_logging.py:55] episode = 118 | episode_len = 9 | episode_return = -1.0000 | steps = 1062 | total_regret = 126.0000 | total_return = -8.0000
+INFO:absl:episode = 119 | episode_len = 9 | episode_return = 1.0000 | steps = 1071 | total_regret = 126.0000 | total_return = -7.0000
+I0611 19:59:37.244755 140306405291840 terminal_logging.py:55] episode = 119 | episode_len = 9 | episode_return = 1.0000 | steps = 1071 | total_regret = 126.0000 | total_return = -7.0000
+INFO:absl:episode = 120 | episode_len = 9 | episode_return = -1.0000 | steps = 1080 | total_regret = 128.0000 | total_return = -8.0000
+I0611 19:59:37.289094 140306405291840 terminal_logging.py:55] episode = 120 | episode_len = 9 | episode_return = -1.0000 | steps = 1080 | total_regret = 128.0000 | total_return = -8.0000
+INFO:absl:episode = 121 | episode_len = 9 | episode_return = -1.0000 | steps = 1089 | total_regret = 130.0000 | total_return = -9.0000
+I0611 19:59:37.356831 140306405291840 terminal_logging.py:55] episode = 121 | episode_len = 9 | episode_return = -1.0000 | steps = 1089 | total_regret = 130.0000 | total_return = -9.0000
+INFO:absl:episode = 122 | episode_len = 9 | episode_return = -1.0000 | steps = 1098 | total_regret = 132.0000 | total_return = -10.0000
+I0611 19:59:37.416965 140306405291840 terminal_logging.py:55] episode = 122 | episode_len = 9 | episode_return = -1.0000 | steps = 1098 | total_regret = 132.0000 | total_return = -10.0000
+INFO:absl:episode = 123 | episode_len = 9 | episode_return = -1.0000 | steps = 1107 | total_regret = 134.0000 | total_return = -11.0000
+I0611 19:59:37.465169 140306405291840 terminal_logging.py:55] episode = 123 | episode_len = 9 | episode_return = -1.0000 | steps = 1107 | total_regret = 134.0000 | total_return = -11.0000
+INFO:absl:episode = 124 | episode_len = 9 | episode_return = 1.0000 | steps = 1116 | total_regret = 134.0000 | total_return = -10.0000
+I0611 19:59:37.513765 140306405291840 terminal_logging.py:55] episode = 124 | episode_len = 9 | episode_return = 1.0000 | steps = 1116 | total_regret = 134.0000 | total_return = -10.0000
+INFO:absl:episode = 125 | episode_len = 9 | episode_return = 1.0000 | steps = 1125 | total_regret = 134.0000 | total_return = -9.0000
+I0611 19:59:37.601969 140306405291840 terminal_logging.py:55] episode = 125 | episode_len = 9 | episode_return = 1.0000 | steps = 1125 | total_regret = 134.0000 | total_return = -9.0000
+INFO:absl:episode = 126 | episode_len = 9 | episode_return = 1.0000 | steps = 1134 | total_regret = 134.0000 | total_return = -8.0000
+I0611 19:59:37.667717 140306405291840 terminal_logging.py:55] episode = 126 | episode_len = 9 | episode_return = 1.0000 | steps = 1134 | total_regret = 134.0000 | total_return = -8.0000
+INFO:absl:episode = 127 | episode_len = 9 | episode_return = -1.0000 | steps = 1143 | total_regret = 136.0000 | total_return = -9.0000
+I0611 19:59:37.733590 140306405291840 terminal_logging.py:55] episode = 127 | episode_len = 9 | episode_return = -1.0000 | steps = 1143 | total_regret = 136.0000 | total_return = -9.0000
+INFO:absl:episode = 128 | episode_len = 9 | episode_return = 1.0000 | steps = 1152 | total_regret = 136.0000 | total_return = -8.0000
+I0611 19:59:37.779924 140306405291840 terminal_logging.py:55] episode = 128 | episode_len = 9 | episode_return = 1.0000 | steps = 1152 | total_regret = 136.0000 | total_return = -8.0000
+INFO:absl:episode = 129 | episode_len = 9 | episode_return = 1.0000 | steps = 1161 | total_regret = 136.0000 | total_return = -7.0000
+I0611 19:59:37.826291 140306405291840 terminal_logging.py:55] episode = 129 | episode_len = 9 | episode_return = 1.0000 | steps = 1161 | total_regret = 136.0000 | total_return = -7.0000
+INFO:absl:episode = 130 | episode_len = 9 | episode_return = 1.0000 | steps = 1170 | total_regret = 136.0000 | total_return = -6.0000
+I0611 19:59:37.865363 140306405291840 terminal_logging.py:55] episode = 130 | episode_len = 9 | episode_return = 1.0000 | steps = 1170 | total_regret = 136.0000 | total_return = -6.0000
+INFO:absl:episode = 131 | episode_len = 9 | episode_return = 1.0000 | steps = 1179 | total_regret = 136.0000 | total_return = -5.0000
+I0611 19:59:37.910973 140306405291840 terminal_logging.py:55] episode = 131 | episode_len = 9 | episode_return = 1.0000 | steps = 1179 | total_regret = 136.0000 | total_return = -5.0000
+INFO:absl:episode = 132 | episode_len = 9 | episode_return = -1.0000 | steps = 1188 | total_regret = 138.0000 | total_return = -6.0000
+I0611 19:59:37.954396 140306405291840 terminal_logging.py:55] episode = 132 | episode_len = 9 | episode_return = -1.0000 | steps = 1188 | total_regret = 138.0000 | total_return = -6.0000
+INFO:absl:episode = 133 | episode_len = 9 | episode_return = 1.0000 | steps = 1197 | total_regret = 138.0000 | total_return = -5.0000
+I0611 19:59:37.995517 140306405291840 terminal_logging.py:55] episode = 133 | episode_len = 9 | episode_return = 1.0000 | steps = 1197 | total_regret = 138.0000 | total_return = -5.0000
+INFO:absl:episode = 134 | episode_len = 9 | episode_return = 1.0000 | steps = 1206 | total_regret = 138.0000 | total_return = -4.0000
+I0611 19:59:38.035449 140306405291840 terminal_logging.py:55] episode = 134 | episode_len = 9 | episode_return = 1.0000 | steps = 1206 | total_regret = 138.0000 | total_return = -4.0000
+INFO:absl:episode = 135 | episode_len = 9 | episode_return = 1.0000 | steps = 1215 | total_regret = 138.0000 | total_return = -3.0000
+I0611 19:59:38.094974 140306405291840 terminal_logging.py:55] episode = 135 | episode_len = 9 | episode_return = 1.0000 | steps = 1215 | total_regret = 138.0000 | total_return = -3.0000
+INFO:absl:episode = 136 | episode_len = 9 | episode_return = 1.0000 | steps = 1224 | total_regret = 138.0000 | total_return = -2.0000
+I0611 19:59:38.137567 140306405291840 terminal_logging.py:55] episode = 136 | episode_len = 9 | episode_return = 1.0000 | steps = 1224 | total_regret = 138.0000 | total_return = -2.0000
+INFO:absl:episode = 137 | episode_len = 9 | episode_return = -1.0000 | steps = 1233 | total_regret = 140.0000 | total_return = -3.0000
+I0611 19:59:38.177729 140306405291840 terminal_logging.py:55] episode = 137 | episode_len = 9 | episode_return = -1.0000 | steps = 1233 | total_regret = 140.0000 | total_return = -3.0000
+INFO:absl:episode = 138 | episode_len = 9 | episode_return = 1.0000 | steps = 1242 | total_regret = 140.0000 | total_return = -2.0000
+I0611 19:59:38.213299 140306405291840 terminal_logging.py:55] episode = 138 | episode_len = 9 | episode_return = 1.0000 | steps = 1242 | total_regret = 140.0000 | total_return = -2.0000
+INFO:absl:episode = 139 | episode_len = 9 | episode_return = -1.0000 | steps = 1251 | total_regret = 142.0000 | total_return = -3.0000
+I0611 19:59:38.249274 140306405291840 terminal_logging.py:55] episode = 139 | episode_len = 9 | episode_return = -1.0000 | steps = 1251 | total_regret = 142.0000 | total_return = -3.0000
+INFO:absl:episode = 140 | episode_len = 9 | episode_return = -1.0000 | steps = 1260 | total_regret = 144.0000 | total_return = -4.0000
+I0611 19:59:38.303583 140306405291840 terminal_logging.py:55] episode = 140 | episode_len = 9 | episode_return = -1.0000 | steps = 1260 | total_regret = 144.0000 | total_return = -4.0000
+INFO:absl:episode = 141 | episode_len = 9 | episode_return = 1.0000 | steps = 1269 | total_regret = 144.0000 | total_return = -3.0000
+I0611 19:59:38.393113 140306405291840 terminal_logging.py:55] episode = 141 | episode_len = 9 | episode_return = 1.0000 | steps = 1269 | total_regret = 144.0000 | total_return = -3.0000
+INFO:absl:episode = 142 | episode_len = 9 | episode_return = 1.0000 | steps = 1278 | total_regret = 144.0000 | total_return = -2.0000
+I0611 19:59:38.479706 140306405291840 terminal_logging.py:55] episode = 142 | episode_len = 9 | episode_return = 1.0000 | steps = 1278 | total_regret = 144.0000 | total_return = -2.0000
+INFO:absl:episode = 143 | episode_len = 9 | episode_return = 1.0000 | steps = 1287 | total_regret = 144.0000 | total_return = -1.0000
+I0611 19:59:38.552523 140306405291840 terminal_logging.py:55] episode = 143 | episode_len = 9 | episode_return = 1.0000 | steps = 1287 | total_regret = 144.0000 | total_return = -1.0000
+INFO:absl:episode = 144 | episode_len = 9 | episode_return = 1.0000 | steps = 1296 | total_regret = 144.0000 | total_return = 0.0000
+I0611 19:59:38.661077 140306405291840 terminal_logging.py:55] episode = 144 | episode_len = 9 | episode_return = 1.0000 | steps = 1296 | total_regret = 144.0000 | total_return = 0.0000
+INFO:absl:episode = 145 | episode_len = 9 | episode_return = 1.0000 | steps = 1305 | total_regret = 144.0000 | total_return = 1.0000
+I0611 19:59:38.734962 140306405291840 terminal_logging.py:55] episode = 145 | episode_len = 9 | episode_return = 1.0000 | steps = 1305 | total_regret = 144.0000 | total_return = 1.0000
+INFO:absl:episode = 146 | episode_len = 9 | episode_return = 1.0000 | steps = 1314 | total_regret = 144.0000 | total_return = 2.0000
+I0611 19:59:38.849762 140306405291840 terminal_logging.py:55] episode = 146 | episode_len = 9 | episode_return = 1.0000 | steps = 1314 | total_regret = 144.0000 | total_return = 2.0000
+INFO:absl:episode = 147 | episode_len = 9 | episode_return = -1.0000 | steps = 1323 | total_regret = 146.0000 | total_return = 1.0000
+I0611 19:59:38.897198 140306405291840 terminal_logging.py:55] episode = 147 | episode_len = 9 | episode_return = -1.0000 | steps = 1323 | total_regret = 146.0000 | total_return = 1.0000
+INFO:absl:episode = 148 | episode_len = 9 | episode_return = -1.0000 | steps = 1332 | total_regret = 148.0000 | total_return = 0.0000
+I0611 19:59:38.950027 140306405291840 terminal_logging.py:55] episode = 148 | episode_len = 9 | episode_return = -1.0000 | steps = 1332 | total_regret = 148.0000 | total_return = 0.0000
+INFO:absl:episode = 149 | episode_len = 9 | episode_return = 1.0000 | steps = 1341 | total_regret = 148.0000 | total_return = 1.0000
+I0611 19:59:39.007994 140306405291840 terminal_logging.py:55] episode = 149 | episode_len = 9 | episode_return = 1.0000 | steps = 1341 | total_regret = 148.0000 | total_return = 1.0000
+INFO:absl:episode = 150 | episode_len = 9 | episode_return = 1.0000 | steps = 1350 | total_regret = 148.0000 | total_return = 2.0000
+I0611 19:59:39.068307 140306405291840 terminal_logging.py:55] episode = 150 | episode_len = 9 | episode_return = 1.0000 | steps = 1350 | total_regret = 148.0000 | total_return = 2.0000
+INFO:absl:episode = 151 | episode_len = 9 | episode_return = 1.0000 | steps = 1359 | total_regret = 148.0000 | total_return = 3.0000
+I0611 19:59:39.155806 140306405291840 terminal_logging.py:55] episode = 151 | episode_len = 9 | episode_return = 1.0000 | steps = 1359 | total_regret = 148.0000 | total_return = 3.0000
+INFO:absl:episode = 152 | episode_len = 9 | episode_return = 1.0000 | steps = 1368 | total_regret = 148.0000 | total_return = 4.0000
+I0611 19:59:39.232954 140306405291840 terminal_logging.py:55] episode = 152 | episode_len = 9 | episode_return = 1.0000 | steps = 1368 | total_regret = 148.0000 | total_return = 4.0000
+INFO:absl:episode = 153 | episode_len = 9 | episode_return = -1.0000 | steps = 1377 | total_regret = 150.0000 | total_return = 3.0000
+I0611 19:59:39.287369 140306405291840 terminal_logging.py:55] episode = 153 | episode_len = 9 | episode_return = -1.0000 | steps = 1377 | total_regret = 150.0000 | total_return = 3.0000
+INFO:absl:episode = 154 | episode_len = 9 | episode_return = -1.0000 | steps = 1386 | total_regret = 152.0000 | total_return = 2.0000
+I0611 19:59:39.361186 140306405291840 terminal_logging.py:55] episode = 154 | episode_len = 9 | episode_return = -1.0000 | steps = 1386 | total_regret = 152.0000 | total_return = 2.0000
+INFO:absl:episode = 155 | episode_len = 9 | episode_return = 1.0000 | steps = 1395 | total_regret = 152.0000 | total_return = 3.0000
+I0611 19:59:39.424177 140306405291840 terminal_logging.py:55] episode = 155 | episode_len = 9 | episode_return = 1.0000 | steps = 1395 | total_regret = 152.0000 | total_return = 3.0000
+INFO:absl:episode = 156 | episode_len = 9 | episode_return = 1.0000 | steps = 1404 | total_regret = 152.0000 | total_return = 4.0000
+I0611 19:59:39.481570 140306405291840 terminal_logging.py:55] episode = 156 | episode_len = 9 | episode_return = 1.0000 | steps = 1404 | total_regret = 152.0000 | total_return = 4.0000
+INFO:absl:episode = 157 | episode_len = 9 | episode_return = 1.0000 | steps = 1413 | total_regret = 152.0000 | total_return = 5.0000
+I0611 19:59:39.543628 140306405291840 terminal_logging.py:55] episode = 157 | episode_len = 9 | episode_return = 1.0000 | steps = 1413 | total_regret = 152.0000 | total_return = 5.0000
+INFO:absl:episode = 158 | episode_len = 9 | episode_return = 1.0000 | steps = 1422 | total_regret = 152.0000 | total_return = 6.0000
+I0611 19:59:39.616588 140306405291840 terminal_logging.py:55] episode = 158 | episode_len = 9 | episode_return = 1.0000 | steps = 1422 | total_regret = 152.0000 | total_return = 6.0000
+INFO:absl:episode = 159 | episode_len = 9 | episode_return = 1.0000 | steps = 1431 | total_regret = 152.0000 | total_return = 7.0000
+I0611 19:59:39.720295 140306405291840 terminal_logging.py:55] episode = 159 | episode_len = 9 | episode_return = 1.0000 | steps = 1431 | total_regret = 152.0000 | total_return = 7.0000
+INFO:absl:episode = 160 | episode_len = 9 | episode_return = 1.0000 | steps = 1440 | total_regret = 152.0000 | total_return = 8.0000
+I0611 19:59:39.790608 140306405291840 terminal_logging.py:55] episode = 160 | episode_len = 9 | episode_return = 1.0000 | steps = 1440 | total_regret = 152.0000 | total_return = 8.0000
+INFO:absl:episode = 161 | episode_len = 9 | episode_return = 1.0000 | steps = 1449 | total_regret = 152.0000 | total_return = 9.0000
+I0611 19:59:39.866219 140306405291840 terminal_logging.py:55] episode = 161 | episode_len = 9 | episode_return = 1.0000 | steps = 1449 | total_regret = 152.0000 | total_return = 9.0000
+INFO:absl:episode = 162 | episode_len = 9 | episode_return = 1.0000 | steps = 1458 | total_regret = 152.0000 | total_return = 10.0000
+I0611 19:59:39.934256 140306405291840 terminal_logging.py:55] episode = 162 | episode_len = 9 | episode_return = 1.0000 | steps = 1458 | total_regret = 152.0000 | total_return = 10.0000
+INFO:absl:episode = 163 | episode_len = 9 | episode_return = -1.0000 | steps = 1467 | total_regret = 154.0000 | total_return = 9.0000
+I0611 19:59:39.996129 140306405291840 terminal_logging.py:55] episode = 163 | episode_len = 9 | episode_return = -1.0000 | steps = 1467 | total_regret = 154.0000 | total_return = 9.0000
+INFO:absl:episode = 164 | episode_len = 9 | episode_return = 1.0000 | steps = 1476 | total_regret = 154.0000 | total_return = 10.0000
+I0611 19:59:40.069942 140306405291840 terminal_logging.py:55] episode = 164 | episode_len = 9 | episode_return = 1.0000 | steps = 1476 | total_regret = 154.0000 | total_return = 10.0000
+INFO:absl:episode = 165 | episode_len = 9 | episode_return = 1.0000 | steps = 1485 | total_regret = 154.0000 | total_return = 11.0000
+I0611 19:59:40.148635 140306405291840 terminal_logging.py:55] episode = 165 | episode_len = 9 | episode_return = 1.0000 | steps = 1485 | total_regret = 154.0000 | total_return = 11.0000
+INFO:absl:episode = 166 | episode_len = 9 | episode_return = -1.0000 | steps = 1494 | total_regret = 156.0000 | total_return = 10.0000
+I0611 19:59:40.267445 140306405291840 terminal_logging.py:55] episode = 166 | episode_len = 9 | episode_return = -1.0000 | steps = 1494 | total_regret = 156.0000 | total_return = 10.0000
+INFO:absl:episode = 167 | episode_len = 9 | episode_return = 1.0000 | steps = 1503 | total_regret = 156.0000 | total_return = 11.0000
+I0611 19:59:40.343443 140306405291840 terminal_logging.py:55] episode = 167 | episode_len = 9 | episode_return = 1.0000 | steps = 1503 | total_regret = 156.0000 | total_return = 11.0000
+INFO:absl:episode = 168 | episode_len = 9 | episode_return = 1.0000 | steps = 1512 | total_regret = 156.0000 | total_return = 12.0000
+I0611 19:59:40.420069 140306405291840 terminal_logging.py:55] episode = 168 | episode_len = 9 | episode_return = 1.0000 | steps = 1512 | total_regret = 156.0000 | total_return = 12.0000
+INFO:absl:episode = 169 | episode_len = 9 | episode_return = 1.0000 | steps = 1521 | total_regret = 156.0000 | total_return = 13.0000
+I0611 19:59:40.484947 140306405291840 terminal_logging.py:55] episode = 169 | episode_len = 9 | episode_return = 1.0000 | steps = 1521 | total_regret = 156.0000 | total_return = 13.0000
+INFO:absl:episode = 170 | episode_len = 9 | episode_return = 1.0000 | steps = 1530 | total_regret = 156.0000 | total_return = 14.0000
+I0611 19:59:40.569928 140306405291840 terminal_logging.py:55] episode = 170 | episode_len = 9 | episode_return = 1.0000 | steps = 1530 | total_regret = 156.0000 | total_return = 14.0000
+INFO:absl:episode = 171 | episode_len = 9 | episode_return = -1.0000 | steps = 1539 | total_regret = 158.0000 | total_return = 13.0000
+I0611 19:59:40.655924 140306405291840 terminal_logging.py:55] episode = 171 | episode_len = 9 | episode_return = -1.0000 | steps = 1539 | total_regret = 158.0000 | total_return = 13.0000
+INFO:absl:episode = 172 | episode_len = 9 | episode_return = -1.0000 | steps = 1548 | total_regret = 160.0000 | total_return = 12.0000
+I0611 19:59:40.739887 140306405291840 terminal_logging.py:55] episode = 172 | episode_len = 9 | episode_return = -1.0000 | steps = 1548 | total_regret = 160.0000 | total_return = 12.0000
+INFO:absl:episode = 173 | episode_len = 9 | episode_return = 1.0000 | steps = 1557 | total_regret = 160.0000 | total_return = 13.0000
+I0611 19:59:40.959418 140306405291840 terminal_logging.py:55] episode = 173 | episode_len = 9 | episode_return = 1.0000 | steps = 1557 | total_regret = 160.0000 | total_return = 13.0000
+INFO:absl:episode = 174 | episode_len = 9 | episode_return = 1.0000 | steps = 1566 | total_regret = 160.0000 | total_return = 14.0000
+I0611 19:59:41.043286 140306405291840 terminal_logging.py:55] episode = 174 | episode_len = 9 | episode_return = 1.0000 | steps = 1566 | total_regret = 160.0000 | total_return = 14.0000
+INFO:absl:episode = 175 | episode_len = 9 | episode_return = 1.0000 | steps = 1575 | total_regret = 160.0000 | total_return = 15.0000
+I0611 19:59:41.111195 140306405291840 terminal_logging.py:55] episode = 175 | episode_len = 9 | episode_return = 1.0000 | steps = 1575 | total_regret = 160.0000 | total_return = 15.0000
+INFO:absl:episode = 176 | episode_len = 9 | episode_return = 1.0000 | steps = 1584 | total_regret = 160.0000 | total_return = 16.0000
+I0611 19:59:41.192253 140306405291840 terminal_logging.py:55] episode = 176 | episode_len = 9 | episode_return = 1.0000 | steps = 1584 | total_regret = 160.0000 | total_return = 16.0000
+INFO:absl:episode = 177 | episode_len = 9 | episode_return = -1.0000 | steps = 1593 | total_regret = 162.0000 | total_return = 15.0000
+I0611 19:59:41.269066 140306405291840 terminal_logging.py:55] episode = 177 | episode_len = 9 | episode_return = -1.0000 | steps = 1593 | total_regret = 162.0000 | total_return = 15.0000
+INFO:absl:episode = 178 | episode_len = 9 | episode_return = 1.0000 | steps = 1602 | total_regret = 162.0000 | total_return = 16.0000
+I0611 19:59:41.364699 140306405291840 terminal_logging.py:55] episode = 178 | episode_len = 9 | episode_return = 1.0000 | steps = 1602 | total_regret = 162.0000 | total_return = 16.0000
+INFO:absl:episode = 179 | episode_len = 9 | episode_return = 1.0000 | steps = 1611 | total_regret = 162.0000 | total_return = 17.0000
+I0611 19:59:41.426905 140306405291840 terminal_logging.py:55] episode = 179 | episode_len = 9 | episode_return = 1.0000 | steps = 1611 | total_regret = 162.0000 | total_return = 17.0000
+INFO:absl:episode = 180 | episode_len = 9 | episode_return = 1.0000 | steps = 1620 | total_regret = 162.0000 | total_return = 18.0000
+I0611 19:59:41.492289 140306405291840 terminal_logging.py:55] episode = 180 | episode_len = 9 | episode_return = 1.0000 | steps = 1620 | total_regret = 162.0000 | total_return = 18.0000
+INFO:absl:episode = 181 | episode_len = 9 | episode_return = 1.0000 | steps = 1629 | total_regret = 162.0000 | total_return = 19.0000
+I0611 19:59:41.561145 140306405291840 terminal_logging.py:55] episode = 181 | episode_len = 9 | episode_return = 1.0000 | steps = 1629 | total_regret = 162.0000 | total_return = 19.0000
+INFO:absl:episode = 182 | episode_len = 9 | episode_return = -1.0000 | steps = 1638 | total_regret = 164.0000 | total_return = 18.0000
+I0611 19:59:41.631643 140306405291840 terminal_logging.py:55] episode = 182 | episode_len = 9 | episode_return = -1.0000 | steps = 1638 | total_regret = 164.0000 | total_return = 18.0000
+INFO:absl:episode = 183 | episode_len = 9 | episode_return = 1.0000 | steps = 1647 | total_regret = 164.0000 | total_return = 19.0000
+I0611 19:59:41.687423 140306405291840 terminal_logging.py:55] episode = 183 | episode_len = 9 | episode_return = 1.0000 | steps = 1647 | total_regret = 164.0000 | total_return = 19.0000
+INFO:absl:episode = 184 | episode_len = 9 | episode_return = 1.0000 | steps = 1656 | total_regret = 164.0000 | total_return = 20.0000
+I0611 19:59:41.747437 140306405291840 terminal_logging.py:55] episode = 184 | episode_len = 9 | episode_return = 1.0000 | steps = 1656 | total_regret = 164.0000 | total_return = 20.0000
+INFO:absl:episode = 185 | episode_len = 9 | episode_return = 1.0000 | steps = 1665 | total_regret = 164.0000 | total_return = 21.0000
+I0611 19:59:41.809803 140306405291840 terminal_logging.py:55] episode = 185 | episode_len = 9 | episode_return = 1.0000 | steps = 1665 | total_regret = 164.0000 | total_return = 21.0000
+INFO:absl:episode = 186 | episode_len = 9 | episode_return = 1.0000 | steps = 1674 | total_regret = 164.0000 | total_return = 22.0000
+I0611 19:59:41.890937 140306405291840 terminal_logging.py:55] episode = 186 | episode_len = 9 | episode_return = 1.0000 | steps = 1674 | total_regret = 164.0000 | total_return = 22.0000
+INFO:absl:episode = 187 | episode_len = 9 | episode_return = -1.0000 | steps = 1683 | total_regret = 166.0000 | total_return = 21.0000
+I0611 19:59:41.967627 140306405291840 terminal_logging.py:55] episode = 187 | episode_len = 9 | episode_return = -1.0000 | steps = 1683 | total_regret = 166.0000 | total_return = 21.0000
+INFO:absl:episode = 188 | episode_len = 9 | episode_return = 1.0000 | steps = 1692 | total_regret = 166.0000 | total_return = 22.0000
+I0611 19:59:42.034938 140306405291840 terminal_logging.py:55] episode = 188 | episode_len = 9 | episode_return = 1.0000 | steps = 1692 | total_regret = 166.0000 | total_return = 22.0000
+INFO:absl:episode = 189 | episode_len = 9 | episode_return = 1.0000 | steps = 1701 | total_regret = 166.0000 | total_return = 23.0000
+I0611 19:59:42.115056 140306405291840 terminal_logging.py:55] episode = 189 | episode_len = 9 | episode_return = 1.0000 | steps = 1701 | total_regret = 166.0000 | total_return = 23.0000
+INFO:absl:episode = 190 | episode_len = 9 | episode_return = 1.0000 | steps = 1710 | total_regret = 166.0000 | total_return = 24.0000
+I0611 19:59:42.186180 140306405291840 terminal_logging.py:55] episode = 190 | episode_len = 9 | episode_return = 1.0000 | steps = 1710 | total_regret = 166.0000 | total_return = 24.0000
+INFO:absl:episode = 191 | episode_len = 9 | episode_return = -1.0000 | steps = 1719 | total_regret = 168.0000 | total_return = 23.0000
+I0611 19:59:42.265393 140306405291840 terminal_logging.py:55] episode = 191 | episode_len = 9 | episode_return = -1.0000 | steps = 1719 | total_regret = 168.0000 | total_return = 23.0000
+INFO:absl:episode = 192 | episode_len = 9 | episode_return = 1.0000 | steps = 1728 | total_regret = 168.0000 | total_return = 24.0000
+I0611 19:59:42.339876 140306405291840 terminal_logging.py:55] episode = 192 | episode_len = 9 | episode_return = 1.0000 | steps = 1728 | total_regret = 168.0000 | total_return = 24.0000
+INFO:absl:episode = 200 | episode_len = 9 | episode_return = -1.0000 | steps = 1800 | total_regret = 174.0000 | total_return = 26.0000
+I0611 19:59:43.002793 140306405291840 terminal_logging.py:55] episode = 200 | episode_len = 9 | episode_return = -1.0000 | steps = 1800 | total_regret = 174.0000 | total_return = 26.0000
+INFO:absl:episode = 201 | episode_len = 9 | episode_return = 1.0000 | steps = 1809 | total_regret = 174.0000 | total_return = 27.0000
+I0611 19:59:43.087767 140306405291840 terminal_logging.py:55] episode = 201 | episode_len = 9 | episode_return = 1.0000 | steps = 1809 | total_regret = 174.0000 | total_return = 27.0000
+INFO:absl:episode = 202 | episode_len = 9 | episode_return = 1.0000 | steps = 1818 | total_regret = 174.0000 | total_return = 28.0000
+I0611 19:59:43.150441 140306405291840 terminal_logging.py:55] episode = 202 | episode_len = 9 | episode_return = 1.0000 | steps = 1818 | total_regret = 174.0000 | total_return = 28.0000
+INFO:absl:episode = 203 | episode_len = 9 | episode_return = 1.0000 | steps = 1827 | total_regret = 174.0000 | total_return = 29.0000
+I0611 19:59:43.210483 140306405291840 terminal_logging.py:55] episode = 203 | episode_len = 9 | episode_return = 1.0000 | steps = 1827 | total_regret = 174.0000 | total_return = 29.0000
+INFO:absl:episode = 204 | episode_len = 9 | episode_return = -1.0000 | steps = 1836 | total_regret = 176.0000 | total_return = 28.0000
+I0611 19:59:43.270496 140306405291840 terminal_logging.py:55] episode = 204 | episode_len = 9 | episode_return = -1.0000 | steps = 1836 | total_regret = 176.0000 | total_return = 28.0000
+INFO:absl:episode = 205 | episode_len = 9 | episode_return = 1.0000 | steps = 1845 | total_regret = 176.0000 | total_return = 29.0000
+I0611 19:59:43.342880 140306405291840 terminal_logging.py:55] episode = 205 | episode_len = 9 | episode_return = 1.0000 | steps = 1845 | total_regret = 176.0000 | total_return = 29.0000
+INFO:absl:episode = 206 | episode_len = 9 | episode_return = 1.0000 | steps = 1854 | total_regret = 176.0000 | total_return = 30.0000
+I0611 19:59:43.401936 140306405291840 terminal_logging.py:55] episode = 206 | episode_len = 9 | episode_return = 1.0000 | steps = 1854 | total_regret = 176.0000 | total_return = 30.0000
+INFO:absl:episode = 207 | episode_len = 9 | episode_return = 1.0000 | steps = 1863 | total_regret = 176.0000 | total_return = 31.0000
+I0611 19:59:43.485172 140306405291840 terminal_logging.py:55] episode = 207 | episode_len = 9 | episode_return = 1.0000 | steps = 1863 | total_regret = 176.0000 | total_return = 31.0000
+INFO:absl:episode = 208 | episode_len = 9 | episode_return = 1.0000 | steps = 1872 | total_regret = 176.0000 | total_return = 32.0000
+I0611 19:59:43.562525 140306405291840 terminal_logging.py:55] episode = 208 | episode_len = 9 | episode_return = 1.0000 | steps = 1872 | total_regret = 176.0000 | total_return = 32.0000
+INFO:absl:episode = 209 | episode_len = 9 | episode_return = 1.0000 | steps = 1881 | total_regret = 176.0000 | total_return = 33.0000
+I0611 19:59:43.619355 140306405291840 terminal_logging.py:55] episode = 209 | episode_len = 9 | episode_return = 1.0000 | steps = 1881 | total_regret = 176.0000 | total_return = 33.0000
+INFO:absl:episode = 210 | episode_len = 9 | episode_return = 1.0000 | steps = 1890 | total_regret = 176.0000 | total_return = 34.0000
+I0611 19:59:43.671884 140306405291840 terminal_logging.py:55] episode = 210 | episode_len = 9 | episode_return = 1.0000 | steps = 1890 | total_regret = 176.0000 | total_return = 34.0000
+INFO:absl:episode = 211 | episode_len = 9 | episode_return = -1.0000 | steps = 1899 | total_regret = 178.0000 | total_return = 33.0000
+I0611 19:59:43.726057 140306405291840 terminal_logging.py:55] episode = 211 | episode_len = 9 | episode_return = -1.0000 | steps = 1899 | total_regret = 178.0000 | total_return = 33.0000
+INFO:absl:episode = 212 | episode_len = 9 | episode_return = -1.0000 | steps = 1908 | total_regret = 180.0000 | total_return = 32.0000
+I0611 19:59:43.777767 140306405291840 terminal_logging.py:55] episode = 212 | episode_len = 9 | episode_return = -1.0000 | steps = 1908 | total_regret = 180.0000 | total_return = 32.0000
+INFO:absl:episode = 213 | episode_len = 9 | episode_return = 1.0000 | steps = 1917 | total_regret = 180.0000 | total_return = 33.0000
+I0611 19:59:43.834504 140306405291840 terminal_logging.py:55] episode = 213 | episode_len = 9 | episode_return = 1.0000 | steps = 1917 | total_regret = 180.0000 | total_return = 33.0000
+INFO:absl:episode = 214 | episode_len = 9 | episode_return = 1.0000 | steps = 1926 | total_regret = 180.0000 | total_return = 34.0000
+I0611 19:59:43.910632 140306405291840 terminal_logging.py:55] episode = 214 | episode_len = 9 | episode_return = 1.0000 | steps = 1926 | total_regret = 180.0000 | total_return = 34.0000
+INFO:absl:episode = 215 | episode_len = 9 | episode_return = -1.0000 | steps = 1935 | total_regret = 182.0000 | total_return = 33.0000
+I0611 19:59:44.005564 140306405291840 terminal_logging.py:55] episode = 215 | episode_len = 9 | episode_return = -1.0000 | steps = 1935 | total_regret = 182.0000 | total_return = 33.0000
+INFO:absl:episode = 216 | episode_len = 9 | episode_return = -1.0000 | steps = 1944 | total_regret = 184.0000 | total_return = 32.0000
+I0611 19:59:44.084495 140306405291840 terminal_logging.py:55] episode = 216 | episode_len = 9 | episode_return = -1.0000 | steps = 1944 | total_regret = 184.0000 | total_return = 32.0000
+INFO:absl:episode = 217 | episode_len = 9 | episode_return = 1.0000 | steps = 1953 | total_regret = 184.0000 | total_return = 33.0000
+I0611 19:59:44.142528 140306405291840 terminal_logging.py:55] episode = 217 | episode_len = 9 | episode_return = 1.0000 | steps = 1953 | total_regret = 184.0000 | total_return = 33.0000
+INFO:absl:episode = 218 | episode_len = 9 | episode_return = 1.0000 | steps = 1962 | total_regret = 184.0000 | total_return = 34.0000
+I0611 19:59:44.204463 140306405291840 terminal_logging.py:55] episode = 218 | episode_len = 9 | episode_return = 1.0000 | steps = 1962 | total_regret = 184.0000 | total_return = 34.0000
+INFO:absl:episode = 219 | episode_len = 9 | episode_return = 1.0000 | steps = 1971 | total_regret = 184.0000 | total_return = 35.0000
+I0611 19:59:44.274672 140306405291840 terminal_logging.py:55] episode = 219 | episode_len = 9 | episode_return = 1.0000 | steps = 1971 | total_regret = 184.0000 | total_return = 35.0000
+INFO:absl:episode = 220 | episode_len = 9 | episode_return = 1.0000 | steps = 1980 | total_regret = 184.0000 | total_return = 36.0000
+I0611 19:59:44.346836 140306405291840 terminal_logging.py:55] episode = 220 | episode_len = 9 | episode_return = 1.0000 | steps = 1980 | total_regret = 184.0000 | total_return = 36.0000
+INFO:absl:episode = 221 | episode_len = 9 | episode_return = -1.0000 | steps = 1989 | total_regret = 186.0000 | total_return = 35.0000
+I0611 19:59:44.411949 140306405291840 terminal_logging.py:55] episode = 221 | episode_len = 9 | episode_return = -1.0000 | steps = 1989 | total_regret = 186.0000 | total_return = 35.0000
+INFO:absl:episode = 222 | episode_len = 9 | episode_return = -1.0000 | steps = 1998 | total_regret = 188.0000 | total_return = 34.0000
+I0611 19:59:44.478982 140306405291840 terminal_logging.py:55] episode = 222 | episode_len = 9 | episode_return = -1.0000 | steps = 1998 | total_regret = 188.0000 | total_return = 34.0000
+INFO:absl:episode = 223 | episode_len = 9 | episode_return = 1.0000 | steps = 2007 | total_regret = 188.0000 | total_return = 35.0000
+I0611 19:59:44.580469 140306405291840 terminal_logging.py:55] episode = 223 | episode_len = 9 | episode_return = 1.0000 | steps = 2007 | total_regret = 188.0000 | total_return = 35.0000
+INFO:absl:episode = 224 | episode_len = 9 | episode_return = 1.0000 | steps = 2016 | total_regret = 188.0000 | total_return = 36.0000
+I0611 19:59:44.658119 140306405291840 terminal_logging.py:55] episode = 224 | episode_len = 9 | episode_return = 1.0000 | steps = 2016 | total_regret = 188.0000 | total_return = 36.0000
+INFO:absl:episode = 225 | episode_len = 9 | episode_return = 1.0000 | steps = 2025 | total_regret = 188.0000 | total_return = 37.0000
+I0611 19:59:44.729376 140306405291840 terminal_logging.py:55] episode = 225 | episode_len = 9 | episode_return = 1.0000 | steps = 2025 | total_regret = 188.0000 | total_return = 37.0000
+INFO:absl:episode = 226 | episode_len = 9 | episode_return = -1.0000 | steps = 2034 | total_regret = 190.0000 | total_return = 36.0000
+I0611 19:59:44.781041 140306405291840 terminal_logging.py:55] episode = 226 | episode_len = 9 | episode_return = -1.0000 | steps = 2034 | total_regret = 190.0000 | total_return = 36.0000
+INFO:absl:episode = 227 | episode_len = 9 | episode_return = 1.0000 | steps = 2043 | total_regret = 190.0000 | total_return = 37.0000
+I0611 19:59:44.843772 140306405291840 terminal_logging.py:55] episode = 227 | episode_len = 9 | episode_return = 1.0000 | steps = 2043 | total_regret = 190.0000 | total_return = 37.0000
+INFO:absl:episode = 228 | episode_len = 9 | episode_return = 1.0000 | steps = 2052 | total_regret = 190.0000 | total_return = 38.0000
+I0611 19:59:44.909454 140306405291840 terminal_logging.py:55] episode = 228 | episode_len = 9 | episode_return = 1.0000 | steps = 2052 | total_regret = 190.0000 | total_return = 38.0000
+INFO:absl:episode = 229 | episode_len = 9 | episode_return = 1.0000 | steps = 2061 | total_regret = 190.0000 | total_return = 39.0000
+I0611 19:59:45.010319 140306405291840 terminal_logging.py:55] episode = 229 | episode_len = 9 | episode_return = 1.0000 | steps = 2061 | total_regret = 190.0000 | total_return = 39.0000
+INFO:absl:episode = 230 | episode_len = 9 | episode_return = 1.0000 | steps = 2070 | total_regret = 190.0000 | total_return = 40.0000
+I0611 19:59:45.111113 140306405291840 terminal_logging.py:55] episode = 230 | episode_len = 9 | episode_return = 1.0000 | steps = 2070 | total_regret = 190.0000 | total_return = 40.0000
+INFO:absl:episode = 231 | episode_len = 9 | episode_return = 1.0000 | steps = 2079 | total_regret = 190.0000 | total_return = 41.0000
+I0611 19:59:45.173310 140306405291840 terminal_logging.py:55] episode = 231 | episode_len = 9 | episode_return = 1.0000 | steps = 2079 | total_regret = 190.0000 | total_return = 41.0000
+INFO:absl:episode = 232 | episode_len = 9 | episode_return = 1.0000 | steps = 2088 | total_regret = 190.0000 | total_return = 42.0000
+I0611 19:59:45.226713 140306405291840 terminal_logging.py:55] episode = 232 | episode_len = 9 | episode_return = 1.0000 | steps = 2088 | total_regret = 190.0000 | total_return = 42.0000
+INFO:absl:episode = 233 | episode_len = 9 | episode_return = 1.0000 | steps = 2097 | total_regret = 190.0000 | total_return = 43.0000
+I0611 19:59:45.272248 140306405291840 terminal_logging.py:55] episode = 233 | episode_len = 9 | episode_return = 1.0000 | steps = 2097 | total_regret = 190.0000 | total_return = 43.0000
+INFO:absl:episode = 234 | episode_len = 9 | episode_return = 1.0000 | steps = 2106 | total_regret = 190.0000 | total_return = 44.0000
+I0611 19:59:45.313444 140306405291840 terminal_logging.py:55] episode = 234 | episode_len = 9 | episode_return = 1.0000 | steps = 2106 | total_regret = 190.0000 | total_return = 44.0000
+INFO:absl:episode = 235 | episode_len = 9 | episode_return = 1.0000 | steps = 2115 | total_regret = 190.0000 | total_return = 45.0000
+I0611 19:59:45.349299 140306405291840 terminal_logging.py:55] episode = 235 | episode_len = 9 | episode_return = 1.0000 | steps = 2115 | total_regret = 190.0000 | total_return = 45.0000
+INFO:absl:episode = 236 | episode_len = 9 | episode_return = -1.0000 | steps = 2124 | total_regret = 192.0000 | total_return = 44.0000
+I0611 19:59:45.388122 140306405291840 terminal_logging.py:55] episode = 236 | episode_len = 9 | episode_return = -1.0000 | steps = 2124 | total_regret = 192.0000 | total_return = 44.0000
+INFO:absl:episode = 237 | episode_len = 9 | episode_return = 1.0000 | steps = 2133 | total_regret = 192.0000 | total_return = 45.0000
+I0611 19:59:45.425505 140306405291840 terminal_logging.py:55] episode = 237 | episode_len = 9 | episode_return = 1.0000 | steps = 2133 | total_regret = 192.0000 | total_return = 45.0000
+INFO:absl:episode = 238 | episode_len = 9 | episode_return = -1.0000 | steps = 2142 | total_regret = 194.0000 | total_return = 44.0000
+I0611 19:59:45.459878 140306405291840 terminal_logging.py:55] episode = 238 | episode_len = 9 | episode_return = -1.0000 | steps = 2142 | total_regret = 194.0000 | total_return = 44.0000
+INFO:absl:episode = 239 | episode_len = 9 | episode_return = -1.0000 | steps = 2151 | total_regret = 196.0000 | total_return = 43.0000
+I0611 19:59:45.503262 140306405291840 terminal_logging.py:55] episode = 239 | episode_len = 9 | episode_return = -1.0000 | steps = 2151 | total_regret = 196.0000 | total_return = 43.0000
+INFO:absl:episode = 240 | episode_len = 9 | episode_return = -1.0000 | steps = 2160 | total_regret = 198.0000 | total_return = 42.0000
+I0611 19:59:45.553447 140306405291840 terminal_logging.py:55] episode = 240 | episode_len = 9 | episode_return = -1.0000 | steps = 2160 | total_regret = 198.0000 | total_return = 42.0000
+INFO:absl:episode = 241 | episode_len = 9 | episode_return = -1.0000 | steps = 2169 | total_regret = 200.0000 | total_return = 41.0000
+I0611 19:59:45.615339 140306405291840 terminal_logging.py:55] episode = 241 | episode_len = 9 | episode_return = -1.0000 | steps = 2169 | total_regret = 200.0000 | total_return = 41.0000
+INFO:absl:episode = 242 | episode_len = 9 | episode_return = 1.0000 | steps = 2178 | total_regret = 200.0000 | total_return = 42.0000
+I0611 19:59:45.654221 140306405291840 terminal_logging.py:55] episode = 242 | episode_len = 9 | episode_return = 1.0000 | steps = 2178 | total_regret = 200.0000 | total_return = 42.0000
+INFO:absl:episode = 243 | episode_len = 9 | episode_return = -1.0000 | steps = 2187 | total_regret = 202.0000 | total_return = 41.0000
+I0611 19:59:45.692042 140306405291840 terminal_logging.py:55] episode = 243 | episode_len = 9 | episode_return = -1.0000 | steps = 2187 | total_regret = 202.0000 | total_return = 41.0000
+INFO:absl:episode = 244 | episode_len = 9 | episode_return = 1.0000 | steps = 2196 | total_regret = 202.0000 | total_return = 42.0000
+I0611 19:59:45.728432 140306405291840 terminal_logging.py:55] episode = 244 | episode_len = 9 | episode_return = 1.0000 | steps = 2196 | total_regret = 202.0000 | total_return = 42.0000
+INFO:absl:episode = 245 | episode_len = 9 | episode_return = -1.0000 | steps = 2205 | total_regret = 204.0000 | total_return = 41.0000
+I0611 19:59:45.765411 140306405291840 terminal_logging.py:55] episode = 245 | episode_len = 9 | episode_return = -1.0000 | steps = 2205 | total_regret = 204.0000 | total_return = 41.0000
+INFO:absl:episode = 246 | episode_len = 9 | episode_return = 1.0000 | steps = 2214 | total_regret = 204.0000 | total_return = 42.0000
+I0611 19:59:45.800337 140306405291840 terminal_logging.py:55] episode = 246 | episode_len = 9 | episode_return = 1.0000 | steps = 2214 | total_regret = 204.0000 | total_return = 42.0000
+INFO:absl:episode = 247 | episode_len = 9 | episode_return = 1.0000 | steps = 2223 | total_regret = 204.0000 | total_return = 43.0000
+I0611 19:59:45.838233 140306405291840 terminal_logging.py:55] episode = 247 | episode_len = 9 | episode_return = 1.0000 | steps = 2223 | total_regret = 204.0000 | total_return = 43.0000
+INFO:absl:episode = 248 | episode_len = 9 | episode_return = 1.0000 | steps = 2232 | total_regret = 204.0000 | total_return = 44.0000
+I0611 19:59:45.873849 140306405291840 terminal_logging.py:55] episode = 248 | episode_len = 9 | episode_return = 1.0000 | steps = 2232 | total_regret = 204.0000 | total_return = 44.0000
+INFO:absl:episode = 249 | episode_len = 9 | episode_return = -1.0000 | steps = 2241 | total_regret = 206.0000 | total_return = 43.0000
+I0611 19:59:45.917127 140306405291840 terminal_logging.py:55] episode = 249 | episode_len = 9 | episode_return = -1.0000 | steps = 2241 | total_regret = 206.0000 | total_return = 43.0000
+INFO:absl:episode = 250 | episode_len = 9 | episode_return = 1.0000 | steps = 2250 | total_regret = 206.0000 | total_return = 44.0000
+I0611 19:59:45.961366 140306405291840 terminal_logging.py:55] episode = 250 | episode_len = 9 | episode_return = 1.0000 | steps = 2250 | total_regret = 206.0000 | total_return = 44.0000
+INFO:absl:episode = 251 | episode_len = 9 | episode_return = 1.0000 | steps = 2259 | total_regret = 206.0000 | total_return = 45.0000
+I0611 19:59:46.018609 140306405291840 terminal_logging.py:55] episode = 251 | episode_len = 9 | episode_return = 1.0000 | steps = 2259 | total_regret = 206.0000 | total_return = 45.0000
+INFO:absl:episode = 252 | episode_len = 9 | episode_return = 1.0000 | steps = 2268 | total_regret = 206.0000 | total_return = 46.0000
+I0611 19:59:46.078268 140306405291840 terminal_logging.py:55] episode = 252 | episode_len = 9 | episode_return = 1.0000 | steps = 2268 | total_regret = 206.0000 | total_return = 46.0000
+INFO:absl:episode = 253 | episode_len = 9 | episode_return = 1.0000 | steps = 2277 | total_regret = 206.0000 | total_return = 47.0000
+I0611 19:59:46.178945 140306405291840 terminal_logging.py:55] episode = 253 | episode_len = 9 | episode_return = 1.0000 | steps = 2277 | total_regret = 206.0000 | total_return = 47.0000
+INFO:absl:episode = 254 | episode_len = 9 | episode_return = -1.0000 | steps = 2286 | total_regret = 208.0000 | total_return = 46.0000
+I0611 19:59:46.244767 140306405291840 terminal_logging.py:55] episode = 254 | episode_len = 9 | episode_return = -1.0000 | steps = 2286 | total_regret = 208.0000 | total_return = 46.0000
+INFO:absl:episode = 255 | episode_len = 9 | episode_return = -1.0000 | steps = 2295 | total_regret = 210.0000 | total_return = 45.0000
+I0611 19:59:46.324544 140306405291840 terminal_logging.py:55] episode = 255 | episode_len = 9 | episode_return = -1.0000 | steps = 2295 | total_regret = 210.0000 | total_return = 45.0000
+INFO:absl:episode = 256 | episode_len = 9 | episode_return = 1.0000 | steps = 2304 | total_regret = 210.0000 | total_return = 46.0000
+I0611 19:59:46.386733 140306405291840 terminal_logging.py:55] episode = 256 | episode_len = 9 | episode_return = 1.0000 | steps = 2304 | total_regret = 210.0000 | total_return = 46.0000
+INFO:absl:episode = 257 | episode_len = 9 | episode_return = 1.0000 | steps = 2313 | total_regret = 210.0000 | total_return = 47.0000
+I0611 19:59:46.461087 140306405291840 terminal_logging.py:55] episode = 257 | episode_len = 9 | episode_return = 1.0000 | steps = 2313 | total_regret = 210.0000 | total_return = 47.0000
+INFO:absl:episode = 258 | episode_len = 9 | episode_return = 1.0000 | steps = 2322 | total_regret = 210.0000 | total_return = 48.0000
+I0611 19:59:46.537756 140306405291840 terminal_logging.py:55] episode = 258 | episode_len = 9 | episode_return = 1.0000 | steps = 2322 | total_regret = 210.0000 | total_return = 48.0000
+INFO:absl:episode = 259 | episode_len = 9 | episode_return = 1.0000 | steps = 2331 | total_regret = 210.0000 | total_return = 49.0000
+I0611 19:59:46.607867 140306405291840 terminal_logging.py:55] episode = 259 | episode_len = 9 | episode_return = 1.0000 | steps = 2331 | total_regret = 210.0000 | total_return = 49.0000
+INFO:absl:episode = 260 | episode_len = 9 | episode_return = -1.0000 | steps = 2340 | total_regret = 212.0000 | total_return = 48.0000
+I0611 19:59:46.718083 140306405291840 terminal_logging.py:55] episode = 260 | episode_len = 9 | episode_return = -1.0000 | steps = 2340 | total_regret = 212.0000 | total_return = 48.0000
+INFO:absl:episode = 261 | episode_len = 9 | episode_return = -1.0000 | steps = 2349 | total_regret = 214.0000 | total_return = 47.0000
+I0611 19:59:46.793976 140306405291840 terminal_logging.py:55] episode = 261 | episode_len = 9 | episode_return = -1.0000 | steps = 2349 | total_regret = 214.0000 | total_return = 47.0000
+INFO:absl:episode = 262 | episode_len = 9 | episode_return = 1.0000 | steps = 2358 | total_regret = 214.0000 | total_return = 48.0000
+I0611 19:59:46.864204 140306405291840 terminal_logging.py:55] episode = 262 | episode_len = 9 | episode_return = 1.0000 | steps = 2358 | total_regret = 214.0000 | total_return = 48.0000
+INFO:absl:episode = 263 | episode_len = 9 | episode_return = 1.0000 | steps = 2367 | total_regret = 214.0000 | total_return = 49.0000
+I0611 19:59:46.932810 140306405291840 terminal_logging.py:55] episode = 263 | episode_len = 9 | episode_return = 1.0000 | steps = 2367 | total_regret = 214.0000 | total_return = 49.0000
+INFO:absl:episode = 264 | episode_len = 9 | episode_return = 1.0000 | steps = 2376 | total_regret = 214.0000 | total_return = 50.0000
+I0611 19:59:47.080319 140306405291840 terminal_logging.py:55] episode = 264 | episode_len = 9 | episode_return = 1.0000 | steps = 2376 | total_regret = 214.0000 | total_return = 50.0000
+INFO:absl:episode = 265 | episode_len = 9 | episode_return = -1.0000 | steps = 2385 | total_regret = 216.0000 | total_return = 49.0000
+I0611 19:59:47.155067 140306405291840 terminal_logging.py:55] episode = 265 | episode_len = 9 | episode_return = -1.0000 | steps = 2385 | total_regret = 216.0000 | total_return = 49.0000
+INFO:absl:episode = 266 | episode_len = 9 | episode_return = 1.0000 | steps = 2394 | total_regret = 216.0000 | total_return = 50.0000
+I0611 19:59:47.239449 140306405291840 terminal_logging.py:55] episode = 266 | episode_len = 9 | episode_return = 1.0000 | steps = 2394 | total_regret = 216.0000 | total_return = 50.0000
+INFO:absl:episode = 267 | episode_len = 9 | episode_return = 1.0000 | steps = 2403 | total_regret = 216.0000 | total_return = 51.0000
+I0611 19:59:47.305330 140306405291840 terminal_logging.py:55] episode = 267 | episode_len = 9 | episode_return = 1.0000 | steps = 2403 | total_regret = 216.0000 | total_return = 51.0000
+INFO:absl:episode = 268 | episode_len = 9 | episode_return = 1.0000 | steps = 2412 | total_regret = 216.0000 | total_return = 52.0000
+I0611 19:59:47.361677 140306405291840 terminal_logging.py:55] episode = 268 | episode_len = 9 | episode_return = 1.0000 | steps = 2412 | total_regret = 216.0000 | total_return = 52.0000
+INFO:absl:episode = 269 | episode_len = 9 | episode_return = 1.0000 | steps = 2421 | total_regret = 216.0000 | total_return = 53.0000
+I0611 19:59:47.432046 140306405291840 terminal_logging.py:55] episode = 269 | episode_len = 9 | episode_return = 1.0000 | steps = 2421 | total_regret = 216.0000 | total_return = 53.0000
+INFO:absl:episode = 270 | episode_len = 9 | episode_return = 1.0000 | steps = 2430 | total_regret = 216.0000 | total_return = 54.0000
+I0611 19:59:47.497083 140306405291840 terminal_logging.py:55] episode = 270 | episode_len = 9 | episode_return = 1.0000 | steps = 2430 | total_regret = 216.0000 | total_return = 54.0000
+INFO:absl:episode = 271 | episode_len = 9 | episode_return = 1.0000 | steps = 2439 | total_regret = 216.0000 | total_return = 55.0000
+I0611 19:59:47.562189 140306405291840 terminal_logging.py:55] episode = 271 | episode_len = 9 | episode_return = 1.0000 | steps = 2439 | total_regret = 216.0000 | total_return = 55.0000
+INFO:absl:episode = 272 | episode_len = 9 | episode_return = 1.0000 | steps = 2448 | total_regret = 216.0000 | total_return = 56.0000
+I0611 19:59:47.628387 140306405291840 terminal_logging.py:55] episode = 272 | episode_len = 9 | episode_return = 1.0000 | steps = 2448 | total_regret = 216.0000 | total_return = 56.0000
+INFO:absl:episode = 273 | episode_len = 9 | episode_return = 1.0000 | steps = 2457 | total_regret = 216.0000 | total_return = 57.0000
+I0611 19:59:47.688472 140306405291840 terminal_logging.py:55] episode = 273 | episode_len = 9 | episode_return = 1.0000 | steps = 2457 | total_regret = 216.0000 | total_return = 57.0000
+INFO:absl:episode = 274 | episode_len = 9 | episode_return = 1.0000 | steps = 2466 | total_regret = 216.0000 | total_return = 58.0000
+I0611 19:59:47.778225 140306405291840 terminal_logging.py:55] episode = 274 | episode_len = 9 | episode_return = 1.0000 | steps = 2466 | total_regret = 216.0000 | total_return = 58.0000
+INFO:absl:episode = 275 | episode_len = 9 | episode_return = 1.0000 | steps = 2475 | total_regret = 216.0000 | total_return = 59.0000
+I0611 19:59:47.855246 140306405291840 terminal_logging.py:55] episode = 275 | episode_len = 9 | episode_return = 1.0000 | steps = 2475 | total_regret = 216.0000 | total_return = 59.0000
+INFO:absl:episode = 276 | episode_len = 9 | episode_return = 1.0000 | steps = 2484 | total_regret = 216.0000 | total_return = 60.0000
+I0611 19:59:47.930169 140306405291840 terminal_logging.py:55] episode = 276 | episode_len = 9 | episode_return = 1.0000 | steps = 2484 | total_regret = 216.0000 | total_return = 60.0000
+INFO:absl:episode = 277 | episode_len = 9 | episode_return = 1.0000 | steps = 2493 | total_regret = 216.0000 | total_return = 61.0000
+I0611 19:59:48.002033 140306405291840 terminal_logging.py:55] episode = 277 | episode_len = 9 | episode_return = 1.0000 | steps = 2493 | total_regret = 216.0000 | total_return = 61.0000
+INFO:absl:episode = 278 | episode_len = 9 | episode_return = 1.0000 | steps = 2502 | total_regret = 216.0000 | total_return = 62.0000
+I0611 19:59:48.055926 140306405291840 terminal_logging.py:55] episode = 278 | episode_len = 9 | episode_return = 1.0000 | steps = 2502 | total_regret = 216.0000 | total_return = 62.0000
+INFO:absl:episode = 279 | episode_len = 9 | episode_return = 1.0000 | steps = 2511 | total_regret = 216.0000 | total_return = 63.0000
+I0611 19:59:48.112843 140306405291840 terminal_logging.py:55] episode = 279 | episode_len = 9 | episode_return = 1.0000 | steps = 2511 | total_regret = 216.0000 | total_return = 63.0000
+INFO:absl:episode = 280 | episode_len = 9 | episode_return = 1.0000 | steps = 2520 | total_regret = 216.0000 | total_return = 64.0000
+I0611 19:59:48.165356 140306405291840 terminal_logging.py:55] episode = 280 | episode_len = 9 | episode_return = 1.0000 | steps = 2520 | total_regret = 216.0000 | total_return = 64.0000
+INFO:absl:episode = 281 | episode_len = 9 | episode_return = 1.0000 | steps = 2529 | total_regret = 216.0000 | total_return = 65.0000
+I0611 19:59:48.227250 140306405291840 terminal_logging.py:55] episode = 281 | episode_len = 9 | episode_return = 1.0000 | steps = 2529 | total_regret = 216.0000 | total_return = 65.0000
+INFO:absl:episode = 282 | episode_len = 9 | episode_return = 1.0000 | steps = 2538 | total_regret = 216.0000 | total_return = 66.0000
+I0611 19:59:48.315326 140306405291840 terminal_logging.py:55] episode = 282 | episode_len = 9 | episode_return = 1.0000 | steps = 2538 | total_regret = 216.0000 | total_return = 66.0000
+INFO:absl:episode = 283 | episode_len = 9 | episode_return = 1.0000 | steps = 2547 | total_regret = 216.0000 | total_return = 67.0000
+I0611 19:59:48.363674 140306405291840 terminal_logging.py:55] episode = 283 | episode_len = 9 | episode_return = 1.0000 | steps = 2547 | total_regret = 216.0000 | total_return = 67.0000
+INFO:absl:episode = 284 | episode_len = 9 | episode_return = 1.0000 | steps = 2556 | total_regret = 216.0000 | total_return = 68.0000
+I0611 19:59:48.411837 140306405291840 terminal_logging.py:55] episode = 284 | episode_len = 9 | episode_return = 1.0000 | steps = 2556 | total_regret = 216.0000 | total_return = 68.0000
+INFO:absl:episode = 285 | episode_len = 9 | episode_return = 1.0000 | steps = 2565 | total_regret = 216.0000 | total_return = 69.0000
+I0611 19:59:48.466561 140306405291840 terminal_logging.py:55] episode = 285 | episode_len = 9 | episode_return = 1.0000 | steps = 2565 | total_regret = 216.0000 | total_return = 69.0000
+INFO:absl:episode = 286 | episode_len = 9 | episode_return = 1.0000 | steps = 2574 | total_regret = 216.0000 | total_return = 70.0000
+I0611 19:59:48.522822 140306405291840 terminal_logging.py:55] episode = 286 | episode_len = 9 | episode_return = 1.0000 | steps = 2574 | total_regret = 216.0000 | total_return = 70.0000
+INFO:absl:episode = 287 | episode_len = 9 | episode_return = 1.0000 | steps = 2583 | total_regret = 216.0000 | total_return = 71.0000
+I0611 19:59:48.584873 140306405291840 terminal_logging.py:55] episode = 287 | episode_len = 9 | episode_return = 1.0000 | steps = 2583 | total_regret = 216.0000 | total_return = 71.0000
+INFO:absl:episode = 288 | episode_len = 9 | episode_return = -1.0000 | steps = 2592 | total_regret = 218.0000 | total_return = 70.0000
+I0611 19:59:48.643910 140306405291840 terminal_logging.py:55] episode = 288 | episode_len = 9 | episode_return = -1.0000 | steps = 2592 | total_regret = 218.0000 | total_return = 70.0000
+INFO:absl:episode = 289 | episode_len = 9 | episode_return = -1.0000 | steps = 2601 | total_regret = 220.0000 | total_return = 69.0000
+I0611 19:59:48.694256 140306405291840 terminal_logging.py:55] episode = 289 | episode_len = 9 | episode_return = -1.0000 | steps = 2601 | total_regret = 220.0000 | total_return = 69.0000
+INFO:absl:episode = 290 | episode_len = 9 | episode_return = -1.0000 | steps = 2610 | total_regret = 222.0000 | total_return = 68.0000
+I0611 19:59:48.746307 140306405291840 terminal_logging.py:55] episode = 290 | episode_len = 9 | episode_return = -1.0000 | steps = 2610 | total_regret = 222.0000 | total_return = 68.0000
+INFO:absl:episode = 291 | episode_len = 9 | episode_return = 1.0000 | steps = 2619 | total_regret = 222.0000 | total_return = 69.0000
+I0611 19:59:48.815256 140306405291840 terminal_logging.py:55] episode = 291 | episode_len = 9 | episode_return = 1.0000 | steps = 2619 | total_regret = 222.0000 | total_return = 69.0000
+INFO:absl:episode = 292 | episode_len = 9 | episode_return = 1.0000 | steps = 2628 | total_regret = 222.0000 | total_return = 70.0000
+I0611 19:59:48.861726 140306405291840 terminal_logging.py:55] episode = 292 | episode_len = 9 | episode_return = 1.0000 | steps = 2628 | total_regret = 222.0000 | total_return = 70.0000
+INFO:absl:episode = 293 | episode_len = 9 | episode_return = 1.0000 | steps = 2637 | total_regret = 222.0000 | total_return = 71.0000
+I0611 19:59:48.908342 140306405291840 terminal_logging.py:55] episode = 293 | episode_len = 9 | episode_return = 1.0000 | steps = 2637 | total_regret = 222.0000 | total_return = 71.0000
+INFO:absl:episode = 294 | episode_len = 9 | episode_return = -1.0000 | steps = 2646 | total_regret = 224.0000 | total_return = 70.0000
+I0611 19:59:48.959050 140306405291840 terminal_logging.py:55] episode = 294 | episode_len = 9 | episode_return = -1.0000 | steps = 2646 | total_regret = 224.0000 | total_return = 70.0000
+INFO:absl:episode = 295 | episode_len = 9 | episode_return = -1.0000 | steps = 2655 | total_regret = 226.0000 | total_return = 69.0000
+I0611 19:59:49.008140 140306405291840 terminal_logging.py:55] episode = 295 | episode_len = 9 | episode_return = -1.0000 | steps = 2655 | total_regret = 226.0000 | total_return = 69.0000
+INFO:absl:episode = 296 | episode_len = 9 | episode_return = 1.0000 | steps = 2664 | total_regret = 226.0000 | total_return = 70.0000
+I0611 19:59:49.055660 140306405291840 terminal_logging.py:55] episode = 296 | episode_len = 9 | episode_return = 1.0000 | steps = 2664 | total_regret = 226.0000 | total_return = 70.0000
+INFO:absl:episode = 297 | episode_len = 9 | episode_return = 1.0000 | steps = 2673 | total_regret = 226.0000 | total_return = 71.0000
+I0611 19:59:49.145539 140306405291840 terminal_logging.py:55] episode = 297 | episode_len = 9 | episode_return = 1.0000 | steps = 2673 | total_regret = 226.0000 | total_return = 71.0000
+INFO:absl:episode = 298 | episode_len = 9 | episode_return = -1.0000 | steps = 2682 | total_regret = 228.0000 | total_return = 70.0000
+I0611 19:59:49.192427 140306405291840 terminal_logging.py:55] episode = 298 | episode_len = 9 | episode_return = -1.0000 | steps = 2682 | total_regret = 228.0000 | total_return = 70.0000
+INFO:absl:episode = 299 | episode_len = 9 | episode_return = 1.0000 | steps = 2691 | total_regret = 228.0000 | total_return = 71.0000
+I0611 19:59:49.236376 140306405291840 terminal_logging.py:55] episode = 299 | episode_len = 9 | episode_return = 1.0000 | steps = 2691 | total_regret = 228.0000 | total_return = 71.0000
+INFO:absl:episode = 300 | episode_len = 9 | episode_return = 1.0000 | steps = 2700 | total_regret = 228.0000 | total_return = 72.0000
+I0611 19:59:49.279694 140306405291840 terminal_logging.py:55] episode = 300 | episode_len = 9 | episode_return = 1.0000 | steps = 2700 | total_regret = 228.0000 | total_return = 72.0000
+INFO:absl:episode = 301 | episode_len = 9 | episode_return = 1.0000 | steps = 2709 | total_regret = 228.0000 | total_return = 73.0000
+I0611 19:59:49.348073 140306405291840 terminal_logging.py:55] episode = 301 | episode_len = 9 | episode_return = 1.0000 | steps = 2709 | total_regret = 228.0000 | total_return = 73.0000
+INFO:absl:episode = 302 | episode_len = 9 | episode_return = -1.0000 | steps = 2718 | total_regret = 230.0000 | total_return = 72.0000
+I0611 19:59:49.392885 140306405291840 terminal_logging.py:55] episode = 302 | episode_len = 9 | episode_return = -1.0000 | steps = 2718 | total_regret = 230.0000 | total_return = 72.0000
+INFO:absl:episode = 303 | episode_len = 9 | episode_return = 1.0000 | steps = 2727 | total_regret = 230.0000 | total_return = 73.0000
+I0611 19:59:49.431388 140306405291840 terminal_logging.py:55] episode = 303 | episode_len = 9 | episode_return = 1.0000 | steps = 2727 | total_regret = 230.0000 | total_return = 73.0000
+INFO:absl:episode = 304 | episode_len = 9 | episode_return = -1.0000 | steps = 2736 | total_regret = 232.0000 | total_return = 72.0000
+I0611 19:59:49.470921 140306405291840 terminal_logging.py:55] episode = 304 | episode_len = 9 | episode_return = -1.0000 | steps = 2736 | total_regret = 232.0000 | total_return = 72.0000
+INFO:absl:episode = 305 | episode_len = 9 | episode_return = -1.0000 | steps = 2745 | total_regret = 234.0000 | total_return = 71.0000
+I0611 19:59:49.510898 140306405291840 terminal_logging.py:55] episode = 305 | episode_len = 9 | episode_return = -1.0000 | steps = 2745 | total_regret = 234.0000 | total_return = 71.0000
+INFO:absl:episode = 306 | episode_len = 9 | episode_return = 1.0000 | steps = 2754 | total_regret = 234.0000 | total_return = 72.0000
+I0611 19:59:49.547586 140306405291840 terminal_logging.py:55] episode = 306 | episode_len = 9 | episode_return = 1.0000 | steps = 2754 | total_regret = 234.0000 | total_return = 72.0000
+INFO:absl:episode = 307 | episode_len = 9 | episode_return = 1.0000 | steps = 2763 | total_regret = 234.0000 | total_return = 73.0000
+I0611 19:59:49.585699 140306405291840 terminal_logging.py:55] episode = 307 | episode_len = 9 | episode_return = 1.0000 | steps = 2763 | total_regret = 234.0000 | total_return = 73.0000
+INFO:absl:episode = 308 | episode_len = 9 | episode_return = 1.0000 | steps = 2772 | total_regret = 234.0000 | total_return = 74.0000
+I0611 19:59:49.622383 140306405291840 terminal_logging.py:55] episode = 308 | episode_len = 9 | episode_return = 1.0000 | steps = 2772 | total_regret = 234.0000 | total_return = 74.0000
+INFO:absl:episode = 309 | episode_len = 9 | episode_return = 1.0000 | steps = 2781 | total_regret = 234.0000 | total_return = 75.0000
+I0611 19:59:49.659170 140306405291840 terminal_logging.py:55] episode = 309 | episode_len = 9 | episode_return = 1.0000 | steps = 2781 | total_regret = 234.0000 | total_return = 75.0000
+INFO:absl:episode = 310 | episode_len = 9 | episode_return = 1.0000 | steps = 2790 | total_regret = 234.0000 | total_return = 76.0000
+I0611 19:59:49.698660 140306405291840 terminal_logging.py:55] episode = 310 | episode_len = 9 | episode_return = 1.0000 | steps = 2790 | total_regret = 234.0000 | total_return = 76.0000
+INFO:absl:episode = 311 | episode_len = 9 | episode_return = 1.0000 | steps = 2799 | total_regret = 234.0000 | total_return = 77.0000
+I0611 19:59:49.737385 140306405291840 terminal_logging.py:55] episode = 311 | episode_len = 9 | episode_return = 1.0000 | steps = 2799 | total_regret = 234.0000 | total_return = 77.0000
+INFO:absl:episode = 312 | episode_len = 9 | episode_return = 1.0000 | steps = 2808 | total_regret = 234.0000 | total_return = 78.0000
+I0611 19:59:49.775966 140306405291840 terminal_logging.py:55] episode = 312 | episode_len = 9 | episode_return = 1.0000 | steps = 2808 | total_regret = 234.0000 | total_return = 78.0000
+INFO:absl:episode = 313 | episode_len = 9 | episode_return = -1.0000 | steps = 2817 | total_regret = 236.0000 | total_return = 77.0000
+I0611 19:59:49.814867 140306405291840 terminal_logging.py:55] episode = 313 | episode_len = 9 | episode_return = -1.0000 | steps = 2817 | total_regret = 236.0000 | total_return = 77.0000
+INFO:absl:episode = 314 | episode_len = 9 | episode_return = -1.0000 | steps = 2826 | total_regret = 238.0000 | total_return = 76.0000
+I0611 19:59:49.868796 140306405291840 terminal_logging.py:55] episode = 314 | episode_len = 9 | episode_return = -1.0000 | steps = 2826 | total_regret = 238.0000 | total_return = 76.0000
+INFO:absl:episode = 315 | episode_len = 9 | episode_return = -1.0000 | steps = 2835 | total_regret = 240.0000 | total_return = 75.0000
+I0611 19:59:49.907370 140306405291840 terminal_logging.py:55] episode = 315 | episode_len = 9 | episode_return = -1.0000 | steps = 2835 | total_regret = 240.0000 | total_return = 75.0000
+INFO:absl:episode = 316 | episode_len = 9 | episode_return = 1.0000 | steps = 2844 | total_regret = 240.0000 | total_return = 76.0000
+I0611 19:59:49.945114 140306405291840 terminal_logging.py:55] episode = 316 | episode_len = 9 | episode_return = 1.0000 | steps = 2844 | total_regret = 240.0000 | total_return = 76.0000
+INFO:absl:episode = 317 | episode_len = 9 | episode_return = 1.0000 | steps = 2853 | total_regret = 240.0000 | total_return = 77.0000
+I0611 19:59:49.982151 140306405291840 terminal_logging.py:55] episode = 317 | episode_len = 9 | episode_return = 1.0000 | steps = 2853 | total_regret = 240.0000 | total_return = 77.0000
+INFO:absl:episode = 318 | episode_len = 9 | episode_return = 1.0000 | steps = 2862 | total_regret = 240.0000 | total_return = 78.0000
+I0611 19:59:50.019044 140306405291840 terminal_logging.py:55] episode = 318 | episode_len = 9 | episode_return = 1.0000 | steps = 2862 | total_regret = 240.0000 | total_return = 78.0000
+INFO:absl:episode = 319 | episode_len = 9 | episode_return = 1.0000 | steps = 2871 | total_regret = 240.0000 | total_return = 79.0000
+I0611 19:59:50.057217 140306405291840 terminal_logging.py:55] episode = 319 | episode_len = 9 | episode_return = 1.0000 | steps = 2871 | total_regret = 240.0000 | total_return = 79.0000
+INFO:absl:episode = 320 | episode_len = 9 | episode_return = 1.0000 | steps = 2880 | total_regret = 240.0000 | total_return = 80.0000
+I0611 19:59:50.096037 140306405291840 terminal_logging.py:55] episode = 320 | episode_len = 9 | episode_return = 1.0000 | steps = 2880 | total_regret = 240.0000 | total_return = 80.0000
+INFO:absl:episode = 321 | episode_len = 9 | episode_return = 1.0000 | steps = 2889 | total_regret = 240.0000 | total_return = 81.0000
+I0611 19:59:50.133184 140306405291840 terminal_logging.py:55] episode = 321 | episode_len = 9 | episode_return = 1.0000 | steps = 2889 | total_regret = 240.0000 | total_return = 81.0000
+INFO:absl:episode = 322 | episode_len = 9 | episode_return = 1.0000 | steps = 2898 | total_regret = 240.0000 | total_return = 82.0000
+I0611 19:59:50.171882 140306405291840 terminal_logging.py:55] episode = 322 | episode_len = 9 | episode_return = 1.0000 | steps = 2898 | total_regret = 240.0000 | total_return = 82.0000
+INFO:absl:episode = 323 | episode_len = 9 | episode_return = -1.0000 | steps = 2907 | total_regret = 242.0000 | total_return = 81.0000
+I0611 19:59:50.210022 140306405291840 terminal_logging.py:55] episode = 323 | episode_len = 9 | episode_return = -1.0000 | steps = 2907 | total_regret = 242.0000 | total_return = 81.0000
+INFO:absl:episode = 324 | episode_len = 9 | episode_return = 1.0000 | steps = 2916 | total_regret = 242.0000 | total_return = 82.0000
+I0611 19:59:50.248929 140306405291840 terminal_logging.py:55] episode = 324 | episode_len = 9 | episode_return = 1.0000 | steps = 2916 | total_regret = 242.0000 | total_return = 82.0000
+INFO:absl:episode = 325 | episode_len = 9 | episode_return = 1.0000 | steps = 2925 | total_regret = 242.0000 | total_return = 83.0000
+I0611 19:59:50.285242 140306405291840 terminal_logging.py:55] episode = 325 | episode_len = 9 | episode_return = 1.0000 | steps = 2925 | total_regret = 242.0000 | total_return = 83.0000
+INFO:absl:episode = 326 | episode_len = 9 | episode_return = -1.0000 | steps = 2934 | total_regret = 244.0000 | total_return = 82.0000
+I0611 19:59:50.322168 140306405291840 terminal_logging.py:55] episode = 326 | episode_len = 9 | episode_return = -1.0000 | steps = 2934 | total_regret = 244.0000 | total_return = 82.0000
+INFO:absl:episode = 327 | episode_len = 9 | episode_return = 1.0000 | steps = 2943 | total_regret = 244.0000 | total_return = 83.0000
+I0611 19:59:50.380501 140306405291840 terminal_logging.py:55] episode = 327 | episode_len = 9 | episode_return = 1.0000 | steps = 2943 | total_regret = 244.0000 | total_return = 83.0000
+INFO:absl:episode = 328 | episode_len = 9 | episode_return = 1.0000 | steps = 2952 | total_regret = 244.0000 | total_return = 84.0000
+I0611 19:59:50.417197 140306405291840 terminal_logging.py:55] episode = 328 | episode_len = 9 | episode_return = 1.0000 | steps = 2952 | total_regret = 244.0000 | total_return = 84.0000
+INFO:absl:episode = 329 | episode_len = 9 | episode_return = 1.0000 | steps = 2961 | total_regret = 244.0000 | total_return = 85.0000
+I0611 19:59:50.466284 140306405291840 terminal_logging.py:55] episode = 329 | episode_len = 9 | episode_return = 1.0000 | steps = 2961 | total_regret = 244.0000 | total_return = 85.0000
+INFO:absl:episode = 330 | episode_len = 9 | episode_return = -1.0000 | steps = 2970 | total_regret = 246.0000 | total_return = 84.0000
+I0611 19:59:50.526347 140306405291840 terminal_logging.py:55] episode = 330 | episode_len = 9 | episode_return = -1.0000 | steps = 2970 | total_regret = 246.0000 | total_return = 84.0000
+INFO:absl:episode = 331 | episode_len = 9 | episode_return = 1.0000 | steps = 2979 | total_regret = 246.0000 | total_return = 85.0000
+I0611 19:59:50.566909 140306405291840 terminal_logging.py:55] episode = 331 | episode_len = 9 | episode_return = 1.0000 | steps = 2979 | total_regret = 246.0000 | total_return = 85.0000
+INFO:absl:episode = 332 | episode_len = 9 | episode_return = -1.0000 | steps = 2988 | total_regret = 248.0000 | total_return = 84.0000
+I0611 19:59:50.604733 140306405291840 terminal_logging.py:55] episode = 332 | episode_len = 9 | episode_return = -1.0000 | steps = 2988 | total_regret = 248.0000 | total_return = 84.0000
+INFO:absl:episode = 333 | episode_len = 9 | episode_return = 1.0000 | steps = 2997 | total_regret = 248.0000 | total_return = 85.0000
+I0611 19:59:50.642547 140306405291840 terminal_logging.py:55] episode = 333 | episode_len = 9 | episode_return = 1.0000 | steps = 2997 | total_regret = 248.0000 | total_return = 85.0000
+INFO:absl:episode = 334 | episode_len = 9 | episode_return = 1.0000 | steps = 3006 | total_regret = 248.0000 | total_return = 86.0000
+I0611 19:59:50.683376 140306405291840 terminal_logging.py:55] episode = 334 | episode_len = 9 | episode_return = 1.0000 | steps = 3006 | total_regret = 248.0000 | total_return = 86.0000
+INFO:absl:episode = 335 | episode_len = 9 | episode_return = 1.0000 | steps = 3015 | total_regret = 248.0000 | total_return = 87.0000
+I0611 19:59:50.729813 140306405291840 terminal_logging.py:55] episode = 335 | episode_len = 9 | episode_return = 1.0000 | steps = 3015 | total_regret = 248.0000 | total_return = 87.0000
+INFO:absl:episode = 336 | episode_len = 9 | episode_return = 1.0000 | steps = 3024 | total_regret = 248.0000 | total_return = 88.0000
+I0611 19:59:50.773306 140306405291840 terminal_logging.py:55] episode = 336 | episode_len = 9 | episode_return = 1.0000 | steps = 3024 | total_regret = 248.0000 | total_return = 88.0000
+INFO:absl:episode = 337 | episode_len = 9 | episode_return = 1.0000 | steps = 3033 | total_regret = 248.0000 | total_return = 89.0000
+I0611 19:59:50.830343 140306405291840 terminal_logging.py:55] episode = 337 | episode_len = 9 | episode_return = 1.0000 | steps = 3033 | total_regret = 248.0000 | total_return = 89.0000
+INFO:absl:episode = 338 | episode_len = 9 | episode_return = 1.0000 | steps = 3042 | total_regret = 248.0000 | total_return = 90.0000
+I0611 19:59:50.940615 140306405291840 terminal_logging.py:55] episode = 338 | episode_len = 9 | episode_return = 1.0000 | steps = 3042 | total_regret = 248.0000 | total_return = 90.0000
+INFO:absl:episode = 339 | episode_len = 9 | episode_return = 1.0000 | steps = 3051 | total_regret = 248.0000 | total_return = 91.0000
+I0611 19:59:50.999006 140306405291840 terminal_logging.py:55] episode = 339 | episode_len = 9 | episode_return = 1.0000 | steps = 3051 | total_regret = 248.0000 | total_return = 91.0000
+INFO:absl:episode = 340 | episode_len = 9 | episode_return = -1.0000 | steps = 3060 | total_regret = 250.0000 | total_return = 90.0000
+I0611 19:59:51.042890 140306405291840 terminal_logging.py:55] episode = 340 | episode_len = 9 | episode_return = -1.0000 | steps = 3060 | total_regret = 250.0000 | total_return = 90.0000
+INFO:absl:episode = 341 | episode_len = 9 | episode_return = 1.0000 | steps = 3069 | total_regret = 250.0000 | total_return = 91.0000
+I0611 19:59:51.094227 140306405291840 terminal_logging.py:55] episode = 341 | episode_len = 9 | episode_return = 1.0000 | steps = 3069 | total_regret = 250.0000 | total_return = 91.0000
+INFO:absl:episode = 342 | episode_len = 9 | episode_return = -1.0000 | steps = 3078 | total_regret = 252.0000 | total_return = 90.0000
+I0611 19:59:51.208651 140306405291840 terminal_logging.py:55] episode = 342 | episode_len = 9 | episode_return = -1.0000 | steps = 3078 | total_regret = 252.0000 | total_return = 90.0000
+INFO:absl:episode = 343 | episode_len = 9 | episode_return = 1.0000 | steps = 3087 | total_regret = 252.0000 | total_return = 91.0000
+I0611 19:59:51.261756 140306405291840 terminal_logging.py:55] episode = 343 | episode_len = 9 | episode_return = 1.0000 | steps = 3087 | total_regret = 252.0000 | total_return = 91.0000
+INFO:absl:episode = 344 | episode_len = 9 | episode_return = 1.0000 | steps = 3096 | total_regret = 252.0000 | total_return = 92.0000
+I0611 19:59:51.317692 140306405291840 terminal_logging.py:55] episode = 344 | episode_len = 9 | episode_return = 1.0000 | steps = 3096 | total_regret = 252.0000 | total_return = 92.0000
+INFO:absl:episode = 345 | episode_len = 9 | episode_return = -1.0000 | steps = 3105 | total_regret = 254.0000 | total_return = 91.0000
+I0611 19:59:51.368305 140306405291840 terminal_logging.py:55] episode = 345 | episode_len = 9 | episode_return = -1.0000 | steps = 3105 | total_regret = 254.0000 | total_return = 91.0000
+INFO:absl:episode = 346 | episode_len = 9 | episode_return = 1.0000 | steps = 3114 | total_regret = 254.0000 | total_return = 92.0000
+I0611 19:59:51.449960 140306405291840 terminal_logging.py:55] episode = 346 | episode_len = 9 | episode_return = 1.0000 | steps = 3114 | total_regret = 254.0000 | total_return = 92.0000
+INFO:absl:episode = 347 | episode_len = 9 | episode_return = 1.0000 | steps = 3123 | total_regret = 254.0000 | total_return = 93.0000
+I0611 19:59:51.520926 140306405291840 terminal_logging.py:55] episode = 347 | episode_len = 9 | episode_return = 1.0000 | steps = 3123 | total_regret = 254.0000 | total_return = 93.0000
+INFO:absl:episode = 348 | episode_len = 9 | episode_return = 1.0000 | steps = 3132 | total_regret = 254.0000 | total_return = 94.0000
+I0611 19:59:51.578488 140306405291840 terminal_logging.py:55] episode = 348 | episode_len = 9 | episode_return = 1.0000 | steps = 3132 | total_regret = 254.0000 | total_return = 94.0000
+INFO:absl:episode = 349 | episode_len = 9 | episode_return = 1.0000 | steps = 3141 | total_regret = 254.0000 | total_return = 95.0000
+I0611 19:59:51.638448 140306405291840 terminal_logging.py:55] episode = 349 | episode_len = 9 | episode_return = 1.0000 | steps = 3141 | total_regret = 254.0000 | total_return = 95.0000
+INFO:absl:episode = 350 | episode_len = 9 | episode_return = 1.0000 | steps = 3150 | total_regret = 254.0000 | total_return = 96.0000
+I0611 19:59:51.702192 140306405291840 terminal_logging.py:55] episode = 350 | episode_len = 9 | episode_return = 1.0000 | steps = 3150 | total_regret = 254.0000 | total_return = 96.0000
+INFO:absl:episode = 351 | episode_len = 9 | episode_return = 1.0000 | steps = 3159 | total_regret = 254.0000 | total_return = 97.0000
+I0611 19:59:51.759705 140306405291840 terminal_logging.py:55] episode = 351 | episode_len = 9 | episode_return = 1.0000 | steps = 3159 | total_regret = 254.0000 | total_return = 97.0000
+INFO:absl:episode = 352 | episode_len = 9 | episode_return = 1.0000 | steps = 3168 | total_regret = 254.0000 | total_return = 98.0000
+I0611 19:59:51.816322 140306405291840 terminal_logging.py:55] episode = 352 | episode_len = 9 | episode_return = 1.0000 | steps = 3168 | total_regret = 254.0000 | total_return = 98.0000
+INFO:absl:episode = 353 | episode_len = 9 | episode_return = 1.0000 | steps = 3177 | total_regret = 254.0000 | total_return = 99.0000
+I0611 19:59:51.878098 140306405291840 terminal_logging.py:55] episode = 353 | episode_len = 9 | episode_return = 1.0000 | steps = 3177 | total_regret = 254.0000 | total_return = 99.0000
+INFO:absl:episode = 354 | episode_len = 9 | episode_return = 1.0000 | steps = 3186 | total_regret = 254.0000 | total_return = 100.0000
+I0611 19:59:51.932060 140306405291840 terminal_logging.py:55] episode = 354 | episode_len = 9 | episode_return = 1.0000 | steps = 3186 | total_regret = 254.0000 | total_return = 100.0000
+INFO:absl:episode = 355 | episode_len = 9 | episode_return = 1.0000 | steps = 3195 | total_regret = 254.0000 | total_return = 101.0000
+I0611 19:59:52.021082 140306405291840 terminal_logging.py:55] episode = 355 | episode_len = 9 | episode_return = 1.0000 | steps = 3195 | total_regret = 254.0000 | total_return = 101.0000
+INFO:absl:episode = 356 | episode_len = 9 | episode_return = 1.0000 | steps = 3204 | total_regret = 254.0000 | total_return = 102.0000
+I0611 19:59:52.071487 140306405291840 terminal_logging.py:55] episode = 356 | episode_len = 9 | episode_return = 1.0000 | steps = 3204 | total_regret = 254.0000 | total_return = 102.0000
+INFO:absl:episode = 357 | episode_len = 9 | episode_return = 1.0000 | steps = 3213 | total_regret = 254.0000 | total_return = 103.0000
+I0611 19:59:52.116488 140306405291840 terminal_logging.py:55] episode = 357 | episode_len = 9 | episode_return = 1.0000 | steps = 3213 | total_regret = 254.0000 | total_return = 103.0000
+INFO:absl:episode = 358 | episode_len = 9 | episode_return = -1.0000 | steps = 3222 | total_regret = 256.0000 | total_return = 102.0000
+I0611 19:59:52.158622 140306405291840 terminal_logging.py:55] episode = 358 | episode_len = 9 | episode_return = -1.0000 | steps = 3222 | total_regret = 256.0000 | total_return = 102.0000
+INFO:absl:episode = 359 | episode_len = 9 | episode_return = 1.0000 | steps = 3231 | total_regret = 256.0000 | total_return = 103.0000
+I0611 19:59:52.198489 140306405291840 terminal_logging.py:55] episode = 359 | episode_len = 9 | episode_return = 1.0000 | steps = 3231 | total_regret = 256.0000 | total_return = 103.0000
+INFO:absl:episode = 360 | episode_len = 9 | episode_return = 1.0000 | steps = 3240 | total_regret = 256.0000 | total_return = 104.0000
+I0611 19:59:52.239707 140306405291840 terminal_logging.py:55] episode = 360 | episode_len = 9 | episode_return = 1.0000 | steps = 3240 | total_regret = 256.0000 | total_return = 104.0000
+INFO:absl:episode = 361 | episode_len = 9 | episode_return = -1.0000 | steps = 3249 | total_regret = 258.0000 | total_return = 103.0000
+I0611 19:59:52.276474 140306405291840 terminal_logging.py:55] episode = 361 | episode_len = 9 | episode_return = -1.0000 | steps = 3249 | total_regret = 258.0000 | total_return = 103.0000
+INFO:absl:episode = 362 | episode_len = 9 | episode_return = 1.0000 | steps = 3258 | total_regret = 258.0000 | total_return = 104.0000
+I0611 19:59:52.315641 140306405291840 terminal_logging.py:55] episode = 362 | episode_len = 9 | episode_return = 1.0000 | steps = 3258 | total_regret = 258.0000 | total_return = 104.0000
+INFO:absl:episode = 363 | episode_len = 9 | episode_return = 1.0000 | steps = 3267 | total_regret = 258.0000 | total_return = 105.0000
+I0611 19:59:52.354722 140306405291840 terminal_logging.py:55] episode = 363 | episode_len = 9 | episode_return = 1.0000 | steps = 3267 | total_regret = 258.0000 | total_return = 105.0000
+INFO:absl:episode = 364 | episode_len = 9 | episode_return = 1.0000 | steps = 3276 | total_regret = 258.0000 | total_return = 106.0000
+I0611 19:59:52.393661 140306405291840 terminal_logging.py:55] episode = 364 | episode_len = 9 | episode_return = 1.0000 | steps = 3276 | total_regret = 258.0000 | total_return = 106.0000
+INFO:absl:episode = 365 | episode_len = 9 | episode_return = -1.0000 | steps = 3285 | total_regret = 260.0000 | total_return = 105.0000
+I0611 19:59:52.431858 140306405291840 terminal_logging.py:55] episode = 365 | episode_len = 9 | episode_return = -1.0000 | steps = 3285 | total_regret = 260.0000 | total_return = 105.0000
+INFO:absl:episode = 366 | episode_len = 9 | episode_return = 1.0000 | steps = 3294 | total_regret = 260.0000 | total_return = 106.0000
+I0611 19:59:52.476081 140306405291840 terminal_logging.py:55] episode = 366 | episode_len = 9 | episode_return = 1.0000 | steps = 3294 | total_regret = 260.0000 | total_return = 106.0000
+INFO:absl:episode = 367 | episode_len = 9 | episode_return = 1.0000 | steps = 3303 | total_regret = 260.0000 | total_return = 107.0000
+I0611 19:59:52.532820 140306405291840 terminal_logging.py:55] episode = 367 | episode_len = 9 | episode_return = 1.0000 | steps = 3303 | total_regret = 260.0000 | total_return = 107.0000
+INFO:absl:episode = 368 | episode_len = 9 | episode_return = 1.0000 | steps = 3312 | total_regret = 260.0000 | total_return = 108.0000
+I0611 19:59:52.577259 140306405291840 terminal_logging.py:55] episode = 368 | episode_len = 9 | episode_return = 1.0000 | steps = 3312 | total_regret = 260.0000 | total_return = 108.0000
+INFO:absl:episode = 369 | episode_len = 9 | episode_return = -1.0000 | steps = 3321 | total_regret = 262.0000 | total_return = 107.0000
+I0611 19:59:52.630917 140306405291840 terminal_logging.py:55] episode = 369 | episode_len = 9 | episode_return = -1.0000 | steps = 3321 | total_regret = 262.0000 | total_return = 107.0000
+INFO:absl:episode = 370 | episode_len = 9 | episode_return = 1.0000 | steps = 3330 | total_regret = 262.0000 | total_return = 108.0000
+I0611 19:59:52.686139 140306405291840 terminal_logging.py:55] episode = 370 | episode_len = 9 | episode_return = 1.0000 | steps = 3330 | total_regret = 262.0000 | total_return = 108.0000
+INFO:absl:episode = 371 | episode_len = 9 | episode_return = 1.0000 | steps = 3339 | total_regret = 262.0000 | total_return = 109.0000
+I0611 19:59:52.743887 140306405291840 terminal_logging.py:55] episode = 371 | episode_len = 9 | episode_return = 1.0000 | steps = 3339 | total_regret = 262.0000 | total_return = 109.0000
+INFO:absl:episode = 372 | episode_len = 9 | episode_return = 1.0000 | steps = 3348 | total_regret = 262.0000 | total_return = 110.0000
+I0611 19:59:52.789914 140306405291840 terminal_logging.py:55] episode = 372 | episode_len = 9 | episode_return = 1.0000 | steps = 3348 | total_regret = 262.0000 | total_return = 110.0000
+INFO:absl:episode = 373 | episode_len = 9 | episode_return = -1.0000 | steps = 3357 | total_regret = 264.0000 | total_return = 109.0000
+I0611 19:59:52.836552 140306405291840 terminal_logging.py:55] episode = 373 | episode_len = 9 | episode_return = -1.0000 | steps = 3357 | total_regret = 264.0000 | total_return = 109.0000
+INFO:absl:episode = 374 | episode_len = 9 | episode_return = 1.0000 | steps = 3366 | total_regret = 264.0000 | total_return = 110.0000
+I0611 19:59:52.900281 140306405291840 terminal_logging.py:55] episode = 374 | episode_len = 9 | episode_return = 1.0000 | steps = 3366 | total_regret = 264.0000 | total_return = 110.0000
+INFO:absl:episode = 375 | episode_len = 9 | episode_return = 1.0000 | steps = 3375 | total_regret = 264.0000 | total_return = 111.0000
+I0611 19:59:52.944136 140306405291840 terminal_logging.py:55] episode = 375 | episode_len = 9 | episode_return = 1.0000 | steps = 3375 | total_regret = 264.0000 | total_return = 111.0000
+INFO:absl:episode = 376 | episode_len = 9 | episode_return = 1.0000 | steps = 3384 | total_regret = 264.0000 | total_return = 112.0000
+I0611 19:59:53.001554 140306405291840 terminal_logging.py:55] episode = 376 | episode_len = 9 | episode_return = 1.0000 | steps = 3384 | total_regret = 264.0000 | total_return = 112.0000
+INFO:absl:episode = 377 | episode_len = 9 | episode_return = 1.0000 | steps = 3393 | total_regret = 264.0000 | total_return = 113.0000
+I0611 19:59:53.063448 140306405291840 terminal_logging.py:55] episode = 377 | episode_len = 9 | episode_return = 1.0000 | steps = 3393 | total_regret = 264.0000 | total_return = 113.0000
+INFO:absl:episode = 378 | episode_len = 9 | episode_return = 1.0000 | steps = 3402 | total_regret = 264.0000 | total_return = 114.0000
+I0611 19:59:53.114299 140306405291840 terminal_logging.py:55] episode = 378 | episode_len = 9 | episode_return = 1.0000 | steps = 3402 | total_regret = 264.0000 | total_return = 114.0000
+INFO:absl:episode = 379 | episode_len = 9 | episode_return = -1.0000 | steps = 3411 | total_regret = 266.0000 | total_return = 113.0000
+I0611 19:59:53.160917 140306405291840 terminal_logging.py:55] episode = 379 | episode_len = 9 | episode_return = -1.0000 | steps = 3411 | total_regret = 266.0000 | total_return = 113.0000
+INFO:absl:episode = 380 | episode_len = 9 | episode_return = -1.0000 | steps = 3420 | total_regret = 268.0000 | total_return = 112.0000
+I0611 19:59:53.247608 140306405291840 terminal_logging.py:55] episode = 380 | episode_len = 9 | episode_return = -1.0000 | steps = 3420 | total_regret = 268.0000 | total_return = 112.0000
+INFO:absl:episode = 381 | episode_len = 9 | episode_return = 1.0000 | steps = 3429 | total_regret = 268.0000 | total_return = 113.0000
+I0611 19:59:53.292891 140306405291840 terminal_logging.py:55] episode = 381 | episode_len = 9 | episode_return = 1.0000 | steps = 3429 | total_regret = 268.0000 | total_return = 113.0000
+INFO:absl:episode = 382 | episode_len = 9 | episode_return = 1.0000 | steps = 3438 | total_regret = 268.0000 | total_return = 114.0000
+I0611 19:59:53.343458 140306405291840 terminal_logging.py:55] episode = 382 | episode_len = 9 | episode_return = 1.0000 | steps = 3438 | total_regret = 268.0000 | total_return = 114.0000
+INFO:absl:episode = 383 | episode_len = 9 | episode_return = -1.0000 | steps = 3447 | total_regret = 270.0000 | total_return = 113.0000
+I0611 19:59:53.390021 140306405291840 terminal_logging.py:55] episode = 383 | episode_len = 9 | episode_return = -1.0000 | steps = 3447 | total_regret = 270.0000 | total_return = 113.0000
+INFO:absl:episode = 384 | episode_len = 9 | episode_return = -1.0000 | steps = 3456 | total_regret = 272.0000 | total_return = 112.0000
+I0611 19:59:53.435482 140306405291840 terminal_logging.py:55] episode = 384 | episode_len = 9 | episode_return = -1.0000 | steps = 3456 | total_regret = 272.0000 | total_return = 112.0000
+INFO:absl:episode = 385 | episode_len = 9 | episode_return = -1.0000 | steps = 3465 | total_regret = 274.0000 | total_return = 111.0000
+I0611 19:59:53.482556 140306405291840 terminal_logging.py:55] episode = 385 | episode_len = 9 | episode_return = -1.0000 | steps = 3465 | total_regret = 274.0000 | total_return = 111.0000
+INFO:absl:episode = 386 | episode_len = 9 | episode_return = -1.0000 | steps = 3474 | total_regret = 276.0000 | total_return = 110.0000
+I0611 19:59:53.627167 140306405291840 terminal_logging.py:55] episode = 386 | episode_len = 9 | episode_return = -1.0000 | steps = 3474 | total_regret = 276.0000 | total_return = 110.0000
+INFO:absl:episode = 387 | episode_len = 9 | episode_return = 1.0000 | steps = 3483 | total_regret = 276.0000 | total_return = 111.0000
+I0611 19:59:53.667971 140306405291840 terminal_logging.py:55] episode = 387 | episode_len = 9 | episode_return = 1.0000 | steps = 3483 | total_regret = 276.0000 | total_return = 111.0000
+INFO:absl:episode = 388 | episode_len = 9 | episode_return = -1.0000 | steps = 3492 | total_regret = 278.0000 | total_return = 110.0000
+I0611 19:59:53.710050 140306405291840 terminal_logging.py:55] episode = 388 | episode_len = 9 | episode_return = -1.0000 | steps = 3492 | total_regret = 278.0000 | total_return = 110.0000
+INFO:absl:episode = 389 | episode_len = 9 | episode_return = 1.0000 | steps = 3501 | total_regret = 278.0000 | total_return = 111.0000
+I0611 19:59:53.755780 140306405291840 terminal_logging.py:55] episode = 389 | episode_len = 9 | episode_return = 1.0000 | steps = 3501 | total_regret = 278.0000 | total_return = 111.0000
+INFO:absl:episode = 390 | episode_len = 9 | episode_return = -1.0000 | steps = 3510 | total_regret = 280.0000 | total_return = 110.0000
+I0611 19:59:53.795905 140306405291840 terminal_logging.py:55] episode = 390 | episode_len = 9 | episode_return = -1.0000 | steps = 3510 | total_regret = 280.0000 | total_return = 110.0000
+INFO:absl:episode = 391 | episode_len = 9 | episode_return = 1.0000 | steps = 3519 | total_regret = 280.0000 | total_return = 111.0000
+I0611 19:59:53.838476 140306405291840 terminal_logging.py:55] episode = 391 | episode_len = 9 | episode_return = 1.0000 | steps = 3519 | total_regret = 280.0000 | total_return = 111.0000
+INFO:absl:episode = 392 | episode_len = 9 | episode_return = 1.0000 | steps = 3528 | total_regret = 280.0000 | total_return = 112.0000
+I0611 19:59:53.879861 140306405291840 terminal_logging.py:55] episode = 392 | episode_len = 9 | episode_return = 1.0000 | steps = 3528 | total_regret = 280.0000 | total_return = 112.0000
+INFO:absl:episode = 393 | episode_len = 9 | episode_return = -1.0000 | steps = 3537 | total_regret = 282.0000 | total_return = 111.0000
+I0611 19:59:53.917395 140306405291840 terminal_logging.py:55] episode = 393 | episode_len = 9 | episode_return = -1.0000 | steps = 3537 | total_regret = 282.0000 | total_return = 111.0000
+INFO:absl:episode = 394 | episode_len = 9 | episode_return = -1.0000 | steps = 3546 | total_regret = 284.0000 | total_return = 110.0000
+I0611 19:59:53.955644 140306405291840 terminal_logging.py:55] episode = 394 | episode_len = 9 | episode_return = -1.0000 | steps = 3546 | total_regret = 284.0000 | total_return = 110.0000
+INFO:absl:episode = 395 | episode_len = 9 | episode_return = -1.0000 | steps = 3555 | total_regret = 286.0000 | total_return = 109.0000
+I0611 19:59:53.993810 140306405291840 terminal_logging.py:55] episode = 395 | episode_len = 9 | episode_return = -1.0000 | steps = 3555 | total_regret = 286.0000 | total_return = 109.0000
+INFO:absl:episode = 396 | episode_len = 9 | episode_return = -1.0000 | steps = 3564 | total_regret = 288.0000 | total_return = 108.0000
+I0611 19:59:54.031427 140306405291840 terminal_logging.py:55] episode = 396 | episode_len = 9 | episode_return = -1.0000 | steps = 3564 | total_regret = 288.0000 | total_return = 108.0000
+INFO:absl:episode = 397 | episode_len = 9 | episode_return = 1.0000 | steps = 3573 | total_regret = 288.0000 | total_return = 109.0000
+I0611 19:59:54.069799 140306405291840 terminal_logging.py:55] episode = 397 | episode_len = 9 | episode_return = 1.0000 | steps = 3573 | total_regret = 288.0000 | total_return = 109.0000
+INFO:absl:episode = 398 | episode_len = 9 | episode_return = 1.0000 | steps = 3582 | total_regret = 288.0000 | total_return = 110.0000
+I0611 19:59:54.108866 140306405291840 terminal_logging.py:55] episode = 398 | episode_len = 9 | episode_return = 1.0000 | steps = 3582 | total_regret = 288.0000 | total_return = 110.0000
+INFO:absl:episode = 399 | episode_len = 9 | episode_return = 1.0000 | steps = 3591 | total_regret = 288.0000 | total_return = 111.0000
+I0611 19:59:54.165264 140306405291840 terminal_logging.py:55] episode = 399 | episode_len = 9 | episode_return = 1.0000 | steps = 3591 | total_regret = 288.0000 | total_return = 111.0000
+INFO:absl:episode = 400 | episode_len = 9 | episode_return = -1.0000 | steps = 3600 | total_regret = 290.0000 | total_return = 110.0000
+I0611 19:59:54.202611 140306405291840 terminal_logging.py:55] episode = 400 | episode_len = 9 | episode_return = -1.0000 | steps = 3600 | total_regret = 290.0000 | total_return = 110.0000
+INFO:absl:episode = 401 | episode_len = 9 | episode_return = -1.0000 | steps = 3609 | total_regret = 292.0000 | total_return = 109.0000
+I0611 19:59:54.246780 140306405291840 terminal_logging.py:55] episode = 401 | episode_len = 9 | episode_return = -1.0000 | steps = 3609 | total_regret = 292.0000 | total_return = 109.0000
+INFO:absl:episode = 402 | episode_len = 9 | episode_return = 1.0000 | steps = 3618 | total_regret = 292.0000 | total_return = 110.0000
+I0611 19:59:54.283931 140306405291840 terminal_logging.py:55] episode = 402 | episode_len = 9 | episode_return = 1.0000 | steps = 3618 | total_regret = 292.0000 | total_return = 110.0000
+INFO:absl:episode = 403 | episode_len = 9 | episode_return = 1.0000 | steps = 3627 | total_regret = 292.0000 | total_return = 111.0000
+I0611 19:59:54.319158 140306405291840 terminal_logging.py:55] episode = 403 | episode_len = 9 | episode_return = 1.0000 | steps = 3627 | total_regret = 292.0000 | total_return = 111.0000
+INFO:absl:episode = 404 | episode_len = 9 | episode_return = 1.0000 | steps = 3636 | total_regret = 292.0000 | total_return = 112.0000
+I0611 19:59:54.366286 140306405291840 terminal_logging.py:55] episode = 404 | episode_len = 9 | episode_return = 1.0000 | steps = 3636 | total_regret = 292.0000 | total_return = 112.0000
+INFO:absl:episode = 405 | episode_len = 9 | episode_return = -1.0000 | steps = 3645 | total_regret = 294.0000 | total_return = 111.0000
+I0611 19:59:54.405096 140306405291840 terminal_logging.py:55] episode = 405 | episode_len = 9 | episode_return = -1.0000 | steps = 3645 | total_regret = 294.0000 | total_return = 111.0000
+INFO:absl:episode = 406 | episode_len = 9 | episode_return = 1.0000 | steps = 3654 | total_regret = 294.0000 | total_return = 112.0000
+I0611 19:59:54.443316 140306405291840 terminal_logging.py:55] episode = 406 | episode_len = 9 | episode_return = 1.0000 | steps = 3654 | total_regret = 294.0000 | total_return = 112.0000
+INFO:absl:episode = 407 | episode_len = 9 | episode_return = -1.0000 | steps = 3663 | total_regret = 296.0000 | total_return = 111.0000
+I0611 19:59:54.482242 140306405291840 terminal_logging.py:55] episode = 407 | episode_len = 9 | episode_return = -1.0000 | steps = 3663 | total_regret = 296.0000 | total_return = 111.0000
+INFO:absl:episode = 408 | episode_len = 9 | episode_return = 1.0000 | steps = 3672 | total_regret = 296.0000 | total_return = 112.0000
+I0611 19:59:54.522324 140306405291840 terminal_logging.py:55] episode = 408 | episode_len = 9 | episode_return = 1.0000 | steps = 3672 | total_regret = 296.0000 | total_return = 112.0000
+INFO:absl:episode = 409 | episode_len = 9 | episode_return = 1.0000 | steps = 3681 | total_regret = 296.0000 | total_return = 113.0000
+I0611 19:59:54.559562 140306405291840 terminal_logging.py:55] episode = 409 | episode_len = 9 | episode_return = 1.0000 | steps = 3681 | total_regret = 296.0000 | total_return = 113.0000
+INFO:absl:episode = 410 | episode_len = 9 | episode_return = 1.0000 | steps = 3690 | total_regret = 296.0000 | total_return = 114.0000
+I0611 19:59:54.598040 140306405291840 terminal_logging.py:55] episode = 410 | episode_len = 9 | episode_return = 1.0000 | steps = 3690 | total_regret = 296.0000 | total_return = 114.0000
+INFO:absl:episode = 411 | episode_len = 9 | episode_return = 1.0000 | steps = 3699 | total_regret = 296.0000 | total_return = 115.0000
+I0611 19:59:54.638999 140306405291840 terminal_logging.py:55] episode = 411 | episode_len = 9 | episode_return = 1.0000 | steps = 3699 | total_regret = 296.0000 | total_return = 115.0000
+INFO:absl:episode = 412 | episode_len = 9 | episode_return = 1.0000 | steps = 3708 | total_regret = 296.0000 | total_return = 116.0000
+I0611 19:59:54.694549 140306405291840 terminal_logging.py:55] episode = 412 | episode_len = 9 | episode_return = 1.0000 | steps = 3708 | total_regret = 296.0000 | total_return = 116.0000
+INFO:absl:episode = 413 | episode_len = 9 | episode_return = 1.0000 | steps = 3717 | total_regret = 296.0000 | total_return = 117.0000
+I0611 19:59:54.733200 140306405291840 terminal_logging.py:55] episode = 413 | episode_len = 9 | episode_return = 1.0000 | steps = 3717 | total_regret = 296.0000 | total_return = 117.0000
+INFO:absl:episode = 414 | episode_len = 9 | episode_return = 1.0000 | steps = 3726 | total_regret = 296.0000 | total_return = 118.0000
+I0611 19:59:54.771420 140306405291840 terminal_logging.py:55] episode = 414 | episode_len = 9 | episode_return = 1.0000 | steps = 3726 | total_regret = 296.0000 | total_return = 118.0000
+INFO:absl:episode = 415 | episode_len = 9 | episode_return = 1.0000 | steps = 3735 | total_regret = 296.0000 | total_return = 119.0000
+I0611 19:59:54.810003 140306405291840 terminal_logging.py:55] episode = 415 | episode_len = 9 | episode_return = 1.0000 | steps = 3735 | total_regret = 296.0000 | total_return = 119.0000
+INFO:absl:episode = 416 | episode_len = 9 | episode_return = 1.0000 | steps = 3744 | total_regret = 296.0000 | total_return = 120.0000
+I0611 19:59:54.851013 140306405291840 terminal_logging.py:55] episode = 416 | episode_len = 9 | episode_return = 1.0000 | steps = 3744 | total_regret = 296.0000 | total_return = 120.0000
+INFO:absl:episode = 417 | episode_len = 9 | episode_return = 1.0000 | steps = 3753 | total_regret = 296.0000 | total_return = 121.0000
+I0611 19:59:54.895449 140306405291840 terminal_logging.py:55] episode = 417 | episode_len = 9 | episode_return = 1.0000 | steps = 3753 | total_regret = 296.0000 | total_return = 121.0000
+INFO:absl:episode = 418 | episode_len = 9 | episode_return = 1.0000 | steps = 3762 | total_regret = 296.0000 | total_return = 122.0000
+I0611 19:59:54.937284 140306405291840 terminal_logging.py:55] episode = 418 | episode_len = 9 | episode_return = 1.0000 | steps = 3762 | total_regret = 296.0000 | total_return = 122.0000
+INFO:absl:episode = 419 | episode_len = 9 | episode_return = 1.0000 | steps = 3771 | total_regret = 296.0000 | total_return = 123.0000
+I0611 19:59:54.975547 140306405291840 terminal_logging.py:55] episode = 419 | episode_len = 9 | episode_return = 1.0000 | steps = 3771 | total_regret = 296.0000 | total_return = 123.0000
+INFO:absl:episode = 420 | episode_len = 9 | episode_return = 1.0000 | steps = 3780 | total_regret = 296.0000 | total_return = 124.0000
+I0611 19:59:55.013215 140306405291840 terminal_logging.py:55] episode = 420 | episode_len = 9 | episode_return = 1.0000 | steps = 3780 | total_regret = 296.0000 | total_return = 124.0000
+INFO:absl:episode = 421 | episode_len = 9 | episode_return = -1.0000 | steps = 3789 | total_regret = 298.0000 | total_return = 123.0000
+I0611 19:59:55.052450 140306405291840 terminal_logging.py:55] episode = 421 | episode_len = 9 | episode_return = -1.0000 | steps = 3789 | total_regret = 298.0000 | total_return = 123.0000
+INFO:absl:episode = 422 | episode_len = 9 | episode_return = -1.0000 | steps = 3798 | total_regret = 300.0000 | total_return = 122.0000
+I0611 19:59:55.104335 140306405291840 terminal_logging.py:55] episode = 422 | episode_len = 9 | episode_return = -1.0000 | steps = 3798 | total_regret = 300.0000 | total_return = 122.0000
+INFO:absl:episode = 423 | episode_len = 9 | episode_return = 1.0000 | steps = 3807 | total_regret = 300.0000 | total_return = 123.0000
+I0611 19:59:55.188328 140306405291840 terminal_logging.py:55] episode = 423 | episode_len = 9 | episode_return = 1.0000 | steps = 3807 | total_regret = 300.0000 | total_return = 123.0000
+INFO:absl:episode = 424 | episode_len = 9 | episode_return = 1.0000 | steps = 3816 | total_regret = 300.0000 | total_return = 124.0000
+I0611 19:59:55.227550 140306405291840 terminal_logging.py:55] episode = 424 | episode_len = 9 | episode_return = 1.0000 | steps = 3816 | total_regret = 300.0000 | total_return = 124.0000
+INFO:absl:episode = 425 | episode_len = 9 | episode_return = -1.0000 | steps = 3825 | total_regret = 302.0000 | total_return = 123.0000
+I0611 19:59:55.305436 140306405291840 terminal_logging.py:55] episode = 425 | episode_len = 9 | episode_return = -1.0000 | steps = 3825 | total_regret = 302.0000 | total_return = 123.0000
+INFO:absl:episode = 426 | episode_len = 9 | episode_return = 1.0000 | steps = 3834 | total_regret = 302.0000 | total_return = 124.0000
+I0611 19:59:55.343422 140306405291840 terminal_logging.py:55] episode = 426 | episode_len = 9 | episode_return = 1.0000 | steps = 3834 | total_regret = 302.0000 | total_return = 124.0000
+INFO:absl:episode = 427 | episode_len = 9 | episode_return = 1.0000 | steps = 3843 | total_regret = 302.0000 | total_return = 125.0000
+I0611 19:59:55.381068 140306405291840 terminal_logging.py:55] episode = 427 | episode_len = 9 | episode_return = 1.0000 | steps = 3843 | total_regret = 302.0000 | total_return = 125.0000
+INFO:absl:episode = 428 | episode_len = 9 | episode_return = 1.0000 | steps = 3852 | total_regret = 302.0000 | total_return = 126.0000
+I0611 19:59:55.417163 140306405291840 terminal_logging.py:55] episode = 428 | episode_len = 9 | episode_return = 1.0000 | steps = 3852 | total_regret = 302.0000 | total_return = 126.0000
+INFO:absl:episode = 429 | episode_len = 9 | episode_return = 1.0000 | steps = 3861 | total_regret = 302.0000 | total_return = 127.0000
+I0611 19:59:55.454117 140306405291840 terminal_logging.py:55] episode = 429 | episode_len = 9 | episode_return = 1.0000 | steps = 3861 | total_regret = 302.0000 | total_return = 127.0000
+INFO:absl:episode = 430 | episode_len = 9 | episode_return = 1.0000 | steps = 3870 | total_regret = 302.0000 | total_return = 128.0000
+I0611 19:59:55.492779 140306405291840 terminal_logging.py:55] episode = 430 | episode_len = 9 | episode_return = 1.0000 | steps = 3870 | total_regret = 302.0000 | total_return = 128.0000
+INFO:absl:episode = 431 | episode_len = 9 | episode_return = 1.0000 | steps = 3879 | total_regret = 302.0000 | total_return = 129.0000
+I0611 19:59:55.529367 140306405291840 terminal_logging.py:55] episode = 431 | episode_len = 9 | episode_return = 1.0000 | steps = 3879 | total_regret = 302.0000 | total_return = 129.0000
+INFO:absl:episode = 432 | episode_len = 9 | episode_return = 1.0000 | steps = 3888 | total_regret = 302.0000 | total_return = 130.0000
+I0611 19:59:55.567925 140306405291840 terminal_logging.py:55] episode = 432 | episode_len = 9 | episode_return = 1.0000 | steps = 3888 | total_regret = 302.0000 | total_return = 130.0000
+INFO:absl:episode = 433 | episode_len = 9 | episode_return = -1.0000 | steps = 3897 | total_regret = 304.0000 | total_return = 129.0000
+I0611 19:59:55.608520 140306405291840 terminal_logging.py:55] episode = 433 | episode_len = 9 | episode_return = -1.0000 | steps = 3897 | total_regret = 304.0000 | total_return = 129.0000
+INFO:absl:episode = 434 | episode_len = 9 | episode_return = 1.0000 | steps = 3906 | total_regret = 304.0000 | total_return = 130.0000
+I0611 19:59:55.648567 140306405291840 terminal_logging.py:55] episode = 434 | episode_len = 9 | episode_return = 1.0000 | steps = 3906 | total_regret = 304.0000 | total_return = 130.0000
+INFO:absl:episode = 435 | episode_len = 9 | episode_return = -1.0000 | steps = 3915 | total_regret = 306.0000 | total_return = 129.0000
+I0611 19:59:55.686802 140306405291840 terminal_logging.py:55] episode = 435 | episode_len = 9 | episode_return = -1.0000 | steps = 3915 | total_regret = 306.0000 | total_return = 129.0000
+INFO:absl:episode = 436 | episode_len = 9 | episode_return = 1.0000 | steps = 3924 | total_regret = 306.0000 | total_return = 130.0000
+I0611 19:59:55.744642 140306405291840 terminal_logging.py:55] episode = 436 | episode_len = 9 | episode_return = 1.0000 | steps = 3924 | total_regret = 306.0000 | total_return = 130.0000
+INFO:absl:episode = 437 | episode_len = 9 | episode_return = 1.0000 | steps = 3933 | total_regret = 306.0000 | total_return = 131.0000
+I0611 19:59:55.782291 140306405291840 terminal_logging.py:55] episode = 437 | episode_len = 9 | episode_return = 1.0000 | steps = 3933 | total_regret = 306.0000 | total_return = 131.0000
+INFO:absl:episode = 438 | episode_len = 9 | episode_return = 1.0000 | steps = 3942 | total_regret = 306.0000 | total_return = 132.0000
+I0611 19:59:55.819635 140306405291840 terminal_logging.py:55] episode = 438 | episode_len = 9 | episode_return = 1.0000 | steps = 3942 | total_regret = 306.0000 | total_return = 132.0000
+INFO:absl:episode = 439 | episode_len = 9 | episode_return = 1.0000 | steps = 3951 | total_regret = 306.0000 | total_return = 133.0000
+I0611 19:59:55.858740 140306405291840 terminal_logging.py:55] episode = 439 | episode_len = 9 | episode_return = 1.0000 | steps = 3951 | total_regret = 306.0000 | total_return = 133.0000
+INFO:absl:episode = 440 | episode_len = 9 | episode_return = -1.0000 | steps = 3960 | total_regret = 308.0000 | total_return = 132.0000
+I0611 19:59:55.898637 140306405291840 terminal_logging.py:55] episode = 440 | episode_len = 9 | episode_return = -1.0000 | steps = 3960 | total_regret = 308.0000 | total_return = 132.0000
+INFO:absl:episode = 441 | episode_len = 9 | episode_return = 1.0000 | steps = 3969 | total_regret = 308.0000 | total_return = 133.0000
+I0611 19:59:55.934326 140306405291840 terminal_logging.py:55] episode = 441 | episode_len = 9 | episode_return = 1.0000 | steps = 3969 | total_regret = 308.0000 | total_return = 133.0000
+INFO:absl:episode = 442 | episode_len = 9 | episode_return = -1.0000 | steps = 3978 | total_regret = 310.0000 | total_return = 132.0000
+I0611 19:59:55.975609 140306405291840 terminal_logging.py:55] episode = 442 | episode_len = 9 | episode_return = -1.0000 | steps = 3978 | total_regret = 310.0000 | total_return = 132.0000
+INFO:absl:episode = 443 | episode_len = 9 | episode_return = 1.0000 | steps = 3987 | total_regret = 310.0000 | total_return = 133.0000
+I0611 19:59:56.013417 140306405291840 terminal_logging.py:55] episode = 443 | episode_len = 9 | episode_return = 1.0000 | steps = 3987 | total_regret = 310.0000 | total_return = 133.0000
+INFO:absl:episode = 444 | episode_len = 9 | episode_return = 1.0000 | steps = 3996 | total_regret = 310.0000 | total_return = 134.0000
+I0611 19:59:56.049670 140306405291840 terminal_logging.py:55] episode = 444 | episode_len = 9 | episode_return = 1.0000 | steps = 3996 | total_regret = 310.0000 | total_return = 134.0000
+INFO:absl:episode = 445 | episode_len = 9 | episode_return = 1.0000 | steps = 4005 | total_regret = 310.0000 | total_return = 135.0000
+I0611 19:59:56.088019 140306405291840 terminal_logging.py:55] episode = 445 | episode_len = 9 | episode_return = 1.0000 | steps = 4005 | total_regret = 310.0000 | total_return = 135.0000
+INFO:absl:episode = 446 | episode_len = 9 | episode_return = 1.0000 | steps = 4014 | total_regret = 310.0000 | total_return = 136.0000
+I0611 19:59:56.131969 140306405291840 terminal_logging.py:55] episode = 446 | episode_len = 9 | episode_return = 1.0000 | steps = 4014 | total_regret = 310.0000 | total_return = 136.0000
+INFO:absl:episode = 447 | episode_len = 9 | episode_return = 1.0000 | steps = 4023 | total_regret = 310.0000 | total_return = 137.0000
+I0611 19:59:56.174545 140306405291840 terminal_logging.py:55] episode = 447 | episode_len = 9 | episode_return = 1.0000 | steps = 4023 | total_regret = 310.0000 | total_return = 137.0000
+INFO:absl:episode = 448 | episode_len = 9 | episode_return = 1.0000 | steps = 4032 | total_regret = 310.0000 | total_return = 138.0000
+I0611 19:59:56.234601 140306405291840 terminal_logging.py:55] episode = 448 | episode_len = 9 | episode_return = 1.0000 | steps = 4032 | total_regret = 310.0000 | total_return = 138.0000
+INFO:absl:episode = 449 | episode_len = 9 | episode_return = 1.0000 | steps = 4041 | total_regret = 310.0000 | total_return = 139.0000
+I0611 19:59:56.274699 140306405291840 terminal_logging.py:55] episode = 449 | episode_len = 9 | episode_return = 1.0000 | steps = 4041 | total_regret = 310.0000 | total_return = 139.0000
+INFO:absl:episode = 450 | episode_len = 9 | episode_return = 1.0000 | steps = 4050 | total_regret = 310.0000 | total_return = 140.0000
+I0611 19:59:56.313384 140306405291840 terminal_logging.py:55] episode = 450 | episode_len = 9 | episode_return = 1.0000 | steps = 4050 | total_regret = 310.0000 | total_return = 140.0000
+INFO:absl:episode = 451 | episode_len = 9 | episode_return = -1.0000 | steps = 4059 | total_regret = 312.0000 | total_return = 139.0000
+I0611 19:59:56.349012 140306405291840 terminal_logging.py:55] episode = 451 | episode_len = 9 | episode_return = -1.0000 | steps = 4059 | total_regret = 312.0000 | total_return = 139.0000
+INFO:absl:episode = 452 | episode_len = 9 | episode_return = -1.0000 | steps = 4068 | total_regret = 314.0000 | total_return = 138.0000
+I0611 19:59:56.387102 140306405291840 terminal_logging.py:55] episode = 452 | episode_len = 9 | episode_return = -1.0000 | steps = 4068 | total_regret = 314.0000 | total_return = 138.0000
+INFO:absl:episode = 453 | episode_len = 9 | episode_return = 1.0000 | steps = 4077 | total_regret = 314.0000 | total_return = 139.0000
+I0611 19:59:56.424450 140306405291840 terminal_logging.py:55] episode = 453 | episode_len = 9 | episode_return = 1.0000 | steps = 4077 | total_regret = 314.0000 | total_return = 139.0000
+INFO:absl:episode = 454 | episode_len = 9 | episode_return = 1.0000 | steps = 4086 | total_regret = 314.0000 | total_return = 140.0000
+I0611 19:59:56.464027 140306405291840 terminal_logging.py:55] episode = 454 | episode_len = 9 | episode_return = 1.0000 | steps = 4086 | total_regret = 314.0000 | total_return = 140.0000
+INFO:absl:episode = 455 | episode_len = 9 | episode_return = 1.0000 | steps = 4095 | total_regret = 314.0000 | total_return = 141.0000
+I0611 19:59:56.505155 140306405291840 terminal_logging.py:55] episode = 455 | episode_len = 9 | episode_return = 1.0000 | steps = 4095 | total_regret = 314.0000 | total_return = 141.0000
+INFO:absl:episode = 456 | episode_len = 9 | episode_return = 1.0000 | steps = 4104 | total_regret = 314.0000 | total_return = 142.0000
+I0611 19:59:56.550663 140306405291840 terminal_logging.py:55] episode = 456 | episode_len = 9 | episode_return = 1.0000 | steps = 4104 | total_regret = 314.0000 | total_return = 142.0000
+INFO:absl:episode = 457 | episode_len = 9 | episode_return = 1.0000 | steps = 4113 | total_regret = 314.0000 | total_return = 143.0000
+I0611 19:59:56.603985 140306405291840 terminal_logging.py:55] episode = 457 | episode_len = 9 | episode_return = 1.0000 | steps = 4113 | total_regret = 314.0000 | total_return = 143.0000
+INFO:absl:episode = 458 | episode_len = 9 | episode_return = 1.0000 | steps = 4122 | total_regret = 314.0000 | total_return = 144.0000
+I0611 19:59:56.651576 140306405291840 terminal_logging.py:55] episode = 458 | episode_len = 9 | episode_return = 1.0000 | steps = 4122 | total_regret = 314.0000 | total_return = 144.0000
+INFO:absl:episode = 459 | episode_len = 9 | episode_return = -1.0000 | steps = 4131 | total_regret = 316.0000 | total_return = 143.0000
+I0611 19:59:56.706933 140306405291840 terminal_logging.py:55] episode = 459 | episode_len = 9 | episode_return = -1.0000 | steps = 4131 | total_regret = 316.0000 | total_return = 143.0000
+INFO:absl:episode = 460 | episode_len = 9 | episode_return = -1.0000 | steps = 4140 | total_regret = 318.0000 | total_return = 142.0000
+I0611 19:59:56.788106 140306405291840 terminal_logging.py:55] episode = 460 | episode_len = 9 | episode_return = -1.0000 | steps = 4140 | total_regret = 318.0000 | total_return = 142.0000
+INFO:absl:episode = 461 | episode_len = 9 | episode_return = 1.0000 | steps = 4149 | total_regret = 318.0000 | total_return = 143.0000
+I0611 19:59:56.829064 140306405291840 terminal_logging.py:55] episode = 461 | episode_len = 9 | episode_return = 1.0000 | steps = 4149 | total_regret = 318.0000 | total_return = 143.0000
