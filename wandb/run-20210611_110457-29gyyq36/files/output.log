@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "bsuite/baselines/jax/dqn/run.py", line 86, in <module>
+    app.run(main)
+  File "/home/proceduralia/.virtualenvs/rlax/lib/python3.8/site-packages/absl/app.py", line 303, in run
+    _run_main(main, args)
+  File "/home/proceduralia/.virtualenvs/rlax/lib/python3.8/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "bsuite/baselines/jax/dqn/run.py", line 73, in main
+    run(bsuite_id)
+  File "bsuite/baselines/jax/dqn/run.py", line 48, in run
+    env = bsuite.load_and_record(
+  File "/home/proceduralia/.virtualenvs/rlax/lib/python3.8/site-packages/bsuite/bsuite.py", line 130, in load_and_record
+    return load_and_record_to_buddy(bsuite_id)
+  File "/home/proceduralia/.virtualenvs/rlax/lib/python3.8/site-packages/bsuite/bsuite.py", line 231, in load_and_record_to_buddy
+    return buddy_logging.wrap_environment(
+  File "/home/proceduralia/.virtualenvs/rlax/lib/python3.8/site-packages/bsuite/logging/buddy_logging.py", line 39, in wrap_environment
+    logger = Logger(bsuite_id)
+  File "/home/proceduralia/.virtualenvs/rlax/lib/python3.8/site-packages/bsuite/logging/buddy_logging.py", line 65, in __init__
+    self.writer = experiment_buddy.deploy(host="", proc_num=4)
+  File "/home/proceduralia/.virtualenvs/rlax/lib/python3.8/site-packages/funcy/debug.py", line 119, in inner
+    return func(*args, **kwargs)
+  File "/home/proceduralia/.virtualenvs/rlax/lib/python3.8/site-packages/experiment_buddy/experiment_buddy.py", line 203, in deploy
+    return WandbWrapper(f"{experiment_id}_{dtm}", local_tensorboard=_setup_tb(logdir=tb_dir), **common_kwargs)
+  File "/home/proceduralia/.virtualenvs/rlax/lib/python3.8/site-packages/experiment_buddy/experiment_buddy.py", line 118, in __init__
+    for k, v in hyperparams.items():
+AttributeError: 'NoneType' object has no attribute 'items'
