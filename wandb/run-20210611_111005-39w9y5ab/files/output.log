@@ -1,0 +1,27 @@
+setting ^dummy=dummy
+setting ^_ignored=[]
+W0611 11:10:05.871352 139836977338176 xla_bridge.py:143] No GPU/TPU found, falling back to CPU. (Set TF_CPP_MIN_LOG_LEVEL=0 and rerun for more info.)
+Traceback (most recent call last):
+  File "bsuite/baselines/jax/dqn/run.py", line 86, in <module>
+    app.run(main)
+  File "/home/proceduralia/.virtualenvs/rlax/lib/python3.8/site-packages/absl/app.py", line 303, in run
+    _run_main(main, args)
+  File "/home/proceduralia/.virtualenvs/rlax/lib/python3.8/site-packages/absl/app.py", line 251, in _run_main
+    sys.exit(main(argv))
+  File "bsuite/baselines/jax/dqn/run.py", line 73, in main
+    run(bsuite_id)
+  File "bsuite/baselines/jax/dqn/run.py", line 58, in run
+    experiment.run(
+  File "/home/proceduralia/.virtualenvs/rlax/lib/python3.8/site-packages/bsuite/baselines/experiment.py", line 52, in run
+    new_timestep = environment.step(action)
+  File "/home/proceduralia/.virtualenvs/rlax/lib/python3.8/site-packages/bsuite/utils/wrappers.py", line 76, in step
+    timestep = self._env.step(action)
+  File "/home/proceduralia/.virtualenvs/rlax/lib/python3.8/site-packages/bsuite/utils/wrappers.py", line 77, in step
+    self._track(timestep)
+  File "/home/proceduralia/.virtualenvs/rlax/lib/python3.8/site-packages/bsuite/utils/wrappers.py", line 103, in _track
+    self._log_bsuite_data()
+  File "/home/proceduralia/.virtualenvs/rlax/lib/python3.8/site-packages/bsuite/utils/wrappers.py", line 126, in _log_bsuite_data
+    self._logger.write(data)
+  File "/home/proceduralia/.virtualenvs/rlax/lib/python3.8/site-packages/bsuite/logging/buddy_logging.py", line 70, in write
+    self.step += 1
+AttributeError: 'Logger' object has no attribute 'step'
