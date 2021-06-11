@@ -1,0 +1,134 @@
+2021-06-11 11:05:15,132 INFO    MainThread:111013 [internal.py:wandb_internal():88] W&B internal server running at pid: 111013, started at: 2021-06-11 11:05:15.131886
+2021-06-11 11:05:15,135 DEBUG   HandlerThread:111013 [handler.py:handle_request():124] handle_request: check_version
+2021-06-11 11:05:15,136 INFO    WriterThread:111013 [datastore.py:open_for_write():80] open: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_110515-oc9eqh6m/run-oc9eqh6m.wandb
+2021-06-11 11:05:15,138 DEBUG   SenderThread:111013 [sender.py:send():179] send: header
+2021-06-11 11:05:15,138 DEBUG   SenderThread:111013 [sender.py:send_request():193] send_request: check_version
+2021-06-11 11:05:15,467 DEBUG   SenderThread:111013 [sender.py:send():179] send: run
+2021-06-11 11:05:15,880 INFO    SenderThread:111013 [dir_watcher.py:__init__():168] watching files in: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_110515-oc9eqh6m/files
+2021-06-11 11:05:15,880 INFO    SenderThread:111013 [sender.py:_start_run_threads():704] run started: oc9eqh6m with start time 1623402315
+2021-06-11 11:05:15,880 DEBUG   SenderThread:111013 [sender.py:send():179] send: summary
+2021-06-11 11:05:15,881 INFO    SenderThread:111013 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 11:05:15,881 DEBUG   HandlerThread:111013 [handler.py:handle_request():124] handle_request: run_start
+2021-06-11 11:05:15,886 DEBUG   HandlerThread:111013 [meta.py:__init__():39] meta init
+2021-06-11 11:05:15,886 DEBUG   HandlerThread:111013 [meta.py:__init__():53] meta init done
+2021-06-11 11:05:15,886 DEBUG   HandlerThread:111013 [meta.py:probe():210] probe
+2021-06-11 11:05:15,888 DEBUG   HandlerThread:111013 [meta.py:_setup_git():200] setup git
+2021-06-11 11:05:15,941 DEBUG   HandlerThread:111013 [meta.py:_setup_git():207] setup git done
+2021-06-11 11:05:15,941 DEBUG   HandlerThread:111013 [meta.py:_save_pip():57] save pip
+2021-06-11 11:05:15,942 DEBUG   HandlerThread:111013 [meta.py:_save_pip():71] save pip done
+2021-06-11 11:05:15,942 DEBUG   HandlerThread:111013 [meta.py:probe():252] probe done
+2021-06-11 11:05:15,950 DEBUG   SenderThread:111013 [sender.py:send():179] send: files
+2021-06-11 11:05:15,950 INFO    SenderThread:111013 [sender.py:_save_file():829] saving file wandb-metadata.json with policy now
+2021-06-11 11:05:15,960 DEBUG   HandlerThread:111013 [handler.py:handle_request():124] handle_request: stop_status
+2021-06-11 11:05:15,961 DEBUG   SenderThread:111013 [sender.py:send_request():193] send_request: stop_status
+2021-06-11 11:05:16,238 DEBUG   SenderThread:111013 [sender.py:send():179] send: config
+2021-06-11 11:05:16,239 DEBUG   SenderThread:111013 [sender.py:send():179] send: config
+2021-06-11 11:05:16,758 INFO    Thread-13 :111013 [upload_job.py:push():133] Uploaded file /tmp/tmprtq4y3orwandb/2qak73vt-wandb-metadata.json
+2021-06-11 11:05:16,882 INFO    Thread-10 :111013 [dir_watcher.py:_on_file_created():216] file/dir created: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_110515-oc9eqh6m/files/wandb-metadata.json
+2021-06-11 11:05:16,882 INFO    Thread-10 :111013 [dir_watcher.py:_on_file_created():216] file/dir created: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_110515-oc9eqh6m/files/output.log
+2021-06-11 11:05:16,882 INFO    Thread-10 :111013 [dir_watcher.py:_on_file_created():216] file/dir created: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_110515-oc9eqh6m/files/requirements.txt
+2021-06-11 11:05:16,882 INFO    Thread-10 :111013 [dir_watcher.py:_on_file_created():216] file/dir created: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_110515-oc9eqh6m/files/wandb-summary.json
+2021-06-11 11:05:17,881 INFO    Thread-10 :111013 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_110515-oc9eqh6m/files/config.yaml
+2021-06-11 11:05:18,881 INFO    Thread-10 :111013 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_110515-oc9eqh6m/files/output.log
+2021-06-11 11:05:20,485 DEBUG   HandlerThread:111013 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-11 11:05:20,486 DEBUG   SenderThread:111013 [sender.py:send():179] send: telemetry
+2021-06-11 11:05:20,486 DEBUG   SenderThread:111013 [sender.py:send():179] send: exit
+2021-06-11 11:05:20,486 INFO    SenderThread:111013 [sender.py:send_exit():287] handling exit code: 1
+2021-06-11 11:05:20,487 INFO    SenderThread:111013 [sender.py:send_exit():295] send defer
+2021-06-11 11:05:20,487 DEBUG   SenderThread:111013 [sender.py:send_request():193] send_request: poll_exit
+2021-06-11 11:05:20,488 DEBUG   HandlerThread:111013 [handler.py:handle_request():124] handle_request: defer
+2021-06-11 11:05:20,489 INFO    HandlerThread:111013 [handler.py:handle_request_defer():141] handle defer: 0
+2021-06-11 11:05:20,489 DEBUG   SenderThread:111013 [sender.py:send_request():193] send_request: defer
+2021-06-11 11:05:20,489 INFO    SenderThread:111013 [sender.py:send_request_defer():304] handle sender defer: 0
+2021-06-11 11:05:20,489 INFO    SenderThread:111013 [sender.py:send_request_defer():342] send defer: 1
+2021-06-11 11:05:20,490 DEBUG   HandlerThread:111013 [handler.py:handle_request():124] handle_request: defer
+2021-06-11 11:05:20,490 INFO    HandlerThread:111013 [handler.py:handle_request_defer():141] handle defer: 1
+2021-06-11 11:05:20,511 DEBUG   SenderThread:111013 [sender.py:send_request():193] send_request: defer
+2021-06-11 11:05:20,511 INFO    SenderThread:111013 [sender.py:send_request_defer():304] handle sender defer: 1
+2021-06-11 11:05:20,511 INFO    SenderThread:111013 [sender.py:send_request_defer():342] send defer: 2
+2021-06-11 11:05:20,512 DEBUG   HandlerThread:111013 [handler.py:handle_request():124] handle_request: defer
+2021-06-11 11:05:20,512 INFO    HandlerThread:111013 [handler.py:handle_request_defer():141] handle defer: 2
+2021-06-11 11:05:20,512 DEBUG   SenderThread:111013 [sender.py:send():179] send: stats
+2021-06-11 11:05:20,512 DEBUG   SenderThread:111013 [sender.py:send_request():193] send_request: defer
+2021-06-11 11:05:20,512 INFO    SenderThread:111013 [sender.py:send_request_defer():304] handle sender defer: 2
+2021-06-11 11:05:20,513 INFO    SenderThread:111013 [sender.py:send_request_defer():342] send defer: 3
+2021-06-11 11:05:20,513 DEBUG   HandlerThread:111013 [handler.py:handle_request():124] handle_request: defer
+2021-06-11 11:05:20,513 INFO    HandlerThread:111013 [handler.py:handle_request_defer():141] handle defer: 3
+2021-06-11 11:05:20,513 DEBUG   SenderThread:111013 [sender.py:send():179] send: summary
+2021-06-11 11:05:20,514 INFO    SenderThread:111013 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-06-11 11:05:20,514 DEBUG   SenderThread:111013 [sender.py:send_request():193] send_request: defer
+2021-06-11 11:05:20,514 INFO    SenderThread:111013 [sender.py:send_request_defer():304] handle sender defer: 3
+2021-06-11 11:05:20,514 INFO    SenderThread:111013 [sender.py:send_request_defer():342] send defer: 4
+2021-06-11 11:05:20,514 DEBUG   HandlerThread:111013 [handler.py:handle_request():124] handle_request: defer
+2021-06-11 11:05:20,514 INFO    HandlerThread:111013 [handler.py:handle_request_defer():141] handle defer: 4
+2021-06-11 11:05:20,515 DEBUG   SenderThread:111013 [sender.py:send_request():193] send_request: defer
+2021-06-11 11:05:20,515 INFO    SenderThread:111013 [sender.py:send_request_defer():304] handle sender defer: 4
+2021-06-11 11:05:20,590 DEBUG   HandlerThread:111013 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-11 11:05:20,881 INFO    SenderThread:111013 [sender.py:send_request_defer():342] send defer: 5
+2021-06-11 11:05:20,881 DEBUG   SenderThread:111013 [sender.py:send_request():193] send_request: poll_exit
+2021-06-11 11:05:20,882 DEBUG   HandlerThread:111013 [handler.py:handle_request():124] handle_request: defer
+2021-06-11 11:05:20,882 INFO    HandlerThread:111013 [handler.py:handle_request_defer():141] handle defer: 5
+2021-06-11 11:05:20,882 DEBUG   SenderThread:111013 [sender.py:send_request():193] send_request: defer
+2021-06-11 11:05:20,882 INFO    SenderThread:111013 [sender.py:send_request_defer():304] handle sender defer: 5
+2021-06-11 11:05:20,883 INFO    Thread-10 :111013 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_110515-oc9eqh6m/files/output.log
+2021-06-11 11:05:20,883 INFO    SenderThread:111013 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-06-11 11:05:20,883 INFO    Thread-10 :111013 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_110515-oc9eqh6m/files/config.yaml
+2021-06-11 11:05:20,884 INFO    SenderThread:111013 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_110515-oc9eqh6m/files/wandb-summary.json
+2021-06-11 11:05:20,884 INFO    SenderThread:111013 [dir_watcher.py:finish():312] scan: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_110515-oc9eqh6m/files
+2021-06-11 11:05:20,885 INFO    SenderThread:111013 [dir_watcher.py:finish():318] scan save: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_110515-oc9eqh6m/files/requirements.txt requirements.txt
+2021-06-11 11:05:20,885 INFO    SenderThread:111013 [dir_watcher.py:finish():318] scan save: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_110515-oc9eqh6m/files/wandb-summary.json wandb-summary.json
+2021-06-11 11:05:20,892 INFO    SenderThread:111013 [dir_watcher.py:finish():318] scan save: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_110515-oc9eqh6m/files/output.log output.log
+2021-06-11 11:05:20,892 INFO    SenderThread:111013 [dir_watcher.py:finish():318] scan save: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_110515-oc9eqh6m/files/wandb-metadata.json wandb-metadata.json
+2021-06-11 11:05:20,895 INFO    SenderThread:111013 [dir_watcher.py:finish():318] scan save: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_110515-oc9eqh6m/files/config.yaml config.yaml
+2021-06-11 11:05:20,899 INFO    SenderThread:111013 [sender.py:send_request_defer():342] send defer: 6
+2021-06-11 11:05:20,902 DEBUG   HandlerThread:111013 [handler.py:handle_request():124] handle_request: defer
+2021-06-11 11:05:20,903 INFO    HandlerThread:111013 [handler.py:handle_request_defer():141] handle defer: 6
+2021-06-11 11:05:20,903 DEBUG   SenderThread:111013 [sender.py:send_request():193] send_request: defer
+2021-06-11 11:05:20,903 INFO    SenderThread:111013 [sender.py:send_request_defer():304] handle sender defer: 6
+2021-06-11 11:05:20,903 INFO    SenderThread:111013 [file_pusher.py:finish():176] shutting down file pusher
+2021-06-11 11:05:20,903 INFO    SenderThread:111013 [sender.py:send_request_defer():342] send defer: 7
+2021-06-11 11:05:20,904 DEBUG   HandlerThread:111013 [handler.py:handle_request():124] handle_request: defer
+2021-06-11 11:05:20,904 INFO    HandlerThread:111013 [handler.py:handle_request_defer():141] handle defer: 7
+2021-06-11 11:05:20,904 DEBUG   SenderThread:111013 [sender.py:send_request():193] send_request: defer
+2021-06-11 11:05:20,904 INFO    SenderThread:111013 [sender.py:send_request_defer():304] handle sender defer: 7
+2021-06-11 11:05:20,983 DEBUG   HandlerThread:111013 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-11 11:05:21,277 INFO    SenderThread:111013 [sender.py:send_request_defer():342] send defer: 8
+2021-06-11 11:05:21,277 DEBUG   SenderThread:111013 [sender.py:send_request():193] send_request: poll_exit
+2021-06-11 11:05:21,278 DEBUG   HandlerThread:111013 [handler.py:handle_request():124] handle_request: defer
+2021-06-11 11:05:21,279 INFO    HandlerThread:111013 [handler.py:handle_request_defer():141] handle defer: 8
+2021-06-11 11:05:21,279 DEBUG   SenderThread:111013 [sender.py:send_request():193] send_request: defer
+2021-06-11 11:05:21,279 INFO    SenderThread:111013 [sender.py:send_request_defer():304] handle sender defer: 8
+2021-06-11 11:05:21,279 INFO    SenderThread:111013 [sender.py:send_request_defer():342] send defer: 9
+2021-06-11 11:05:21,281 DEBUG   HandlerThread:111013 [handler.py:handle_request():124] handle_request: defer
+2021-06-11 11:05:21,281 DEBUG   SenderThread:111013 [sender.py:send():179] send: final
+2021-06-11 11:05:21,281 INFO    HandlerThread:111013 [handler.py:handle_request_defer():141] handle defer: 9
+2021-06-11 11:05:21,281 DEBUG   SenderThread:111013 [sender.py:send():179] send: footer
+2021-06-11 11:05:21,282 DEBUG   SenderThread:111013 [sender.py:send_request():193] send_request: defer
+2021-06-11 11:05:21,282 INFO    SenderThread:111013 [sender.py:send_request_defer():304] handle sender defer: 9
+2021-06-11 11:05:21,380 DEBUG   HandlerThread:111013 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-11 11:05:21,380 DEBUG   SenderThread:111013 [sender.py:send_request():193] send_request: poll_exit
+2021-06-11 11:05:21,483 DEBUG   HandlerThread:111013 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-11 11:05:21,484 DEBUG   SenderThread:111013 [sender.py:send_request():193] send_request: poll_exit
+2021-06-11 11:05:21,586 DEBUG   HandlerThread:111013 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-11 11:05:21,587 DEBUG   SenderThread:111013 [sender.py:send_request():193] send_request: poll_exit
+2021-06-11 11:05:21,661 INFO    Thread-15 :111013 [upload_job.py:push():133] Uploaded file /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_110515-oc9eqh6m/files/wandb-summary.json
+2021-06-11 11:05:21,676 INFO    Thread-17 :111013 [upload_job.py:push():133] Uploaded file /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_110515-oc9eqh6m/files/config.yaml
+2021-06-11 11:05:21,685 INFO    Thread-14 :111013 [upload_job.py:push():133] Uploaded file /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_110515-oc9eqh6m/files/requirements.txt
+2021-06-11 11:05:21,689 DEBUG   HandlerThread:111013 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-11 11:05:21,689 DEBUG   SenderThread:111013 [sender.py:send_request():193] send_request: poll_exit
+2021-06-11 11:05:21,696 INFO    Thread-16 :111013 [upload_job.py:push():133] Uploaded file /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_110515-oc9eqh6m/files/output.log
+2021-06-11 11:05:21,790 DEBUG   HandlerThread:111013 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-11 11:05:21,791 DEBUG   SenderThread:111013 [sender.py:send_request():193] send_request: poll_exit
+2021-06-11 11:05:21,892 DEBUG   HandlerThread:111013 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-11 11:05:21,893 DEBUG   SenderThread:111013 [sender.py:send_request():193] send_request: poll_exit
+2021-06-11 11:05:21,994 DEBUG   HandlerThread:111013 [handler.py:handle_request():124] handle_request: poll_exit
+2021-06-11 11:05:21,995 DEBUG   SenderThread:111013 [sender.py:send_request():193] send_request: poll_exit
+2021-06-11 11:05:21,995 INFO    SenderThread:111013 [file_pusher.py:join():181] waiting for file pusher
+2021-06-11 11:05:21,996 DEBUG   HandlerThread:111013 [handler.py:handle_request():124] handle_request: get_summary
+2021-06-11 11:05:21,997 DEBUG   HandlerThread:111013 [handler.py:handle_request():124] handle_request: sampled_history
+2021-06-11 11:05:21,999 DEBUG   HandlerThread:111013 [handler.py:handle_request():124] handle_request: shutdown
+2021-06-11 11:05:21,999 INFO    HandlerThread:111013 [handler.py:finish():638] shutting down handler
+2021-06-11 11:05:22,281 INFO    WriterThread:111013 [datastore.py:close():288] close: /home/proceduralia/Desktop/Projects/Machine Learning/bsuite/wandb/run-20210611_110515-oc9eqh6m/run-oc9eqh6m.wandb
+2021-06-11 11:05:22,995 INFO    SenderThread:111013 [sender.py:finish():933] shutting down sender
+2021-06-11 11:05:22,995 INFO    SenderThread:111013 [file_pusher.py:finish():176] shutting down file pusher
+2021-06-11 11:05:22,996 INFO    SenderThread:111013 [file_pusher.py:join():181] waiting for file pusher
