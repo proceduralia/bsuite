@@ -47,6 +47,7 @@ from bsuite.experiments.umbrella_length import umbrella_length
 from bsuite.logging import csv_logging
 from bsuite.logging import sqlite_logging
 from bsuite.logging import terminal_logging
+from bsuite.logging import buddy_logging
 
 import dm_env
 import termcolor
@@ -113,7 +114,8 @@ def load_from_id(bsuite_id: str) -> base.Environment:
 def load_and_record(bsuite_id: str,
                     save_path: str,
                     logging_mode: str = 'csv',
-                    overwrite: bool = False) -> dm_env.Environment:
+                    overwrite: bool = False,
+                    config: Mapping[str, Any] = None) -> dm_env.Environment:
   """Returns a bsuite environment wrapped with either CSV or SQLite logging."""
   if logging_mode == 'csv':
     return load_and_record_to_csv(bsuite_id, save_path, overwrite)
@@ -125,6 +127,8 @@ def load_and_record(bsuite_id: str,
     return load_and_record_to_sqlite(bsuite_id, save_path)
   elif logging_mode == 'terminal':
     return load_and_record_to_terminal(bsuite_id)
+  elif logging_mode == 'buddy':
+    return load_and_record_to_buddy(bsuite_id, config)
   else:
     raise ValueError((f'Unrecognised logging_mode "{logging_mode}". '
                       'Must be "csv", "sqlite", or "terminal".'))
@@ -214,3 +218,19 @@ def load_and_record_to_terminal(bsuite_id: str) -> dm_env.Environment:
   termcolor.cprint(
       'Logging results to terminal.', color='yellow', attrs=['bold'])
   return terminal_logging.wrap_environment(raw_env)
+
+
+def load_and_record_to_buddy(bsuite_id: str, config: Mapping[str, Any]) -> dm_env.Environment:
+  """Returns a bsuite environment that saves results to wandb.
+
+  Args:
+
+  Returns:
+    A bsuite environment determined by the bsuite_id.
+  """
+  raw_env = load_from_id(bsuite_id)
+  return buddy_logging.wrap_environment(
+      env=raw_env,
+      bsuite_id=bsuite_id,
+      config=config
+  )
